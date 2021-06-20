@@ -1,0 +1,10 @@
+So, let's try to get some neural network predict the euro tournament.
+
+To train the network, we need historic data
+
+https://www.oddsportal.com/soccer/europe/euro-2004/results/
+https://www.oddsportal.com/soccer/europe/euro-2008/results/
+https://www.oddsportal.com/soccer/europe/euro-2012/results/
+https://www.oddsportal.com/soccer/europe/euro-2016/results/
+
+Let's put that in a csv (4 csv ?) and see where we come.
