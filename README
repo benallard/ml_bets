@@ -8,3 +8,8 @@ https://www.oddsportal.com/soccer/europe/euro-2012/results/
 https://www.oddsportal.com/soccer/europe/euro-2016/results/
 
 Let's put that in a csv (4 csv ?) and see where we come.
+
+So the content comes from a json call.
+Let's save the payload in the docs dir.
+And remove the extra stuff.
+Leave only the html string.
