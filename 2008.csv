@@ -1,51 +1,339 @@
-date,home,away,score,max_odd_home,mean_odd_home,max_odd_draw,mean_odd_draw,max_odd_away,mean_odd_away
-2008-06-29 20:45:00,Germany,Spain,0:1,3.05,3.05,3.25,3.17,2.45,2.23
-2008-06-26 20:45:00,Russia,Spain,0:3,3.62,3.62,3.6,3.34,2.15,2.07
-2008-06-25 20:45:00,Germany,Turkey,3:2,1.42,1.42,4.67,4.29,8.53,7.96
-2008-06-22 20:45:00,Spain,Italy,1:0 pen.,2.43,2.43,3.2,3.06,3.2,3.11
-2008-06-21 20:45:00,Netherlands,Russia,1:3 ET,1.68,1.68,4.25,3.79,5.3,5.04
-2008-06-20 20:45:00,Croatia,Turkey,1:2 pen.,1.81,1.81,3.5,3.39,5.0,4.68
-2008-06-19 20:45:00,Portugal,Germany,2:3,2.28,2.28,3.25,3.14,3.4,3.31
-2008-06-18 20:45:00,Greece,Spain,1:2,5.26,5.26,3.9,3.73,1.74,1.66
-2008-06-18 20:45:00,Russia,Sweden,2:0,2.64,2.64,3.46,3.29,2.75,2.65
-2008-06-17 20:45:00,France,Italy,0:2,2.76,2.76,3.75,3.59,2.57,2.4
-2008-06-17 20:45:00,Netherlands,Romania,2:0,2.82,2.82,4.0,3.7,3.95,2.5
-2008-06-16 20:45:00,Austria,Germany,0:1,8.61,8.61,4.65,4.54,1.42,1.38
-2008-06-16 20:45:00,Poland,Croatia,0:1,2.44,2.44,3.5,3.41,2.85,2.67
-2008-06-15 20:45:00,Switzerland,Portugal,2:0,3.25,3.25,3.47,3.34,2.25,2.2
-2008-06-15 20:45:00,Turkey,Czech Republic,3:2,3.42,3.42,3.15,3.07,2.35,2.26
-2008-06-14 20:45:00,Greece,Russia,0:1,3.29,3.29,3.4,3.34,2.35,2.19
-2008-06-14 18:00:00,Sweden,Spain,1:2,6.12,6.12,3.8,3.59,1.63,1.61
-2008-06-13 20:45:00,Netherlands,France,4:1,2.68,2.68,3.12,3.05,2.85,2.81
-2008-06-13 18:00:00,Italy,Romania,1:1,1.69,1.69,3.5,3.45,5.8,5.55
-2008-06-12 20:45:00,Austria,Poland,1:1,3.4,3.4,3.39,3.28,2.31,2.17
-2008-06-12 18:00:00,Croatia,Germany,2:1,5.29,5.29,3.45,3.32,2.04,1.79
-2008-06-11 20:45:00,Switzerland,Turkey,1:2,2.21,2.21,3.3,3.21,3.7,3.31
-2008-06-11 18:00:00,Czech Republic,Portugal,1:3,4.42,4.42,3.3,3.17,2.2,1.97
-2008-06-10 20:45:00,Greece,Sweden,0:2,2.93,2.93,3.15,3.06,2.54,2.52
-2008-06-10 18:00:00,Spain,Russia,4:1,1.7,1.7,3.65,3.5,5.8,5.21
-2008-06-09 20:45:00,Netherlands,Italy,3:0,3.18,3.18,3.1,3.0,2.57,2.42
-2008-06-09 18:00:00,Romania,France,0:0,4.84,4.84,3.3,3.19,1.95,1.85
-2008-06-08 20:45:00,Germany,Poland,2:0,1.52,1.52,4.22,3.82,7.5,6.96
-2008-06-08 18:00:00,Austria,Croatia,0:1,4.49,4.49,3.4,3.27,1.95,1.88
-2008-06-07 20:45:00,Portugal,Turkey,2:0,1.7,1.7,3.58,3.41,6.2,5.52
-2008-06-07 18:00:00,Switzerland,Czech Republic,0:1,2.85,2.85,3.12,3.06,2.81,2.61
-2007-11-24 18:00:00,Serbia,Kazakhstan,1:0,1.3,1.3,7.5,4.99,14.0,8.83
-2007-11-21 21:00:00,Andorra,Russia,0:1,33.2,33.2,15.0,11.0,1.03,1.02
-2007-11-21 21:00:00,England,Croatia,2:3,1.55,1.55,3.45,3.3,8.0,7.42
-2007-11-21 20:45:00,Portugal,Finland,0:0,1.35,1.35,4.65,4.4,10.0,8.47
-2007-11-21 20:45:00,Serbia,Poland,2:2,1.65,1.65,3.85,3.6,6.2,5.17
-2007-11-21 20:35:00,Germany,Wales,0:0,1.24,1.24,6.0,5.31,13.0,11.25
-2007-11-21 20:35:00,Ukraine,France,2:2,3.25,3.25,3.3,3.19,2.29,2.18
-2007-11-21 20:30:00,Italy,Faroe Islands,3:1,1.01,1.01,18.0,12.6,81.0,55.2
-2007-11-21 20:30:00,San Marino,Slovakia,0:5,22.2,22.2,9.5,8.15,1.1,1.07
-2007-11-21 20:15:00,Hungary,Greece,1:2,3.02,3.02,3.25,3.19,2.5,2.28
-2007-11-21 20:00:00,Denmark,Iceland,3:0,1.25,1.25,6.0,5.15,13.0,10.71
-2007-11-21 20:00:00,Malta,Norway,1:4,12.97,12.97,8.19,6.72,1.2,1.16
-2007-11-21 20:00:00,Spain,Northern Ireland,1:0,1.34,1.34,5.01,4.91,9.0,7.91
-2007-11-21 20:00:00,Sweden,Latvia,2:1,1.21,1.21,6.22,5.55,15.0,12.5
-2007-11-21 20:00:00,Turkey,Bosnia & Herzegovina,1:0,1.13,1.13,8.0,7.05,18.0,14.17
-2007-11-21 18:00:00,Azerbaijan,Belgium,0:1,4.48,4.48,3.65,3.37,1.94,1.76
-2007-11-21 18:00:00,Belarus,Netherlands,2:1,4.14,4.14,3.55,3.42,1.97,1.81
-2007-11-21 18:00:00,Israel,North Macedonia,1:0,1.5,1.5,3.8,3.69,7.25,6.39
-2007-11-21 18:00:00,Slovenia,Bulgaria,0:2,2.72,2.72,3.21,3.17,2.54,2.46
+date,kind,home,away,score,max_odd_home,mean_odd_home,max_odd_draw,mean_odd_draw,max_odd_away,mean_odd_away
+2008-06-29 20:45:00,Play Offs,Germany,Spain,0:1,3.5,3.05,3.25,3.17,2.45,2.23
+2008-06-26 20:45:00,Play Offs,Russia,Spain,0:3,3.8,3.62,3.6,3.34,2.15,2.07
+2008-06-25 20:45:00,Play Offs,Germany,Turkey,3:2,1.45,1.42,4.67,4.29,8.53,7.96
+2008-06-22 20:45:00,Play Offs,Spain,Italy,1:0 pen.,2.5,2.43,3.2,3.06,3.2,3.11
+2008-06-21 20:45:00,Play Offs,Netherlands,Russia,1:3 ET,1.75,1.68,4.25,3.79,5.3,5.04
+2008-06-20 20:45:00,Play Offs,Croatia,Turkey,1:2 pen.,1.88,1.81,3.5,3.39,5.0,4.68
+2008-06-19 20:45:00,Play Offs,Portugal,Germany,2:3,2.44,2.28,3.25,3.14,3.4,3.31
+2008-06-18 20:45:00,,Greece,Spain,1:2,5.7,5.26,3.9,3.73,1.74,1.66
+2008-06-18 20:45:00,,Russia,Sweden,2:0,2.72,2.64,3.46,3.29,2.75,2.65
+2008-06-17 20:45:00,,France,Italy,0:2,2.9,2.76,3.75,3.59,2.57,2.4
+2008-06-17 20:45:00,,Netherlands,Romania,2:0,3.2,2.82,4.0,3.7,3.95,2.5
+2008-06-16 20:45:00,,Austria,Germany,0:1,9.4,8.61,4.65,4.54,1.42,1.38
+2008-06-16 20:45:00,,Poland,Croatia,0:1,2.6,2.44,3.5,3.41,2.85,2.67
+2008-06-15 20:45:00,,Switzerland,Portugal,2:0,3.4,3.25,3.47,3.34,2.25,2.2
+2008-06-15 20:45:00,,Turkey,Czech Republic,3:2,3.7,3.42,3.15,3.07,2.35,2.26
+2008-06-14 20:45:00,,Greece,Russia,0:1,3.4,3.29,3.4,3.34,2.35,2.19
+2008-06-14 18:00:00,,Sweden,Spain,1:2,6.55,6.12,3.8,3.59,1.63,1.61
+2008-06-13 20:45:00,,Netherlands,France,4:1,2.85,2.68,3.12,3.05,2.85,2.81
+2008-06-13 18:00:00,,Italy,Romania,1:1,1.77,1.69,3.5,3.45,5.8,5.55
+2008-06-12 20:45:00,,Austria,Poland,1:1,3.7,3.4,3.39,3.28,2.31,2.17
+2008-06-12 18:00:00,,Croatia,Germany,2:1,6.71,5.29,3.45,3.32,2.04,1.79
+2008-06-11 20:45:00,,Switzerland,Turkey,1:2,2.25,2.21,3.3,3.21,3.7,3.31
+2008-06-11 18:00:00,,Czech Republic,Portugal,1:3,6.29,4.42,3.3,3.17,2.2,1.97
+2008-06-10 20:45:00,,Greece,Sweden,0:2,3.16,2.93,3.15,3.06,2.54,2.52
+2008-06-10 18:00:00,,Spain,Russia,4:1,1.75,1.7,3.65,3.5,5.8,5.21
+2008-06-09 20:45:00,,Netherlands,Italy,3:0,3.35,3.18,3.1,3.0,2.57,2.42
+2008-06-09 18:00:00,,Romania,France,0:0,5.27,4.84,3.3,3.19,1.95,1.85
+2008-06-08 20:45:00,,Germany,Poland,2:0,1.55,1.52,4.22,3.82,7.5,6.96
+2008-06-08 18:00:00,,Austria,Croatia,0:1,5.11,4.49,3.4,3.27,1.95,1.88
+2008-06-07 20:45:00,,Portugal,Turkey,2:0,1.75,1.7,3.58,3.41,6.2,5.52
+2008-06-07 18:00:00,,Switzerland,Czech Republic,0:1,3.0,2.85,3.12,3.06,2.81,2.61
+2007-11-24 18:00:00,Qualification,Serbia,Kazakhstan,1:0,1.39,1.3,7.5,4.99,14.0,8.83
+2007-11-21 21:00:00,Qualification,Andorra,Russia,0:1,41.0,33.2,15.0,11.0,1.03,1.02
+2007-11-21 21:00:00,Qualification,England,Croatia,2:3,1.57,1.55,3.45,3.3,8.0,7.42
+2007-11-21 20:45:00,Qualification,Portugal,Finland,0:0,1.39,1.35,4.65,4.4,10.0,8.47
+2007-11-21 20:45:00,Qualification,Serbia,Poland,2:2,1.8,1.65,3.85,3.6,6.2,5.17
+2007-11-21 20:35:00,Qualification,Germany,Wales,0:0,1.29,1.24,6.0,5.31,13.0,11.25
+2007-11-21 20:35:00,Qualification,Ukraine,France,2:2,3.3,3.25,3.3,3.19,2.29,2.18
+2007-11-21 20:30:00,Qualification,Italy,Faroe Islands,3:1,1.02,1.01,18.0,12.6,81.0,55.2
+2007-11-21 20:30:00,Qualification,San Marino,Slovakia,0:5,30.0,22.2,9.5,8.15,1.1,1.07
+2007-11-21 20:15:00,Qualification,Hungary,Greece,1:2,3.15,3.02,3.25,3.19,2.5,2.28
+2007-11-21 20:00:00,Qualification,Denmark,Iceland,3:0,1.3,1.25,6.0,5.15,13.0,10.71
+2007-11-21 20:00:00,Qualification,Malta,Norway,1:4,15.8,12.97,8.19,6.72,1.2,1.16
+2007-11-21 20:00:00,Qualification,Spain,Northern Ireland,1:0,1.36,1.34,5.01,4.91,9.0,7.91
+2007-11-21 20:00:00,Qualification,Sweden,Latvia,2:1,1.23,1.21,6.22,5.55,15.0,12.5
+2007-11-21 20:00:00,Qualification,Turkey,Bosnia & Herzegovina,1:0,1.15,1.13,8.0,7.05,18.0,14.17
+2007-11-21 18:00:00,Qualification,Azerbaijan,Belgium,0:1,5.15,4.48,3.65,3.37,1.94,1.76
+2007-11-21 18:00:00,Qualification,Belarus,Netherlands,2:1,5.0,4.14,3.55,3.42,1.97,1.81
+2007-11-21 18:00:00,Qualification,Israel,North Macedonia,1:0,1.57,1.5,3.8,3.69,7.25,6.39
+2007-11-21 18:00:00,Qualification,Slovenia,Bulgaria,0:2,2.99,2.72,3.21,3.17,2.54,2.46
+2007-11-21 17:30:00,Qualification,Cyprus,Czech Republic,0:2,6.5,4.55,3.75,3.38,1.88,1.75
+2007-11-21 17:00:00,Qualification,Romania,Albania,6:1,1.3,1.25,6.0,5.17,11.5,10.5
+2007-11-21 16:30:00,Qualification,Georgia,Lithuania,0:2,2.0,1.94,3.45,3.26,3.9,3.67
+2007-11-21 16:00:00,Qualification,Armenia,Kazakhstan,0:1,1.65,1.58,3.7,3.56,5.9,5.43
+2007-11-17 22:00:00,Qualification,Portugal,Armenia,1:0,1.1,1.06,12.0,10.08,41.0,29.83
+2007-11-17 22:00:00,Qualification,Spain,Sweden,3:0,1.7,1.6,3.6,3.33,7.5,6.53
+2007-11-17 20:45:00,Qualification,Northern Ireland,Denmark,2:1,3.8,3.64,3.4,3.34,2.1,2.0
+2007-11-17 20:30:00,Qualification,Czech Republic,Slovakia,3:1,1.45,1.42,4.2,3.98,8.6,7.98
+2007-11-17 20:30:00,Qualification,Greece,Malta,5:0,1.1,1.09,10.5,8.83,26.0,20.75
+2007-11-17 20:30:00,Qualification,Netherlands,Luxembourg,1:0,1.01,1.01,26.0,16.8,81.0,58.8
+2007-11-17 20:30:00,Qualification,Poland,Belgium,2:0,1.6,1.43,4.8,4.22,8.5,7.53
+2007-11-17 20:15:00,Qualification,Germany,Cyprus,4:0,1.13,1.12,9.1,7.93,20.0,17.58
+2007-11-17 20:00:00,Qualification,Albania,Belarus,2:4,1.9,1.8,3.42,3.35,4.5,4.15
+2007-11-17 20:00:00,Qualification,North Macedonia,Croatia,2:0,7.5,6.48,3.3,3.24,1.66,1.61
+2007-11-17 19:00:00,Qualification,Israel,Russia,2:1,6.65,6.33,4.0,3.82,1.55,1.51
+2007-11-17 19:00:00,Qualification,Lithuania,Ukraine,2:0,3.95,3.64,3.4,3.29,2.1,1.97
+2007-11-17 19:00:00,Qualification,Norway,Turkey,1:2,2.15,2.08,3.3,3.23,3.6,3.44
+2007-11-17 18:00:00,Qualification,Andorra,Estonia,0:2,7.7,6.99,4.4,3.93,1.5,1.43
+2007-11-17 18:00:00,Qualification,Moldova,Hungary,3:0,3.19,2.98,3.25,3.21,2.4,2.29
+2007-11-17 18:00:00,Qualification,Scotland,Italy,1:2,4.25,3.9,3.1,3.02,2.1,2.01
+2007-11-17 17:00:00,Qualification,Bulgaria,Romania,1:0,2.75,2.46,3.25,3.2,3.0,2.8
+2007-11-17 17:00:00,Qualification,Latvia,Liechtenstein,4:1,1.34,1.28,5.0,4.95,10.5,10.05
+2007-11-17 16:00:00,Qualification,Wales,Ireland,2:2,3.12,2.82,3.25,3.2,2.5,2.45
+2007-11-17 15:00:00,Qualification,Finland,Azerbaijan,2:1,1.15,1.13,7.8,7.34,20.6,17.6
+2007-10-17 21:00:00,Qualification,France,Lithuania,2:0,1.14,1.08,12.01,9.83,34.0,24.6
+2007-10-17 20:45:00,Qualification,Albania,Bulgaria,1:1,5.0,4.39,3.65,3.38,1.95,1.81
+2007-10-17 20:45:00,Qualification,Belgium,Armenia,3:0,1.4,1.36,4.59,4.44,8.5,8.14
+2007-10-17 20:45:00,Qualification,Germany,Czech Republic,0:3,2.0,1.88,3.3,3.18,4.5,4.31
+2007-10-17 20:30:00,Qualification,Bosnia & Herzegovina,Norway,0:2,3.9,3.66,3.45,3.32,2.02,1.99
+2007-10-17 20:30:00,Qualification,Ireland,Cyprus,1:1,1.3,1.28,5.5,5.13,11.0,10.17
+2007-10-17 20:30:00,Qualification,Netherlands,Slovenia,2:0,1.15,1.13,8.25,7.21,23.0,20.17
+2007-10-17 20:30:00,Qualification,Sweden,Northern Ireland,1:1,1.3,1.26,6.0,5.28,13.5,11.37
+2007-10-17 20:15:00,Qualification,Luxembourg,Romania,0:2,34.0,26.0,14.0,10.53,1.08,1.06
+2007-10-17 20:15:00,Qualification,San Marino,Wales,1:2,35.0,28.75,12.2,10.33,1.09,1.06
+2007-10-17 20:00:00,Qualification,Denmark,Latvia,3:1,1.29,1.26,5.75,5.15,12.0,10.93
+2007-10-17 20:00:00,Qualification,Liechtenstein,Iceland,3:0,6.8,5.82,4.0,3.73,1.69,1.57
+2007-10-17 20:00:00,Qualification,North Macedonia,Andorra,3:0,1.12,1.09,9.5,8.38,26.0,20.93
+2007-10-17 19:30:00,Qualification,Malta,Moldova,2:3,3.75,3.27,3.35,3.26,2.4,2.15
+2007-10-17 19:30:00,Qualification,Turkey,Greece,0:1,1.95,1.89,3.45,3.27,5.0,4.11
+2007-10-17 19:00:00,Qualification,Georgia,Scotland,2:0,5.5,5.19,3.65,3.52,1.73,1.67
+2007-10-17 18:00:00,Qualification,Azerbaijan,Serbia,1:6,8.17,7.76,4.2,4.1,1.46,1.42
+2007-10-17 18:00:00,Qualification,Ukraine,Faroe Islands,5:0,1.06,1.03,18.5,12.75,67.0,46.33
+2007-10-17 17:00:00,Qualification,Russia,England,2:1,3.05,2.97,3.25,3.13,2.5,2.39
+2007-10-17 16:00:00,Qualification,Kazakhstan,Portugal,1:2,21.0,17.65,7.8,7.35,1.14,1.12
+2007-10-13 20:50:00,Qualification,Italy,Georgia,2:0,1.1,1.09,10.38,8.65,29.0,22.78
+2007-10-13 20:45:00,Qualification,Belgium,Finland,0:0,2.25,2.19,3.29,3.22,3.44,3.21
+2007-10-13 20:45:00,Qualification,Ireland,Germany,0:0,4.2,3.82,3.3,3.26,2.13,1.97
+2007-10-13 20:30:00,Qualification,Greece,Bosnia & Herzegovina,3:2,1.33,1.28,5.15,4.98,12.5,10.95
+2007-10-13 20:30:00,Qualification,Poland,Kazakhstan,3:1,1.12,1.11,9.41,7.98,26.0,20.87
+2007-10-13 20:30:00,Qualification,Slovenia,Albania,0:0,1.75,1.56,3.8,3.57,7.5,6.4
+2007-10-13 20:15:00,Qualification,Croatia,Israel,1:0,1.45,1.35,5.25,4.61,10.0,8.7
+2007-10-13 20:00:00,Qualification,Denmark,Spain,1:3,3.0,2.82,3.25,3.2,2.61,2.46
+2007-10-13 20:00:00,Qualification,Moldova,Turkey,1:1,11.1,10.43,5.01,4.89,1.33,1.29
+2007-10-13 19:15:00,Qualification,Romania,Netherlands,1:0,3.2,3.01,3.2,2.96,2.62,2.44
+2007-10-13 19:00:00,Qualification,Liechtenstein,Sweden,0:3,26.0,22.07,10.35,8.47,1.12,1.1
+2007-10-13 18:15:00,Qualification,Cyprus,Wales,3:1,2.6,2.5,3.31,3.26,2.8,2.66
+2007-10-13 18:00:00,Qualification,Azerbaijan,Portugal,0:2,23.0,19.0,7.9,7.27,1.15,1.12
+2007-10-13 18:00:00,Qualification,Iceland,Latvia,2:4,2.15,2.02,3.42,3.26,4.0,3.62
+2007-10-13 17:00:00,Qualification,Armenia,Serbia,0:0,9.5,7.58,4.2,4.05,1.5,1.43
+2007-10-13 17:00:00,Qualification,Belarus,Luxembourg,0:1,1.14,1.12,8.13,7.52,25.0,19.92
+2007-10-13 17:00:00,Qualification,Faroe Islands,France,0:6,81.0,55.5,21.0,14.17,1.04,1.02
+2007-10-13 16:20:00,Qualification,Hungary,Malta,2:0,1.2,1.16,7.15,6.27,17.0,15.06
+2007-10-13 16:00:00,Qualification,England,Estonia,3:0,1.1,1.07,14.8,10.05,40.0,27.65
+2007-10-13 16:00:00,Qualification,Scotland,Ukraine,3:1,2.4,2.3,3.2,3.15,3.22,3.05
+2007-10-13 15:00:00,Qualification,Slovakia,San Marino,7:0,1.03,1.02,15.0,12.4,67.0,48.4
+2007-09-12 22:00:00,Qualification,Portugal,Serbia,1:1,1.44,1.39,4.62,4.24,10.16,8.33
+2007-09-12 22:00:00,Qualification,Spain,Latvia,2:0,1.08,1.07,15.64,10.33,53.89,32.18
+2007-09-12 21:00:00,Qualification,England,Russia,3:0,1.63,1.55,3.75,3.62,7.0,6.56
+2007-09-12 21:00:00,Qualification,France,Scotland,0:1,1.3,1.29,5.35,4.93,14.0,11.0
+2007-09-12 20:45:00,Qualification,Albania,Netherlands,0:1,12.0,10.88,5.5,5.23,1.28,1.26
+2007-09-12 20:45:00,Qualification,Ukraine,Italy,1:2,4.26,3.85,3.2,3.07,2.13,2.04
+2007-09-12 20:30:00,Qualification,Czech Republic,Ireland,1:0,1.8,1.67,3.5,3.44,5.5,5.33
+2007-09-12 20:30:00,Qualification,North Macedonia,Estonia,1:1,1.56,1.5,3.97,3.75,7.0,6.58
+2007-09-12 20:05:00,Qualification,Iceland,Northern Ireland,2:1,2.65,2.56,3.35,3.21,2.88,2.64
+2007-09-12 20:00:00,Qualification,Bosnia & Herzegovina,Moldova,0:1,1.36,1.31,5.26,4.83,10.84,9.31
+2007-09-12 20:00:00,Qualification,Denmark,Liechtenstein,4:0,1.04,1.02,13.0,11.5,81.0,46.5
+2007-09-12 20:00:00,Qualification,Slovenia,Belarus,1:0,2.14,1.98,3.4,3.27,4.09,3.71
+2007-09-12 19:30:00,Qualification,Bulgaria,Luxembourg,3:0,1.02,1.02,13.0,10.88,81.0,47.75
+2007-09-12 19:30:00,Qualification,Turkey,Hungary,3:0,1.35,1.31,5.21,4.7,12.0,10.07
+2007-09-12 19:00:00,Qualification,Cyprus,San Marino,3:0,1.07,1.06,11.0,8.88,29.0,25.13
+2007-09-12 19:00:00,Qualification,Lithuania,Faroe Islands,2:1,1.14,1.12,7.5,6.75,20.0,16.25
+2007-09-12 19:00:00,Qualification,Norway,Greece,2:2,2.06,2.02,3.24,3.18,4.05,3.69
+2007-09-12 18:30:00,Qualification,Slovakia,Wales,2:5,1.66,1.62,3.82,3.63,5.87,5.38
+2007-09-12 18:00:00,Qualification,Andorra,Croatia,0:6,81.0,46.5,13.0,11.25,1.02,1.02
+2007-09-12 18:00:00,Qualification,Armenia,Azerbaijan,canc.,1.45,1.45,3.9,3.9,6.5,6.5
+2007-09-12 18:00:00,Qualification,Finland,Poland,0:0,2.8,2.71,3.2,3.2,2.8,2.56
+2007-09-12 17:00:00,Qualification,Kazakhstan,Belgium,2:2,6.0,5.25,4.33,3.8,1.68,1.59
+2007-09-08 22:00:00,Qualification,Iceland,Spain,1:1,15.2,12.64,5.59,5.32,1.29,1.23
+2007-09-08 22:00:00,Qualification,Portugal,Poland,2:2,1.4,1.38,4.67,4.37,9.65,8.33
+2007-09-08 20:50:00,Qualification,Italy,France,0:0,2.54,2.36,3.0,2.93,3.4,3.18
+2007-09-08 20:30:00,Qualification,Croatia,Estonia,2:0,1.11,1.1,8.5,7.55,26.0,22.0
+2007-09-08 20:30:00,Qualification,Netherlands,Bulgaria,2:0,1.38,1.34,4.88,4.52,9.96,8.79
+2007-09-08 20:30:00,Qualification,Slovakia,Ireland,2:2,2.52,2.45,3.25,3.22,2.9,2.78
+2007-09-08 20:30:00,Qualification,Sweden,Denmark,0:0,2.17,2.02,3.3,3.25,3.75,3.64
+2007-09-08 20:30:00,Qualification,Wales,Germany,0:2,7.75,7.27,4.33,4.12,1.5,1.43
+2007-09-08 20:15:00,Qualification,San Marino,Czech Republic,0:3,101.0,52.75,13.0,11.5,1.02,1.02
+2007-09-08 20:15:00,Qualification,Serbia,Finland,0:0,1.56,1.44,4.5,4.09,8.5,7.28
+2007-09-08 20:00:00,Qualification,Moldova,Norway,0:1,8.41,7.63,4.5,4.27,1.44,1.4
+2007-09-08 19:30:00,Qualification,Malta,Turkey,2:2,15.0,13.75,6.5,6.33,1.19,1.15
+2007-09-08 18:15:00,Qualification,Latvia,Northern Ireland,1:0,3.6,3.45,3.25,3.21,2.22,2.1
+2007-09-08 18:00:00,Qualification,Azerbaijan,Armenia,canc.,3.55,3.55,3.25,3.25,1.95,1.95
+2007-09-08 18:00:00,Qualification,Belarus,Romania,1:3,6.6,6.21,4.05,3.88,1.53,1.49
+2007-09-08 18:00:00,Qualification,England,Israel,3:0,1.32,1.3,4.8,4.56,13.0,11.02
+2007-09-08 17:00:00,Qualification,Georgia,Ukraine,1:1,6.0,5.88,4.01,3.67,1.6,1.54
+2007-09-08 17:00:00,Qualification,Luxembourg,Slovenia,0:3,10.0,9.55,5.5,4.93,1.38,1.3
+2007-09-08 17:00:00,Qualification,Russia,North Macedonia,3:0,1.2,1.17,6.5,5.96,17.89,14.38
+2007-09-08 16:00:00,Qualification,Hungary,Bosnia & Herzegovina,1:0,2.29,2.17,3.5,3.31,3.3,3.22
+2007-09-08 16:00:00,Qualification,Scotland,Lithuania,3:1,1.39,1.35,4.5,4.31,11.0,9.3
+2007-08-22 21:00:00,Qualification,San Marino,Cyprus,0:1,16.0,12.8,6.4,5.45,1.23,1.2
+2007-08-22 20:45:00,Qualification,Belgium,Serbia,3:2,3.65,3.25,3.2,3.16,2.37,2.15
+2007-08-22 20:45:00,Qualification,Northern Ireland,Liechtenstein,3:1,1.17,1.15,7.55,6.47,28.0,16.0
+2007-08-22 18:00:00,Qualification,Armenia,Portugal,1:1,18.0,14.2,6.75,6.01,1.21,1.16
+2007-08-22 18:00:00,Qualification,Estonia,Andorra,2:1,1.25,1.18,6.5,5.92,23.0,13.7
+2007-08-22 18:00:00,Qualification,Finland,Kazakhstan,2:1,1.25,1.2,6.0,5.74,17.0,12.9
+2007-06-06 21:00:00,Qualification,France,Georgia,1:0,1.12,1.1,8.0,6.99,21.0,18.0
+2007-06-06 20:45:00,Qualification,Lithuania,Italy,0:2,10.0,9.13,4.5,4.28,1.33,1.31
+2007-06-06 20:30:00,Qualification,Croatia,Russia,0:0,2.1,1.9,3.2,3.07,4.15,4.0
+2007-06-06 20:30:00,Qualification,Estonia,England,0:3,17.0,13.75,6.0,5.58,1.22,1.18
+2007-06-06 20:30:00,Qualification,Germany,Slovakia,2:1,1.25,1.23,5.5,4.99,13.0,11.0
+2007-06-06 20:30:00,Qualification,Greece,Moldova,2:1,1.14,1.11,7.0,6.38,21.0,16.25
+2007-06-06 20:30:00,Qualification,Latvia,Denmark,0:2,8.0,6.5,4.2,3.72,1.5,1.48
+2007-06-06 20:30:00,Qualification,Liechtenstein,Spain,0:2,41.0,36.5,13.0,10.25,1.03,1.02
+2007-06-06 20:15:00,Qualification,Bosnia & Herzegovina,Malta,1:0,1.15,1.14,7.0,6.05,15.0,13.5
+2007-06-06 20:15:00,Qualification,Luxembourg,Albania,0:3,7.25,6.88,4.0,3.88,1.4,1.4
+2007-06-06 20:15:00,Qualification,Sweden,Iceland,5:0,1.2,1.16,6.5,5.88,15.0,13.5
+2007-06-06 20:00:00,Qualification,Romania,Slovenia,2:0,1.28,1.25,5.0,4.71,13.0,10.5
+2007-06-06 19:15:00,Qualification,Finland,Belgium,2:0,2.2,2.1,3.2,3.15,3.3,3.24
+2007-06-06 19:00:00,Qualification,Bulgaria,Belarus,2:1,1.3,1.27,5.0,4.67,15.0,10.13
+2007-06-06 19:00:00,Qualification,Norway,Hungary,4:0,1.36,1.36,4.5,4.06,9.0,8.3
+2007-06-06 18:15:00,Qualification,Faroe Islands,Scotland,0:2,17.0,15.75,7.0,6.69,1.18,1.13
+2007-06-06 18:00:00,Qualification,Andorra,Israel,0:2,21.0,20.75,10.0,8.75,1.06,1.05
+2007-06-06 17:30:00,Qualification,Armenia,Poland,1:0,8.5,7.76,4.4,4.23,1.44,1.35
+2007-06-06 15:00:00,Qualification,Kazakhstan,Azerbaijan,1:1,2.0,1.95,3.3,3.21,3.75,3.49
+2007-06-02 21:00:00,Qualification,France,Ukraine,2:0,1.55,1.52,3.75,3.51,8.5,6.58
+2007-06-02 20:45:00,Qualification,Belgium,Portugal,1:2,4.75,4.36,3.3,3.24,1.8,1.74
+2007-06-02 20:45:00,Qualification,Faroe Islands,Italy,1:2,67.0,54.75,13.0,10.5,1.02,1.01
+2007-06-02 20:45:00,Qualification,Slovenia,Romania,1:2,4.2,3.79,3.25,3.19,1.95,1.91
+2007-06-02 20:30:00,Qualification,Albania,Luxembourg,2:0,1.15,1.14,6.0,5.94,15.0,13.0
+2007-06-02 20:30:00,Qualification,Estonia,Croatia,0:1,8.0,7.69,4.5,4.06,1.4,1.37
+2007-06-02 20:30:00,Qualification,Greece,Hungary,2:0,1.5,1.45,4.0,3.72,7.5,7.03
+2007-06-02 20:30:00,Qualification,Latvia,Spain,0:2,10.0,8.75,4.75,4.33,1.35,1.32
+2007-06-02 20:05:00,Qualification,Norway,Malta,4:0,1.14,1.13,8.0,6.5,17.0,15.0
+2007-06-02 20:00:00,Qualification,Belarus,Bulgaria,0:2,3.4,2.98,3.3,3.13,2.29,2.23
+2007-06-02 20:00:00,Qualification,Bosnia & Herzegovina,Turkey,3:2,4.5,4.15,3.25,3.16,1.85,1.83
+2007-06-02 20:00:00,Qualification,Denmark,Sweden,award.,2.2,2.16,3.2,3.14,3.4,3.14
+2007-06-02 20:00:00,Qualification,Lithuania,Georgia,1:0,2.2,2.1,3.1,3.08,3.4,3.23
+2007-06-02 19:30:00,Qualification,North Macedonia,Israel,1:2,3.25,3.04,3.2,3.13,2.25,2.21
+2007-06-02 19:00:00,Qualification,Germany,San Marino,6:0,1.01,1.01,13.0,10.63,67.0,58.75
+2007-06-02 18:15:00,Qualification,Finland,Serbia,0:2,2.9,2.69,3.2,3.15,2.54,2.41
+2007-06-02 18:00:00,Qualification,Iceland,Liechtenstein,1:1,1.25,1.19,6.5,5.69,13.0,11.5
+2007-06-02 18:00:00,Qualification,Azerbaijan,Poland,1:3,14.0,12.25,6.5,5.58,1.25,1.19
+2007-06-02 17:00:00,Qualification,Russia,Andorra,4:0,1.02,1.02,10.5,9.25,51.0,44.5
+2007-06-02 16:00:00,Qualification,Wales,Czech Republic,0:0,5.0,4.84,3.6,3.32,1.75,1.68
+2007-06-02 14:00:00,Qualification,Kazakhstan,Armenia,1:2,2.1,2.0,3.4,3.27,4.0,3.52
+2007-03-28 22:00:00,Qualification,Spain,Iceland,1:0,1.12,1.11,6.7,6.1,17.0,16.5
+2007-03-28 21:00:00,Qualification,Andorra,England,0:3,67.0,56.0,10.0,9.25,1.01,1.01
+2007-03-28 21:00:00,Qualification,Wales,San Marino,3:0,1.05,1.04,11.0,9.75,51.0,34.0
+2007-03-28 20:50:00,Qualification,Italy,Scotland,2:0,1.3,1.3,4.5,4.42,8.19,8.09
+2007-03-28 20:45:00,Qualification,Northern Ireland,Sweden,2:1,5.8,5.15,3.4,3.35,1.66,1.6
+2007-03-28 20:45:00,Qualification,Slovenia,Netherlands,0:1,6.15,6.08,3.5,3.45,1.5,1.5
+2007-03-28 20:30:00,Qualification,Ireland,Slovakia,1:0,1.9,1.9,3.2,3.15,3.65,3.63
+2007-03-28 20:30:00,Qualification,Poland,Armenia,1:0,1.11,1.1,6.7,6.35,17.0,16.5
+2007-03-28 20:30:00,Qualification,Serbia,Portugal,1:1,3.0,2.94,3.1,3.05,2.25,2.23
+2007-03-28 20:00:00,Qualification,Turkey,Norway,2:2,2.0,1.93,3.2,3.15,3.85,3.58
+2007-03-28 19:30:00,Qualification,Liechtenstein,Latvia,1:0,8.19,7.3,4.0,3.77,1.45,1.41
+2007-03-28 19:30:00,Qualification,Malta,Greece,0:1,10.5,9.25,4.59,4.29,1.33,1.29
+2007-03-28 19:00:00,Qualification,Israel,Estonia,4:0,1.3,1.29,4.5,4.45,10.0,9.25
+2007-03-28 18:00:00,Qualification,Georgia,Faroe Islands,3:1,1.12,1.1,7.5,6.8,17.0,15.75
+2007-03-28 18:00:00,Qualification,Hungary,Moldova,2:0,1.44,1.42,3.8,3.65,7.3,7.15
+2007-03-28 17:30:00,Qualification,Romania,Luxembourg,3:0,1.03,1.02,10.5,9.25,51.0,37.25
+2007-03-28 17:25:00,Qualification,Czech Republic,Cyprus,1:0,1.1,1.1,6.7,6.6,17.0,16.5
+2007-03-28 17:00:00,Qualification,Azerbaijan,Finland,1:0,8.5,8.25,3.9,3.83,1.36,1.35
+2007-03-28 17:00:00,Qualification,Bulgaria,Albania,0:0,1.22,1.21,5.75,5.48,13.0,12.17
+2007-03-28 17:00:00,Qualification,Ukraine,Lithuania,1:0,1.29,1.27,4.7,4.57,10.0,8.83
+2007-03-24 22:00:00,Qualification,Portugal,Belgium,4:0,1.36,1.35,4.0,3.88,8.0,8.0
+2007-03-24 22:00:00,Qualification,Spain,Denmark,2:1,1.62,1.59,3.5,3.41,5.75,5.53
+2007-03-24 20:45:00,Qualification,Czech Republic,Germany,1:2,2.4,2.38,3.1,3.05,2.7,2.7
+2007-03-24 20:30:00,Qualification,Greece,Turkey,1:4,2.0,1.98,3.1,3.05,3.6,3.5
+2007-03-24 20:30:00,Qualification,Netherlands,Romania,0:0,1.45,1.44,3.7,3.6,7.0,6.75
+2007-03-24 20:15:00,Qualification,Croatia,North Macedonia,2:1,1.25,1.23,4.8,4.75,10.0,9.9
+2007-03-24 20:15:00,Qualification,Liechtenstein,Northern Ireland,1:4,7.0,6.85,3.7,3.6,1.44,1.42
+2007-03-24 20:05:00,Qualification,Norway,Bosnia & Herzegovina,1:2,1.5,1.4,4.25,3.85,9.25,7.67
+2007-03-24 19:30:00,Qualification,Estonia,Russia,0:2,5.5,5.5,3.6,3.47,1.57,1.55
+2007-03-24 19:30:00,Qualification,Israel,England,0:0,4.9,4.7,3.3,3.2,1.72,1.69
+2007-03-24 19:00:00,Qualification,Cyprus,Slovakia,1:3,4.33,4.18,3.3,3.23,1.83,1.77
+2007-03-24 18:00:00,Qualification,Lithuania,France,0:1,8.0,7.75,3.8,3.77,1.4,1.38
+2007-03-24 18:00:00,Qualification,Moldova,Malta,1:1,1.4,1.35,4.7,4.07,10.0,8.5
+2007-03-24 18:00:00,Qualification,Poland,Azerbaijan,5:0,1.1,1.07,10.0,8.25,24.0,20.25
+2007-03-24 17:00:00,Qualification,Luxembourg,Belarus,1:2,8.0,7.86,4.33,4.12,1.38,1.35
+2007-03-24 16:00:00,Qualification,Faroe Islands,Ukraine,0:2,18.0,16.75,7.75,7.06,1.1,1.09
+2007-03-24 16:00:00,Qualification,Ireland,Wales,1:0,1.66,1.65,3.4,3.35,4.75,4.63
+2007-03-24 16:00:00,Qualification,Scotland,Georgia,2:1,1.36,1.35,4.09,3.92,8.0,7.9
+2007-03-24 14:00:00,Qualification,Kazakhstan,Serbia,2:1,10.0,8.83,4.8,4.36,1.33,1.29
+2007-02-07 20:45:00,Qualification,San Marino,Ireland,1:2,67.0,46.0,13.0,10.33,1.02,1.02
+2006-11-15 22:00:00,Qualification,Portugal,Kazakhstan,3:0,1.05,1.04,10.0,9.0,34.0,26.5
+2006-11-15 20:30:00,Qualification,Belgium,Poland,0:1,2.25,2.25,3.2,3.1,2.9,2.89
+2006-11-15 20:30:00,Qualification,Ireland,San Marino,5:0,1.03,1.02,13.0,10.25,81.0,46.5
+2006-11-15 20:00:00,Qualification,Cyprus,Germany,1:1,13.0,12.0,6.5,5.9,1.2,1.16
+2006-11-15 18:00:00,Qualification,Finland,Armenia,1:0,1.2,1.18,6.25,5.62,12.5,11.17
+2006-11-15 18:00:00,Qualification,Israel,Croatia,3:4,3.0,2.81,3.1,3.1,2.37,2.3
+2006-11-15 17:00:00,Qualification,North Macedonia,Russia,0:2,4.0,3.87,3.2,3.12,1.9,1.87
+2006-10-11 21:00:00,Qualification,France,Faroe Islands,5:0,1.01,1.01,15.0,11.13,81.0,62.0
+2006-10-11 21:00:00,Qualification,Northern Ireland,Latvia,1:0,2.25,2.16,3.1,3.1,3.2,3.07
+2006-10-11 21:00:00,Qualification,Wales,Cyprus,3:1,1.55,1.53,3.6,3.6,5.65,5.52
+2006-10-11 20:45:00,Qualification,Belgium,Azerbaijan,3:0,1.14,1.12,7.0,6.5,15.0,14.25
+2006-10-11 20:45:00,Qualification,Slovakia,Germany,1:4,4.2,4.07,3.25,3.18,1.85,1.82
+2006-10-11 20:30:00,Qualification,Ireland,Czech Republic,1:1,4.2,4.1,3.2,3.05,1.85,1.85
+2006-10-11 20:30:00,Qualification,Netherlands,Albania,2:1,1.07,1.06,9.0,8.0,26.0,22.75
+2006-10-11 20:30:00,Qualification,Poland,Portugal,2:1,3.7,3.47,3.15,3.13,2.0,1.98
+2006-10-11 20:15:00,Qualification,Bosnia & Herzegovina,Greece,0:4,3.1,2.87,3.1,3.08,2.37,2.29
+2006-10-11 20:15:00,Qualification,Liechtenstein,Denmark,0:4,21.0,19.33,9.0,7.83,1.1,1.07
+2006-10-11 20:15:00,Qualification,Luxembourg,Bulgaria,0:1,21.0,18.25,7.5,7.15,1.1,1.09
+2006-10-11 20:15:00,Qualification,Serbia,Armenia,3:0,1.1,1.1,7.0,6.7,21.0,18.67
+2006-10-11 20:05:00,Qualification,Iceland,Sweden,1:2,7.2,6.73,3.6,3.6,1.5,1.46
+2006-10-11 20:00:00,Qualification,Georgia,Italy,1:3,10.0,9.67,5.0,4.4,1.3,1.28
+2006-10-11 20:00:00,Qualification,Turkey,Moldova,5:0,1.15,1.14,6.25,5.92,14.0,12.67
+2006-10-11 19:15:00,Qualification,Malta,Hungary,2:1,9.5,8.56,4.5,4.28,1.33,1.31
+2006-10-11 19:00:00,Qualification,Croatia,England,2:0,2.85,2.8,3.1,3.02,2.45,2.37
+2006-10-11 19:00:00,Qualification,Ukraine,Scotland,2:0,1.7,1.64,3.5,3.4,5.0,4.9
+2006-10-11 18:00:00,Qualification,Belarus,Slovenia,4:2,2.5,2.35,3.1,3.05,2.85,2.78
+2006-10-11 18:00:00,Qualification,Kazakhstan,Finland,0:2,6.5,6.33,3.6,3.43,1.55,1.52
+2006-10-11 17:00:00,Qualification,Russia,Estonia,2:0,1.15,1.14,5.75,5.55,17.0,14.67
+2006-10-11 15:00:00,Qualification,Andorra,North Macedonia,0:3,14.0,11.5,5.0,4.8,1.25,1.23
+2006-10-07 22:00:00,Qualification,Portugal,Azerbaijan,3:0,1.05,1.04,9.0,8.63,51.0,31.5
+2006-10-07 21:20:00,Qualification,Greece,Norway,1:0,2.04,2.03,3.1,3.02,3.5,3.47
+2006-10-07 20:50:00,Qualification,Italy,Ukraine,2:0,1.35,1.35,4.0,3.92,9.0,8.88
+2006-10-07 20:45:00,Qualification,Slovenia,Luxembourg,2:0,1.07,1.05,9.0,8.13,34.0,25.5
+2006-10-07 20:15:00,Qualification,Croatia,Andorra,7:0,1.02,1.02,10.0,9.38,51.0,40.25
+2006-10-07 20:15:00,Qualification,Serbia,Belgium,1:0,1.65,1.64,3.4,3.37,5.0,4.92
+2006-10-07 20:00:00,Qualification,Bulgaria,Netherlands,1:1,4.5,4.26,3.3,3.23,1.85,1.75
+2006-10-07 20:00:00,Qualification,Denmark,Northern Ireland,0:0,1.22,1.21,5.5,5.33,12.0,10.67
+2006-10-07 20:00:00,Qualification,Latvia,Iceland,4:0,2.25,2.16,3.25,3.22,3.1,2.95
+2006-10-07 20:00:00,Qualification,Sweden,Spain,2:0,3.25,3.1,3.15,3.03,2.29,2.18
+2006-10-07 19:45:00,Qualification,Hungary,Turkey,0:1,3.2,3.2,3.2,3.13,2.1,2.08
+2006-10-07 19:15:00,Qualification,Romania,Belarus,3:1,1.33,1.29,4.75,4.36,9.5,9.0
+2006-10-07 18:30:00,Qualification,Cyprus,Ireland,5:2,7.25,7.08,4.0,3.88,1.4,1.4
+2006-10-07 18:00:00,Qualification,Armenia,Finland,0:0,6.2,5.82,3.55,3.45,1.57,1.54
+2006-10-07 18:00:00,Qualification,England,North Macedonia,0:0,1.1,1.07,9.0,7.83,26.0,23.33
+2006-10-07 18:00:00,Qualification,Moldova,Bosnia & Herzegovina,2:2,3.0,2.9,3.2,3.1,2.29,2.25
+2006-10-07 18:00:00,Qualification,Scotland,France,1:0,5.5,5.33,3.5,3.38,1.6,1.59
+2006-10-07 17:15:00,Qualification,Czech Republic,San Marino,7:0,1.01,1.01,15.0,11.13,81.0,58.5
+2006-10-07 17:00:00,Qualification,Kazakhstan,Poland,0:1,7.25,6.92,4.0,3.87,1.45,1.41
+2006-10-07 17:00:00,Qualification,Russia,Israel,1:1,1.5,1.48,3.65,3.55,7.25,6.38
+2006-10-07 16:00:00,Qualification,Faroe Islands,Lithuania,0:1,11.0,9.88,5.0,4.67,1.3,1.25
+2006-10-07 16:00:00,Qualification,Wales,Slovakia,1:5,2.4,2.3,3.15,3.12,2.87,2.79
+2006-09-06 21:15:00,Qualification,Northern Ireland,Spain,3:2,12.0,10.67,5.5,4.9,1.25,1.23
+2006-09-06 21:00:00,Qualification,France,Italy,3:1,2.1,2.1,2.9,2.89,3.55,3.43
+2006-09-06 21:00:00,Qualification,North Macedonia,England,0:1,11.0,10.33,5.0,4.67,1.25,1.25
+2006-09-06 20:45:00,Qualification,San Marino,Germany,0:13,67.0,52.67,11.0,9.83,1.01,1.01
+2006-09-06 20:30:00,Qualification,Poland,Serbia,1:1,2.6,2.57,3.1,3.08,2.54,2.5
+2006-09-06 20:30:00,Qualification,Netherlands,Belarus,3:0,1.15,1.14,6.5,6.13,13.0,12.5
+2006-09-06 20:15:00,Qualification,Bosnia & Herzegovina,Hungary,1:3,1.65,1.62,3.6,3.42,5.0,4.93
+2006-09-06 20:15:00,Qualification,Slovakia,Czech Republic,0:3,2.8,2.75,3.1,3.07,2.4,2.36
+2006-09-06 20:05:00,Qualification,Iceland,Denmark,0:2,3.55,3.4,1.6,1.57,,
+2006-09-06 20:00:00,Qualification,Albania,Romania,0:2,5.0,4.97,3.6,3.43,1.65,1.62
+2006-09-06 20:00:00,Qualification,Turkey,Malta,2:0,1.05,1.04,10.0,8.88,34.0,30.75
+2006-09-06 19:30:00,Qualification,Sweden,Liechtenstein,3:1,1.04,1.03,10.0,9.0,41.0,34.0
+2006-09-06 19:00:00,Qualification,Bulgaria,Slovenia,3:0,1.66,1.64,3.45,3.3,5.09,5.03
+2006-09-06 19:00:00,Qualification,Finland,Portugal,1:1,5.75,4.93,3.5,3.4,1.7,1.63
+2006-09-06 19:00:00,Qualification,Israel,Andorra,4:1,1.05,1.05,9.0,8.63,26.0,24.0
+2006-09-06 19:00:00,Qualification,Norway,Moldova,2:0,1.22,1.21,5.5,5.18,12.0,11.0
+2006-09-06 18:30:00,Qualification,Lithuania,Scotland,1:2,2.62,2.59,3.2,3.13,2.5,2.46
+2006-09-06 18:00:00,Qualification,Armenia,Belgium,0:1,8.19,7.42,4.09,3.9,1.44,1.39
+2006-09-06 18:00:00,Qualification,Ukraine,Georgia,3:2,1.25,1.22,5.15,4.88,11.0,11.0
+2006-09-06 17:00:00,Qualification,Russia,Croatia,0:0,1.95,1.92,3.2,3.15,3.8,3.67
+2006-09-06 16:00:00,Qualification,Azerbaijan,Kazakhstan,1:1,1.88,1.76,3.4,3.25,4.7,4.35
+2006-09-02 22:00:00,Qualification,Spain,Liechtenstein,4:0,1.01,1.01,11.0,9.5,67.0,51.0
+2006-09-02 20:50:00,Qualification,Italy,Lithuania,1:1,1.2,1.15,6.0,5.83,17.0,14.0
+2006-09-02 20:45:00,Qualification,Germany,Ireland,1:0,1.3,1.3,4.34,4.32,10.0,9.5
+2006-09-02 20:30:00,Qualification,Estonia,Israel,0:1,3.2,3.1,3.2,3.13,2.2,2.13
+2006-09-02 20:30:00,Qualification,Luxembourg,Netherlands,0:1,51.0,45.75,11.0,9.75,1.02,1.01
+2006-09-02 20:30:00,Qualification,Poland,Finland,1:3,1.5,1.45,4.0,3.75,7.25,6.62
+2006-09-02 20:15:00,Qualification,Czech Republic,Wales,2:1,1.3,1.28,5.0,4.61,10.0,8.78
+2006-09-02 20:15:00,Qualification,Moldova,Greece,0:1,6.5,5.5,3.6,3.5,1.7,1.57
+2006-09-02 20:15:00,Qualification,Serbia,Azerbaijan,1:0,1.12,1.11,7.0,6.63,17.0,16.0
+2006-09-02 20:15:00,Qualification,Slovakia,Cyprus,6:1,1.25,1.24,5.0,4.8,11.0,10.25
+2006-09-02 20:00:00,Qualification,Hungary,Norway,1:4,2.6,2.52,3.2,3.08,2.7,2.57
+2006-09-02 20:00:00,Qualification,Latvia,Sweden,0:1,5.6,5.06,3.6,3.38,1.72,1.62
+2006-09-02 20:00:00,Qualification,Romania,Bulgaria,2:2,1.75,1.72,3.25,3.22,4.65,4.58
+2006-09-02 19:15:00,Qualification,Malta,Bosnia & Herzegovina,2:5,10.0,8.8,4.75,4.53,1.35,1.27
+2006-09-02 19:00:00,Qualification,Belarus,Albania,2:2,1.6,1.58,3.5,3.45,6.0,5.43
+2006-09-02 18:00:00,Qualification,England,Andorra,5:0,1.01,1.01,15.0,11.13,81.0,60.75
+2006-09-02 18:00:00,Qualification,Georgia,France,0:3,9.0,8.25,4.59,4.08,1.4,1.35
+2006-09-02 16:00:00,Qualification,Northern Ireland,Iceland,0:3,2.2,2.09,3.25,3.15,3.25,3.15
+2006-09-02 16:00:00,Qualification,Scotland,Faroe Islands,6:0,1.1,1.07,9.0,7.81,29.0,24.0
+2006-08-16 20:45:00,Qualification,Belgium,Kazakhstan,0:0,1.1,1.06,9.0,7.75,26.0,22.0
+2006-08-16 20:00:00,Qualification,Faroe Islands,Georgia,0:6,5.3,5.0,3.6,3.6,1.55,1.55
+2006-08-16 18:00:00,Qualification,Estonia,North Macedonia,0:1,2.25,2.18,3.2,3.15,3.1,2.92

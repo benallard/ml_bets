@@ -1,51 +1,320 @@
-date,home,away,score,max_odd_home,mean_odd_home,max_odd_draw,mean_odd_draw,max_odd_away,mean_odd_away
-2016-07-10 21:00:00,Portugal,France,1:0 ET,4.25,4.25,3.2,3.07,2.22,2.16
-2016-07-07 21:00:00,Germany,France,0:2,2.98,2.98,3.08,2.99,2.9,2.82
-2016-07-06 21:00:00,Portugal,Wales,2:0,2.18,2.18,3.22,3.12,4.33,4.08
-2016-07-03 21:00:00,France,Iceland,5:2,1.42,1.42,5.3,4.93,9.35,8.37
-2016-07-02 21:00:00,Germany,Italy,2:1 pen.,2.27,2.27,3.15,3.03,3.95,3.87
-2016-07-01 21:00:00,Wales,Belgium,3:1,4.95,4.95,3.5,3.35,1.92,1.9
-2016-06-30 21:00:00,Poland,Portugal,1:2 pen.,3.72,3.72,3.03,2.93,2.42,2.4
-2016-06-27 21:00:00,England,Iceland,1:2,1.46,1.46,4.33,4.23,9.8,9.27
-2016-06-27 18:00:00,Italy,Spain,2:0,4.53,4.53,2.98,2.93,2.23,2.15
-2016-06-26 21:00:00,Hungary,Belgium,0:4,7.1,7.1,3.72,3.63,1.65,1.64
-2016-06-26 18:00:00,Germany,Slovakia,3:0,1.42,1.42,4.37,4.23,12.5,11.09
-2016-06-26 15:00:00,France,Ireland,2:1,1.53,1.53,3.92,3.75,10.0,9.14
-2016-06-25 21:00:00,Croatia,Portugal,0:1 ET,2.83,2.83,3.12,3.01,3.13,2.93
-2016-06-25 18:00:00,Wales,Northern Ireland,1:0,2.03,2.03,3.04,2.97,5.4,5.08
-2016-06-25 15:00:00,Switzerland,Poland,1:2 pen.,3.03,3.03,2.91,2.87,2.94,2.87
-2016-06-22 21:00:00,Italy,Ireland,0:1,2.29,2.29,3.2,3.13,4.0,3.7
-2016-06-22 21:00:00,Sweden,Belgium,0:1,4.99,4.99,3.4,3.35,1.93,1.9
-2016-06-22 18:00:00,Hungary,Portugal,3:3,9.47,9.47,4.3,4.05,1.52,1.48
-2016-06-22 18:00:00,Iceland,Austria,2:1,3.69,3.69,3.23,3.17,2.33,2.26
-2016-06-21 21:00:00,Croatia,Spain,2:1,5.35,5.35,3.13,3.08,1.96,1.94
-2016-06-21 21:00:00,Czech Republic,Turkey,0:2,2.36,2.36,3.76,3.6,3.16,3.07
-2016-06-21 18:00:00,Northern Ireland,Germany,0:1,13.7,13.7,5.0,4.77,1.36,1.34
-2016-06-21 18:00:00,Ukraine,Poland,0:1,4.55,4.55,3.3,3.2,2.06,2.01
-2016-06-20 21:00:00,Russia,Wales,0:3,2.63,2.63,3.15,3.06,3.2,3.11
-2016-06-20 21:00:00,Slovakia,England,0:0,5.81,5.81,3.25,3.18,1.86,1.84
-2016-06-19 21:00:00,Romania,Albania,0:1,2.07,2.07,3.62,3.5,4.05,3.87
-2016-06-19 21:00:00,Switzerland,France,0:0,5.96,5.96,3.02,2.92,1.99,1.94
-2016-06-18 21:00:00,Portugal,Austria,0:0,1.74,1.74,3.84,3.68,6.0,5.45
-2016-06-18 18:00:00,Iceland,Hungary,1:1,2.66,2.66,3.08,3.0,3.22,3.14
-2016-06-18 15:00:00,Belgium,Ireland,3:0,1.89,1.89,3.48,3.35,5.4,5.04
-2016-06-17 21:00:00,Spain,Turkey,3:0,1.48,1.48,4.4,4.15,10.5,9.04
-2016-06-17 18:00:00,Czech Republic,Croatia,2:2,4.53,4.53,3.2,3.11,2.1,2.06
-2016-06-17 15:00:00,Italy,Sweden,1:0,2.03,2.03,3.1,3.05,5.0,4.76
-2016-06-16 21:00:00,Germany,Poland,0:0,1.62,1.62,4.2,4.04,6.7,6.23
-2016-06-16 18:00:00,Ukraine,Northern Ireland,0:2,1.77,1.77,3.5,3.37,6.6,6.12
-2016-06-16 15:00:00,England,Wales,2:1,1.68,1.68,3.88,3.74,6.6,6.11
-2016-06-15 21:00:00,France,Albania,2:0,1.25,1.25,6.3,5.96,18.5,16.15
-2016-06-15 18:00:00,Romania,Switzerland,1:1,3.51,3.51,3.1,3.05,2.47,2.4
-2016-06-15 15:00:00,Russia,Slovakia,1:2,2.42,2.42,3.22,3.15,3.45,3.35
-2016-06-14 21:00:00,Portugal,Iceland,1:1,1.43,1.43,4.72,4.52,10.0,9.08
-2016-06-14 18:00:00,Austria,Hungary,0:2,1.68,1.68,3.76,3.65,6.64,6.27
-2016-06-13 21:00:00,Belgium,Italy,0:2,2.71,2.71,3.08,3.0,3.2,3.06
-2016-06-13 18:00:00,Ireland,Sweden,1:1,3.75,3.75,3.1,3.04,2.33,2.3
-2016-06-13 15:00:00,Spain,Czech Republic,1:0,1.44,1.44,4.75,4.5,10.0,9.02
-2016-06-12 21:00:00,Germany,Ukraine,2:0,1.52,1.52,4.85,4.31,8.1,7.36
-2016-06-12 18:00:00,Poland,Northern Ireland,1:0,1.77,1.77,3.58,3.39,6.5,5.91
-2016-06-12 15:00:00,Turkey,Croatia,0:1,4.2,4.2,3.4,3.33,2.08,2.04
-2016-06-11 21:00:00,England,Russia,1:1,1.77,1.77,3.78,3.54,5.9,5.57
-2016-06-11 18:00:00,Wales,Slovakia,2:1,3.1,3.1,3.05,2.97,2.8,2.71
-2016-06-11 15:00:00,Albania,Switzerland,0:1,5.16,5.16,3.38,3.23,1.94,1.9
+date,kind,home,away,score,max_odd_home,mean_odd_home,max_odd_draw,mean_odd_draw,max_odd_away,mean_odd_away
+2016-07-10 21:00:00,Play Offs,Portugal,France,1:0 ET,4.5,4.25,3.2,3.07,2.22,2.16
+2016-07-07 21:00:00,Play Offs,Germany,France,0:2,3.11,2.98,3.08,2.99,2.9,2.82
+2016-07-06 21:00:00,Play Offs,Portugal,Wales,2:0,2.26,2.18,3.22,3.12,4.33,4.08
+2016-07-03 21:00:00,Play Offs,France,Iceland,5:2,1.44,1.42,5.3,4.93,9.35,8.37
+2016-07-02 21:00:00,Play Offs,Germany,Italy,2:1 pen.,2.3,2.27,3.15,3.03,3.95,3.87
+2016-07-01 21:00:00,Play Offs,Wales,Belgium,3:1,5.1,4.95,3.5,3.35,1.92,1.9
+2016-06-30 21:00:00,Play Offs,Poland,Portugal,1:2 pen.,3.82,3.72,3.03,2.93,2.42,2.4
+2016-06-27 21:00:00,Play Offs,England,Iceland,1:2,1.49,1.46,4.33,4.23,9.8,9.27
+2016-06-27 18:00:00,Play Offs,Italy,Spain,2:0,4.75,4.53,2.98,2.93,2.23,2.15
+2016-06-26 21:00:00,Play Offs,Hungary,Belgium,0:4,7.61,7.1,3.72,3.63,1.65,1.64
+2016-06-26 18:00:00,Play Offs,Germany,Slovakia,3:0,1.44,1.42,4.37,4.23,12.5,11.09
+2016-06-26 15:00:00,Play Offs,France,Ireland,2:1,1.55,1.53,3.92,3.75,10.0,9.14
+2016-06-25 21:00:00,Play Offs,Croatia,Portugal,0:1 ET,2.89,2.83,3.12,3.01,3.13,2.93
+2016-06-25 18:00:00,Play Offs,Wales,Northern Ireland,1:0,2.06,2.03,3.04,2.97,5.4,5.08
+2016-06-25 15:00:00,Play Offs,Switzerland,Poland,1:2 pen.,3.1,3.03,2.91,2.87,2.94,2.87
+2016-06-22 21:00:00,,Italy,Ireland,0:1,2.35,2.29,3.2,3.13,4.0,3.7
+2016-06-22 21:00:00,,Sweden,Belgium,0:1,5.4,4.99,3.4,3.35,1.93,1.9
+2016-06-22 18:00:00,,Hungary,Portugal,3:3,11.0,9.47,4.3,4.05,1.52,1.48
+2016-06-22 18:00:00,,Iceland,Austria,2:1,3.78,3.69,3.23,3.17,2.33,2.26
+2016-06-21 21:00:00,,Croatia,Spain,2:1,5.7,5.35,3.13,3.08,1.96,1.94
+2016-06-21 21:00:00,,Czech Republic,Turkey,0:2,2.46,2.36,3.76,3.6,3.16,3.07
+2016-06-21 18:00:00,,Northern Ireland,Germany,0:1,16.0,13.7,5.0,4.77,1.36,1.34
+2016-06-21 18:00:00,,Ukraine,Poland,0:1,4.8,4.55,3.3,3.2,2.06,2.01
+2016-06-20 21:00:00,,Russia,Wales,0:3,2.7,2.63,3.15,3.06,3.2,3.11
+2016-06-20 21:00:00,,Slovakia,England,0:0,6.4,5.81,3.25,3.18,1.86,1.84
+2016-06-19 21:00:00,,Romania,Albania,0:1,2.16,2.07,3.62,3.5,4.05,3.87
+2016-06-19 21:00:00,,Switzerland,France,0:0,6.6,5.96,3.02,2.92,1.99,1.94
+2016-06-18 21:00:00,,Portugal,Austria,0:0,1.78,1.74,3.84,3.68,6.0,5.45
+2016-06-18 18:00:00,,Iceland,Hungary,1:1,2.75,2.66,3.08,3.0,3.22,3.14
+2016-06-18 15:00:00,,Belgium,Ireland,3:0,1.93,1.89,3.48,3.35,5.4,5.04
+2016-06-17 21:00:00,,Spain,Turkey,3:0,1.5,1.48,4.4,4.15,10.5,9.04
+2016-06-17 18:00:00,,Czech Republic,Croatia,2:2,4.7,4.53,3.2,3.11,2.1,2.06
+2016-06-17 15:00:00,,Italy,Sweden,1:0,2.07,2.03,3.1,3.05,5.0,4.76
+2016-06-16 21:00:00,,Germany,Poland,0:0,1.63,1.62,4.2,4.04,6.7,6.23
+2016-06-16 18:00:00,,Ukraine,Northern Ireland,0:2,1.8,1.77,3.5,3.37,6.6,6.12
+2016-06-16 15:00:00,,England,Wales,2:1,1.73,1.68,3.88,3.74,6.6,6.11
+2016-06-15 21:00:00,,France,Albania,2:0,1.26,1.25,6.3,5.96,18.5,16.15
+2016-06-15 18:00:00,,Romania,Switzerland,1:1,3.62,3.51,3.1,3.05,2.47,2.4
+2016-06-15 15:00:00,,Russia,Slovakia,1:2,2.5,2.42,3.22,3.15,3.45,3.35
+2016-06-14 21:00:00,,Portugal,Iceland,1:1,1.45,1.43,4.72,4.52,10.0,9.08
+2016-06-14 18:00:00,,Austria,Hungary,0:2,1.71,1.68,3.76,3.65,6.64,6.27
+2016-06-13 21:00:00,,Belgium,Italy,0:2,2.79,2.71,3.08,3.0,3.2,3.06
+2016-06-13 18:00:00,,Ireland,Sweden,1:1,3.98,3.75,3.1,3.04,2.33,2.3
+2016-06-13 15:00:00,,Spain,Czech Republic,1:0,1.47,1.44,4.75,4.5,10.0,9.02
+2016-06-12 21:00:00,,Germany,Ukraine,2:0,1.55,1.52,4.85,4.31,8.1,7.36
+2016-06-12 18:00:00,,Poland,Northern Ireland,1:0,1.83,1.77,3.58,3.39,6.5,5.91
+2016-06-12 15:00:00,,Turkey,Croatia,0:1,4.3,4.2,3.4,3.33,2.08,2.04
+2016-06-11 21:00:00,,England,Russia,1:1,1.8,1.77,3.78,3.54,5.9,5.57
+2016-06-11 18:00:00,,Wales,Slovakia,2:1,3.3,3.1,3.05,2.97,2.8,2.71
+2016-06-11 15:00:00,,Albania,Switzerland,0:1,5.7,5.16,3.38,3.23,1.94,1.9
+2016-06-10 21:00:00,,France,Romania,2:1,1.4,1.37,5.2,4.82,13.0,11.31
+2015-11-17 20:45:00,Qualification - Promotion,Denmark,Sweden ,2:2,2.2,2.12,3.55,3.44,3.85,3.67
+2015-11-17 20:45:00,Qualification - Promotion,Slovenia,Ukraine ,1:1,3.55,3.18,3.4,3.23,2.55,2.43
+2015-11-16 20:45:00,Qualification - Promotion,Ireland,Bosnia & Herzegovina ,2:0,2.58,2.49,3.12,3.05,3.4,3.26
+2015-11-15 20:45:00,Qualification - Promotion,Hungary,Norway ,2:1,3.7,3.41,3.34,3.2,2.4,2.33
+2015-11-14 20:45:00,Qualification - Promotion,Sweden,Denmark ,2:1,2.55,2.48,3.18,3.08,3.5,3.27
+2015-11-14 18:00:00,Qualification - Promotion,Ukraine,Slovenia ,2:0,,,,,,
+2015-11-13 20:45:00,Qualification - Promotion,Bosnia & Herzegovina,Ireland ,1:1,2.15,2.1,3.1,3.04,4.5,4.26
+2015-11-12 20:45:00,Qualification - Promotion,Norway,Hungary ,0:1,1.78,1.73,3.5,3.45,6.5,5.91
+2015-10-13 20:45:00,Qualification,Belgium,Israel,3:1,1.39,1.32,5.84,5.39,12.0,10.52
+2015-10-13 20:45:00,Qualification,Bulgaria,Azerbaijan,2:0,1.74,1.68,3.8,3.59,6.48,5.95
+2015-10-13 20:45:00,Qualification,Cyprus,Bosnia & Herzegovina,2:3,4.5,4.21,3.9,3.7,1.96,1.88
+2015-10-13 20:45:00,Qualification,Italy,Norway,2:1,1.91,1.88,3.61,3.47,4.85,4.5
+2015-10-13 20:45:00,Qualification,Latvia,Kazakhstan,0:1,2.35,2.26,3.3,3.22,3.7,3.48
+2015-10-13 20:45:00,Qualification,Malta,Croatia,0:1,47.28,30.92,13.0,10.65,1.11,1.1
+2015-10-13 20:45:00,Qualification,Netherlands,Czech Republic,2:3,1.59,1.54,4.5,4.27,6.7,6.36
+2015-10-13 20:45:00,Qualification,Turkey,Iceland,1:0,1.57,1.55,4.15,3.93,7.63,7.16
+2015-10-13 20:45:00,Qualification,Wales,Andorra,2:0,1.05,1.04,23.11,17.2,69.0,55.45
+2015-10-12 20:45:00,Qualification,Belarus,North Macedonia,0:0,1.91,1.84,3.6,3.47,5.3,4.8
+2015-10-12 20:45:00,Qualification,Estonia,Switzerland,0:1,5.22,4.99,3.75,3.5,1.85,1.8
+2015-10-12 20:45:00,Qualification,Lithuania,England,0:3,11.0,9.53,4.9,4.61,1.42,1.4
+2015-10-12 20:45:00,Qualification,Luxembourg,Slovakia,2:4,14.43,12.15,5.9,5.31,1.33,1.3
+2015-10-12 20:45:00,Qualification,San Marino,Slovenia,0:2,71.0,53.03,23.0,19.82,1.04,1.03
+2015-10-12 20:45:00,Qualification,Ukraine,Spain,0:1,2.7,2.66,3.55,3.32,2.82,2.77
+2015-10-12 18:00:00,Qualification,Austria,Liechtenstein,3:0,1.05,1.04,20.5,15.75,71.0,49.1
+2015-10-12 18:00:00,Qualification,Russia,Montenegro,2:0,1.33,1.33,5.5,5.5,12.0,12.0
+2015-10-12 18:00:00,Qualification,Sweden,Moldova,2:0,1.19,1.17,9.4,7.49,30.0,21.31
+2015-10-11 20:45:00,Qualification,Germany,Georgia,2:1,1.06,1.05,19.0,15.24,67.0,47.42
+2015-10-11 20:45:00,Qualification,Gibraltar,Scotland,0:6,77.0,52.0,26.0,19.59,1.05,1.04
+2015-10-11 20:45:00,Qualification,Poland,Ireland,2:1,2.12,2.02,3.48,3.35,4.5,4.14
+2015-10-11 18:00:00,Qualification,Armenia,Albania,0:3,3.85,3.71,3.6,3.39,2.17,2.1
+2015-10-11 18:00:00,Qualification,Faroe Islands,Romania,0:3,19.36,13.7,6.2,5.54,1.3,1.28
+2015-10-11 18:00:00,Qualification,Finland,Northern Ireland,1:1,2.52,2.42,3.25,3.1,3.55,3.32
+2015-10-11 18:00:00,Qualification,Greece,Hungary,4:3,2.72,2.6,3.19,3.05,3.16,3.05
+2015-10-11 18:00:00,Qualification,Serbia,Portugal,1:2,2.66,2.57,3.21,3.1,3.2,3.04
+2015-10-10 20:45:00,Qualification,Andorra,Belgium,1:4,81.0,55.37,31.0,23.1,1.04,1.02
+2015-10-10 20:45:00,Qualification,Bosnia & Herzegovina,Wales,2:0,2.17,2.08,3.4,3.29,4.33,4.01
+2015-10-10 20:45:00,Qualification,Croatia,Bulgaria,3:0,,,,,,
+2015-10-10 20:45:00,Qualification,Czech Republic,Turkey,0:2,,,,,,
+2015-10-10 20:45:00,Qualification,Israel,Cyprus,1:2,1.62,1.56,4.45,4.03,7.25,6.65
+2015-10-10 18:00:00,Qualification,Azerbaijan,Italy,1:3,15.0,12.34,5.0,4.63,1.38,1.35
+2015-10-10 18:00:00,Qualification,Iceland,Latvia,2:2,1.45,1.44,4.67,4.42,8.5,8.09
+2015-10-10 18:00:00,Qualification,Kazakhstan,Netherlands,1:2,,,,,,
+2015-10-10 18:00:00,Qualification,Norway,Malta,2:0,1.17,1.15,8.73,7.92,26.23,21.79
+2015-10-09 20:45:00,Qualification,England,Estonia,2:0,1.14,1.14,9.0,8.51,32.0,25.44
+2015-10-09 20:45:00,Qualification,Liechtenstein,Sweden,0:2,46.0,32.3,10.54,9.37,1.11,1.1
+2015-10-09 20:45:00,Qualification,Moldova,Russia,1:2,13.0,11.58,5.8,5.19,1.33,1.31
+2015-10-09 20:45:00,Qualification,Montenegro,Austria,2:3,3.5,3.33,3.35,3.25,2.4,2.32
+2015-10-09 20:45:00,Qualification,Slovenia,Lithuania,1:1,1.4,1.39,4.85,4.55,12.0,9.99
+2015-10-09 20:45:00,Qualification,Switzerland,San Marino,7:0,1.01,1.01,67.0,35.0,106.0,71.33
+2015-10-09 20:45:00,Qualification,North Macedonia,Ukraine,0:2,6.5,6.04,3.92,3.68,1.68,1.66
+2015-10-09 20:45:00,Qualification,Slovakia,Belarus,0:1,1.67,1.63,4.0,3.81,6.6,5.98
+2015-10-09 20:45:00,Qualification,Spain,Luxembourg,4:0,1.02,1.01,41.0,27.54,81.0,53.0
+2015-10-08 20:45:00,Qualification,Albania,Serbia,0:2,3.5,3.22,3.2,3.03,2.6,2.5
+2015-10-08 20:45:00,Qualification,Hungary,Faroe Islands,2:1,1.25,1.24,6.3,5.97,18.0,15.4
+2015-10-08 20:45:00,Qualification,Ireland,Germany,1:0,9.5,8.16,5.02,4.74,1.44,1.42
+2015-10-08 20:45:00,Qualification,Northern Ireland,Greece,3:1,2.67,2.6,2.94,2.85,3.45,3.31
+2015-10-08 20:45:00,Qualification,Portugal,Denmark,1:0,1.77,1.73,3.7,3.58,6.06,5.48
+2015-10-08 20:45:00,Qualification,Romania,Finland,1:1,1.65,1.59,3.76,3.61,8.5,7.7
+2015-10-08 20:45:00,Qualification,Scotland,Poland,2:2,3.35,3.08,3.34,3.2,2.55,2.46
+2015-10-08 18:00:00,Qualification,Georgia,Gibraltar,4:0,1.05,1.04,23.0,16.92,51.0,35.79
+2015-09-08 20:45:00,Qualification,Belarus,Luxembourg,2:0,1.4,1.38,5.0,4.84,10.0,9.55
+2015-09-08 20:45:00,Qualification,England,Switzerland,2:0,1.8,1.75,3.75,3.65,5.9,5.27
+2015-09-08 20:45:00,Qualification,Liechtenstein,Russia,0:7,34.41,27.2,9.4,8.64,1.14,1.13
+2015-09-08 20:45:00,Qualification,Lithuania,San Marino,2:1,1.1,1.08,13.0,11.37,51.0,38.82
+2015-09-08 20:45:00,Qualification,Moldova,Montenegro,0:2,4.44,4.2,3.36,3.23,2.07,2.02
+2015-09-08 20:45:00,Qualification,North Macedonia,Spain,0:1,29.23,22.72,8.37,7.55,1.19,1.16
+2015-09-08 20:45:00,Qualification,Slovakia,Ukraine,0:0,3.11,2.95,3.14,2.98,2.81,2.74
+2015-09-08 20:45:00,Qualification,Slovenia,Estonia,1:0,1.57,1.53,4.08,3.9,9.41,7.89
+2015-09-08 20:45:00,Qualification,Sweden,Austria,1:4,2.34,2.29,3.4,3.26,3.65,3.44
+2015-09-07 20:45:00,Qualification,Albania,Portugal,0:1,5.31,5.06,3.3,3.21,1.97,1.89
+2015-09-07 20:45:00,Qualification,Finland,Faroe Islands,1:0,1.39,1.36,5.25,4.89,12.0,10.39
+2015-09-07 20:45:00,Qualification,Ireland,Georgia,1:0,1.5,1.47,4.35,4.16,9.5,8.48
+2015-09-07 20:45:00,Qualification,Northern Ireland,Hungary,1:1,2.65,2.56,3.0,2.94,3.45,3.26
+2015-09-07 20:45:00,Qualification,Poland,Gibraltar,8:1,1.01,1.01,56.0,34.33,126.0,86.67
+2015-09-07 20:45:00,Qualification,Romania,Greece,0:0,2.09,2.01,3.11,3.05,5.0,4.71
+2015-09-07 20:45:00,Qualification,Scotland,Germany,2:3,9.2,8.22,4.75,4.56,1.45,1.44
+2015-09-07 18:00:00,Qualification,Armenia,Denmark,0:0,4.83,4.48,3.55,3.5,1.95,1.9
+2015-09-06 20:45:00,Qualification,Bosnia & Herzegovina,Andorra,3:0,1.02,1.01,51.0,28.12,91.0,60.14
+2015-09-06 20:45:00,Qualification,Cyprus,Belgium,0:1,17.0,14.54,6.6,5.96,1.27,1.25
+2015-09-06 20:45:00,Qualification,Iceland,Kazakhstan,0:0,1.39,1.36,5.3,4.97,11.0,9.93
+2015-09-06 20:45:00,Qualification,Italy,Bulgaria,1:0,1.4,1.39,4.75,4.54,11.5,10.14
+2015-09-06 18:00:00,Qualification,Latvia,Czech Republic,1:2,7.5,6.66,4.15,3.96,1.6,1.57
+2015-09-06 18:00:00,Qualification,Malta,Azerbaijan,2:2,3.2,3.13,3.04,2.95,2.71,2.62
+2015-09-06 18:00:00,Qualification,Norway,Croatia,2:0,4.45,4.19,3.32,3.19,2.1,2.04
+2015-09-06 18:00:00,Qualification,Turkey,Netherlands,3:0,3.44,3.19,3.4,3.31,2.42,2.36
+2015-09-06 18:00:00,Qualification,Wales,Israel,0:0,1.96,1.92,3.31,3.25,5.2,4.77
+2015-09-05 20:45:00,Qualification,Austria,Moldova,1:0,,,,,,
+2015-09-05 20:45:00,Qualification,Montenegro,Liechtenstein,2:0,1.23,1.21,7.2,6.79,19.0,16.03
+2015-09-05 20:45:00,Qualification,Spain,Slovakia,2:0,1.22,1.22,6.0,6.0,13.0,13.0
+2015-09-05 20:45:00,Qualification,Switzerland,Slovenia,3:2,1.66,1.61,4.1,3.91,6.5,6.13
+2015-09-05 18:00:00,Qualification,Estonia,Lithuania,1:0,2.4,2.33,3.05,2.97,3.75,3.64
+2015-09-05 18:00:00,Qualification,Luxembourg,North Macedonia,1:0,3.75,3.65,3.34,3.23,2.25,2.19
+2015-09-05 18:00:00,Qualification,Russia,Sweden,1:0,2.17,2.13,3.45,3.25,3.94,3.83
+2015-09-05 18:00:00,Qualification,San Marino,England,0:6,,,,,,
+2015-09-05 18:00:00,Qualification,Ukraine,Belarus,3:1,1.54,1.5,4.33,4.09,9.0,7.87
+2015-09-04 20:45:00,Qualification,Germany,Poland,3:1,1.38,1.36,5.32,5.12,10.33,9.15
+2015-09-04 20:45:00,Qualification,Gibraltar,Ireland,0:4,74.0,56.88,34.0,22.82,1.02,1.02
+2015-09-04 20:45:00,Qualification,Greece,Finland,0:1,2.07,2.0,3.34,3.16,4.8,4.44
+2015-09-04 20:45:00,Qualification,Hungary,Romania,0:0,3.1,2.93,3.0,2.95,2.94,2.79
+2015-09-04 20:45:00,Qualification,Denmark,Albania,0:0,1.71,1.67,3.76,3.66,6.4,6.05
+2015-09-04 20:45:00,Qualification,Faroe Islands,Northern Ireland,1:3,6.5,5.9,3.7,3.57,1.72,1.7
+2015-09-04 20:45:00,Qualification,Serbia,Armenia,2:0,1.56,1.53,4.5,4.24,7.26,6.58
+2015-09-04 18:00:00,Qualification,Georgia,Scotland,1:0,4.4,4.19,3.26,3.17,2.1,2.06
+2015-09-03 20:45:00,Qualification,Belgium,Bosnia & Herzegovina,3:1,1.6,1.57,4.25,4.1,7.0,6.37
+2015-09-03 20:45:00,Qualification,Bulgaria,Norway,0:1,2.74,2.64,3.2,3.05,3.1,3.02
+2015-09-03 20:45:00,Qualification,Cyprus,Wales,0:1,4.5,4.19,3.3,3.19,2.12,2.05
+2015-09-03 20:45:00,Qualification,Czech Republic,Kazakhstan,2:1,1.29,1.26,6.4,5.98,14.0,12.39
+2015-09-03 20:45:00,Qualification,Israel,Andorra,4:0,1.05,1.04,23.0,17.56,88.86,54.19
+2015-09-03 20:45:00,Qualification,Italy,Malta,1:0,1.07,1.05,17.0,15.46,67.0,46.21
+2015-09-03 20:45:00,Qualification,Netherlands,Iceland,0:1,1.32,1.3,6.0,5.62,12.0,10.86
+2015-09-03 20:45:00,Qualification,Turkey,Latvia,1:1,1.26,1.25,6.6,6.03,17.0,14.66
+2015-09-03 18:00:00,Qualification,Azerbaijan,Croatia,0:0,13.0,10.88,5.6,5.01,1.36,1.33
+2015-06-14 20:45:00,Qualification,Belarus,Spain,0:1,16.0,12.36,6.32,5.75,1.33,1.28
+2015-06-14 20:45:00,Qualification,Lithuania,Switzerland,1:2,13.0,10.96,5.52,5.09,1.36,1.33
+2015-06-14 20:45:00,Qualification,Slovakia,North Macedonia,2:1,1.45,1.4,5.1,4.63,11.0,8.95
+2015-06-14 20:45:00,Qualification,Sweden,Montenegro,3:1,1.56,1.54,4.25,3.98,7.9,7.16
+2015-06-14 18:00:00,Qualification,Estonia,San Marino,2:0,1.1,1.08,14.0,11.49,42.5,32.31
+2015-06-14 18:00:00,Qualification,Liechtenstein,Moldova,1:1,4.6,4.09,3.5,3.29,2.12,2.03
+2015-06-14 18:00:00,Qualification,Russia,Austria,0:1,2.03,1.96,3.45,3.28,4.9,4.47
+2015-06-14 18:00:00,Qualification,Slovenia,England,2:3,5.3,4.71,3.42,3.32,1.95,1.9
+2015-06-14 18:00:00,Qualification,Ukraine,Luxembourg,3:0,1.13,1.11,12.5,9.61,46.0,28.65
+2015-06-13 20:45:00,Qualification,Denmark,Serbia,2:0,2.5,2.4,3.3,3.2,3.48,3.22
+2015-06-13 20:45:00,Qualification,Faroe Islands,Greece,2:1,8.1,7.16,4.35,4.09,1.55,1.51
+2015-06-13 20:45:00,Qualification,Gibraltar,Germany,0:7,91.0,65.81,51.0,28.17,1.01,1.01
+2015-06-13 20:45:00,Qualification,Northern Ireland,Romania,0:0,3.6,3.32,3.07,2.98,2.52,2.47
+2015-06-13 18:00:00,Qualification,Armenia,Portugal,2:3,10.0,8.56,4.65,4.38,1.45,1.43
+2015-06-13 18:00:00,Qualification,Finland,Hungary,0:1,2.27,2.22,3.25,3.13,3.8,3.65
+2015-06-13 18:00:00,Qualification,Ireland,Scotland,1:1,2.31,2.27,3.09,3.01,3.99,3.73
+2015-06-13 18:00:00,Qualification,Poland,Georgia,4:0,1.35,1.32,5.5,5.09,14.5,11.66
+2015-06-12 20:45:00,Qualification,Andorra,Cyprus,1:3,15.0,12.37,5.65,5.21,1.33,1.3
+2015-06-12 20:45:00,Qualification,Bosnia & Herzegovina,Israel,3:1,1.64,1.6,4.4,4.15,6.25,5.73
+2015-06-12 20:45:00,Qualification,Croatia,Italy,1:1,2.72,2.64,3.05,2.98,3.2,3.06
+2015-06-12 20:45:00,Qualification,Iceland,Czech Republic,2:1,2.8,2.7,3.21,3.12,2.99,2.87
+2015-06-12 20:45:00,Qualification,Latvia,Netherlands,0:2,19.0,16.3,7.5,6.7,1.22,1.21
+2015-06-12 20:45:00,Qualification,Malta,Bulgaria,0:1,10.5,9.11,4.65,4.36,1.44,1.42
+2015-06-12 20:45:00,Qualification,Norway,Azerbaijan,0:0,1.36,1.33,5.3,4.94,13.5,11.4
+2015-06-12 20:45:00,Qualification,Wales,Belgium,1:0,4.95,4.53,3.4,3.31,2.0,1.94
+2015-06-12 18:00:00,Qualification,Kazakhstan,Turkey,0:1,9.0,7.73,4.65,4.36,1.51,1.47
+2015-03-31 20:45:00,Qualification,Israel,Belgium,0:1,9.7,8.18,4.7,4.4,1.48,1.45
+2015-03-29 20:45:00,Qualification,Hungary,Greece,0:0,2.71,2.6,3.25,3.13,3.2,2.99
+2015-03-29 20:45:00,Qualification,Ireland,Poland,1:1,2.7,2.59,3.25,3.1,3.2,3.03
+2015-03-29 20:45:00,Qualification,Portugal,Serbia,2:1,1.6,1.57,4.2,3.95,7.0,6.59
+2015-03-29 18:00:00,Qualification,Albania,Armenia,2:1,2.25,2.08,3.35,3.2,4.5,4.08
+2015-03-29 18:00:00,Qualification,Georgia,Germany,0:2,29.0,23.89,10.5,9.3,1.14,1.12
+2015-03-29 18:00:00,Qualification,Northern Ireland,Finland,2:1,2.7,2.63,3.12,3.03,3.2,3.03
+2015-03-29 18:00:00,Qualification,Romania,Faroe Islands,1:0,1.14,1.12,10.5,9.43,33.02,27.43
+2015-03-29 18:00:00,Qualification,Scotland,Gibraltar,6:1,1.02,1.01,42.0,28.19,101.0,67.62
+2015-03-28 20:45:00,Qualification,Andorra,Bosnia & Herzegovina,0:3,41.26,35.78,17.0,13.48,1.11,1.07
+2015-03-28 20:45:00,Qualification,Netherlands,Turkey,1:1,1.45,1.43,5.0,4.65,9.28,8.19
+2015-03-28 20:45:00,Qualification,Belgium,Cyprus,5:0,1.13,1.1,13.0,10.64,35.83,29.64
+2015-03-28 20:45:00,Qualification,Bulgaria,Italy,2:2,4.78,4.58,3.5,3.31,2.03,1.92
+2015-03-28 18:00:00,Qualification,Azerbaijan,Malta,2:0,1.7,1.65,3.75,3.58,6.8,6.22
+2015-03-28 18:00:00,Qualification,Croatia,Norway,5:1,1.49,1.46,4.4,4.27,9.5,8.5
+2015-03-28 18:00:00,Qualification,Czech Republic,Latvia,1:1,1.21,1.18,7.4,6.96,23.0,20.68
+2015-03-28 18:00:00,Qualification,Israel,Wales,0:3,2.3,2.21,3.35,3.25,3.75,3.58
+2015-03-28 16:00:00,Qualification,Kazakhstan,Iceland,0:3,5.5,5.01,3.55,3.39,1.88,1.84
+2015-03-27 20:45:00,Qualification,England,Lithuania,4:0,1.11,1.1,12.0,10.28,41.0,34.78
+2015-03-27 20:45:00,Qualification,Liechtenstein,Austria,0:5,23.0,19.49,8.0,7.28,1.2,1.18
+2015-03-27 20:45:00,Qualification,Moldova,Sweden,0:2,11.0,8.66,4.85,4.48,1.47,1.43
+2015-03-27 20:45:00,Qualification,Montenegro,Russia,award.,4.05,3.71,3.5,3.21,2.25,2.18
+2015-03-27 20:45:00,Qualification,North Macedonia,Belarus,1:2,3.12,3.0,3.14,3.07,2.7,2.63
+2015-03-27 20:45:00,Qualification,Slovakia,Luxembourg,3:0,1.21,1.18,8.7,7.45,26.0,18.94
+2015-03-27 20:45:00,Qualification,Slovenia,San Marino,6:0,1.03,1.02,34.0,22.72,81.0,61.6
+2015-03-27 20:45:00,Qualification,Spain,Ukraine,1:0,1.34,1.32,5.8,5.19,13.0,11.21
+2015-03-27 20:45:00,Qualification,Switzerland,Estonia,3:0,1.2,1.19,7.5,6.96,23.0,18.6
+2014-11-16 20:45:00,Qualification,Bulgaria,Malta,1:1,1.21,1.19,7.67,6.79,23.28,18.78
+2014-11-16 20:45:00,Qualification,Czech Republic,Iceland,2:1,1.79,1.73,3.8,3.68,5.5,5.17
+2014-11-16 20:45:00,Qualification,Israel,Bosnia & Herzegovina,3:0,2.55,2.46,3.33,3.19,3.34,3.14
+2014-11-16 20:45:00,Qualification,Italy,Croatia,1:1,2.4,2.34,3.2,3.09,3.7,3.45
+2014-11-16 20:45:00,Qualification,Turkey,Kazakhstan,3:1,1.25,1.24,6.6,6.22,16.0,14.06
+2014-11-16 18:00:00,Qualification,Azerbaijan,Norway,0:1,6.0,5.56,3.75,3.55,1.81,1.72
+2014-11-16 18:00:00,Qualification,Belgium,Wales,0:0,1.41,1.37,5.25,4.98,10.55,9.28
+2014-11-16 18:00:00,Qualification,Cyprus,Andorra,5:0,1.19,1.17,8.0,7.41,25.4,19.37
+2014-11-16 18:00:00,Qualification,Netherlands,Latvia,6:0,1.12,1.11,11.0,9.83,34.0,27.73
+2014-11-15 20:45:00,Qualification,Montenegro,Sweden,1:1,3.65,3.43,3.5,3.34,2.3,2.23
+2014-11-15 20:45:00,Qualification,North Macedonia,Slovakia,0:2,4.85,4.4,3.5,3.34,2.01,1.94
+2014-11-15 20:45:00,Qualification,Spain,Belarus,3:0,1.11,1.08,14.5,11.63,47.09,32.88
+2014-11-15 20:45:00,Qualification,Switzerland,Lithuania,4:0,1.26,1.25,6.37,5.84,17.0,14.62
+2014-11-15 18:00:00,Qualification,Austria,Russia,1:0,3.05,2.88,3.4,3.17,2.8,2.68
+2014-11-15 18:00:00,Qualification,England,Slovenia,3:1,1.38,1.36,5.1,4.77,12.0,10.53
+2014-11-15 18:00:00,Qualification,Luxembourg,Ukraine,0:3,17.0,14.88,6.2,5.78,1.27,1.25
+2014-11-15 18:00:00,Qualification,Moldova,Liechtenstein,0:1,1.42,1.37,5.0,4.75,11.57,9.96
+2014-11-15 18:00:00,Qualification,San Marino,Estonia,0:0,26.0,18.8,7.9,6.95,1.22,1.19
+2014-11-14 20:45:00,Qualification,Germany,Gibraltar,4:0,1.01,1.01,67.0,39.0,151.0,97.5
+2014-11-14 20:45:00,Qualification,Greece,Faroe Islands,0:1,1.2,1.18,7.4,6.95,26.0,21.84
+2014-11-14 20:45:00,Qualification,Hungary,Finland,1:0,2.54,2.42,3.29,3.22,3.33,3.14
+2014-11-14 20:45:00,Qualification,Portugal,Armenia,1:0,1.21,1.18,8.05,7.47,20.0,16.97
+2014-11-14 20:45:00,Qualification,Romania,Northern Ireland,2:0,1.62,1.58,4.0,3.83,7.5,6.77
+2014-11-14 20:45:00,Qualification,Scotland,Ireland,1:0,2.64,2.5,3.2,3.12,3.3,3.12
+2014-11-14 20:45:00,Qualification,Serbia,Denmark,1:3,2.15,2.09,3.55,3.38,3.9,3.73
+2014-11-14 18:00:00,Qualification,Georgia,Poland,0:4,5.5,4.83,3.55,3.32,1.95,1.88
+2014-10-14 20:45:00,Qualification,Denmark,Portugal,0:1,3.7,3.3,3.4,3.3,2.38,2.3
+2014-10-14 20:45:00,Qualification,Faroe Islands,Hungary,0:1,10.5,8.97,5.5,5.05,1.4,1.37
+2014-10-14 20:45:00,Qualification,Finland,Romania,0:2,2.72,2.61,3.15,3.04,3.23,3.03
+2014-10-14 20:45:00,Qualification,Gibraltar,Georgia,0:3,39.28,28.03,9.78,9.19,1.14,1.11
+2014-10-14 20:45:00,Qualification,Greece,Northern Ireland,0:2,1.62,1.57,3.9,3.82,7.63,6.92
+2014-10-14 20:45:00,Qualification,Poland,Scotland,2:2,1.87,1.85,3.6,3.45,5.1,4.72
+2014-10-14 20:45:00,Qualification,San Marino,Switzerland,0:4,101.0,69.24,39.0,26.2,1.02,1.01
+2014-10-14 20:45:00,Qualification,Serbia,Albania ,award.,1.7,1.62,3.85,3.7,7.1,6.49
+2014-10-14 20:45:00,Qualification,Germany,Ireland,1:1,1.23,1.21,8.04,6.8,17.0,14.95
+2014-10-13 20:45:00,Qualification,Andorra,Israel,1:4,29.0,22.45,10.0,9.34,1.15,1.13
+2014-10-13 20:45:00,Qualification,Bosnia & Herzegovina,Belgium,1:1,4.1,3.62,3.75,3.41,2.2,2.12
+2014-10-13 20:45:00,Qualification,Croatia,Azerbaijan,6:0,1.18,1.17,8.0,7.35,26.0,20.59
+2014-10-13 20:45:00,Qualification,Iceland,Netherlands,2:0,7.6,6.65,4.45,4.21,1.55,1.53
+2014-10-13 20:45:00,Qualification,Latvia,Turkey,1:1,6.6,6.09,4.0,3.77,1.67,1.64
+2014-10-13 20:45:00,Qualification,Malta,Italy,0:1,36.0,29.25,12.0,10.59,1.12,1.1
+2014-10-13 20:45:00,Qualification,Norway,Bulgaria,2:1,2.2,2.11,3.45,3.28,4.35,3.82
+2014-10-13 20:45:00,Qualification,Wales,Cyprus,2:1,1.65,1.58,4.15,3.94,7.1,6.52
+2014-10-13 18:00:00,Qualification,Kazakhstan,Czech Republic,2:4,8.7,7.83,4.4,4.29,1.5,1.47
+2014-10-12 20:45:00,Qualification,Belarus,Slovakia,1:3,3.12,2.97,3.25,3.12,2.7,2.6
+2014-10-12 20:45:00,Qualification,Lithuania,Slovenia,0:2,3.55,3.31,3.3,3.17,2.44,2.36
+2014-10-12 20:45:00,Qualification,Luxembourg,Spain,0:4,88.0,56.36,21.0,18.33,1.05,1.03
+2014-10-12 20:45:00,Qualification,Sweden,Liechtenstein,2:0,1.06,1.04,17.0,14.82,99.0,63.93
+2014-10-12 18:00:00,Qualification,Austria,Montenegro,1:0,1.75,1.73,3.8,3.62,5.8,5.31
+2014-10-12 18:00:00,Qualification,Estonia,England,0:1,16.0,13.48,6.0,5.72,1.29,1.27
+2014-10-12 18:00:00,Qualification,Russia,Moldova,1:1,1.12,1.1,11.0,10.08,38.06,31.52
+2014-10-12 18:00:00,Qualification,Ukraine,North Macedonia,1:0,1.35,1.32,5.2,4.93,14.2,12.25
+2014-10-11 20:45:00,Qualification,Albania,Denmark,1:1,4.16,3.77,3.35,3.26,2.2,2.14
+2014-10-11 20:45:00,Qualification,Finland,Greece,1:1,2.65,2.59,3.12,3.02,3.26,3.09
+2014-10-11 20:45:00,Qualification,Northern Ireland,Faroe Islands,2:0,1.3,1.28,6.0,5.41,17.0,13.98
+2014-10-11 20:45:00,Qualification,Poland,Germany,2:0,6.1,5.57,4.15,3.9,1.7,1.65
+2014-10-11 18:00:00,Qualification,Armenia,Serbia,1:1,7.5,6.64,4.1,3.85,1.65,1.58
+2014-10-11 18:00:00,Qualification,Ireland,Gibraltar,7:0,1.03,1.02,34.0,23.57,81.0,63.57
+2014-10-11 18:00:00,Qualification,Romania,Hungary,1:1,1.75,1.7,3.75,3.61,6.3,5.67
+2014-10-11 18:00:00,Qualification,Scotland,Georgia,1:0,1.7,1.68,3.8,3.63,6.9,5.89
+2014-10-10 20:45:00,Qualification,Belgium,Andorra,6:0,1.02,1.01,46.0,29.07,97.0,68.71
+2014-10-10 20:45:00,Qualification,Bulgaria,Croatia,0:1,4.6,4.1,3.4,3.28,2.1,2.03
+2014-10-10 20:45:00,Qualification,Cyprus,Israel,1:2,4.1,3.83,3.35,3.28,2.16,2.1
+2014-10-10 20:45:00,Qualification,Italy,Azerbaijan,2:1,1.1,1.09,12.0,10.59,42.0,34.38
+2014-10-10 20:45:00,Qualification,Latvia,Iceland,0:3,3.97,3.68,3.35,3.26,2.25,2.16
+2014-10-10 20:45:00,Qualification,Malta,Norway,0:3,8.2,7.91,4.5,4.32,1.52,1.47
+2014-10-10 20:45:00,Qualification,Netherlands,Kazakhstan,3:1,1.08,1.06,16.0,13.0,58.0,44.43
+2014-10-10 20:45:00,Qualification,Turkey,Czech Republic,1:2,2.59,2.48,3.25,3.21,3.3,3.05
+2014-10-10 20:45:00,Qualification,Wales,Bosnia & Herzegovina,0:0,3.44,3.32,3.45,3.34,2.34,2.26
+2014-10-09 20:45:00,Qualification,Belarus,Ukraine,0:2,4.0,3.58,3.35,3.21,2.3,2.23
+2014-10-09 20:45:00,Qualification,England,San Marino,5:0,1.01,1.01,79.0,38.36,101.0,92.14
+2014-10-09 20:45:00,Qualification,Liechtenstein,Montenegro,0:0,16.0,13.71,6.3,5.88,1.27,1.24
+2014-10-09 20:45:00,Qualification,Lithuania,Estonia,1:0,2.3,2.24,3.25,3.15,3.85,3.59
+2014-10-09 20:45:00,Qualification,Moldova,Austria,1:2,7.2,6.42,4.0,3.79,1.62,1.61
+2014-10-09 20:45:00,Qualification,North Macedonia,Luxembourg,3:2,1.58,1.53,4.2,4.04,7.5,7.03
+2014-10-09 20:45:00,Qualification,Slovakia,Spain,2:1,10.0,9.12,4.8,4.48,1.48,1.41
+2014-10-09 20:45:00,Qualification,Slovenia,Switzerland,1:0,3.85,3.58,3.33,3.22,2.3,2.21
+2014-10-09 20:45:00,Qualification,Sweden,Russia,1:1,2.92,2.78,3.25,3.15,2.9,2.79
+2014-09-09 20:45:00,Qualification,Andorra,Wales,1:2,41.0,25.69,9.5,8.57,1.16,1.13
+2014-09-09 20:45:00,Qualification,Bosnia & Herzegovina,Cyprus,1:2,1.2,1.17,8.1,7.66,22.0,18.75
+2014-09-09 20:45:00,Qualification,Croatia,Malta,2:0,1.05,1.04,22.0,16.14,79.0,52.14
+2014-09-09 20:45:00,Qualification,Czech Republic,Netherlands,2:1,4.75,4.21,3.5,3.42,2.03,1.96
+2014-09-09 20:45:00,Qualification,Iceland,Turkey,3:0,4.75,4.22,3.46,3.36,2.04,1.97
+2014-09-09 20:45:00,Qualification,Norway,Italy,0:2,5.2,4.71,3.5,3.33,1.96,1.89
+2014-09-09 18:00:00,Qualification,Azerbaijan,Bulgaria,1:2,4.08,3.75,3.2,3.13,2.26,2.18
+2014-09-09 18:00:00,Qualification,Kazakhstan,Latvia,0:0,2.82,2.72,3.2,3.1,2.96,2.83
+2014-09-08 20:45:00,Qualification,Austria,Sweden,1:1,2.46,2.4,3.4,3.29,3.4,3.16
+2014-09-08 20:45:00,Qualification,Estonia,Slovenia,1:0,5.0,4.61,3.6,3.48,1.9,1.86
+2014-09-08 20:45:00,Qualification,Luxembourg,Belarus,1:1,8.8,7.78,4.4,4.04,1.53,1.5
+2014-09-08 20:45:00,Qualification,Montenegro,Moldova,2:0,1.68,1.59,4.2,4.0,6.5,5.98
+2014-09-08 20:45:00,Qualification,San Marino,Lithuania,0:2,29.0,20.21,8.2,7.41,1.17,1.17
+2014-09-08 20:45:00,Qualification,Spain,North Macedonia,5:1,1.1,1.09,14.0,11.57,34.0,27.0
+2014-09-08 20:45:00,Qualification,Switzerland,England,0:2,2.9,2.76,3.12,3.04,2.97,2.88
+2014-09-08 20:45:00,Qualification,Ukraine,Slovakia,0:1,1.89,1.81,3.6,3.5,5.35,4.88
+2014-09-08 18:00:00,Qualification,Russia,Liechtenstein,4:0,1.05,1.05,23.0,16.21,68.0,45.29
+2014-09-07 20:45:00,Qualification,Faroe Islands,Finland,1:3,12.0,10.62,6.0,5.45,1.32,1.3
+2014-09-07 20:45:00,Qualification,Germany,Scotland,2:1,1.2,1.18,8.3,7.71,17.0,15.37
+2014-09-07 20:45:00,Qualification,Gibraltar,Poland ,0:7,41.0,33.0,15.0,13.29,1.09,1.06
+2014-09-07 20:45:00,Qualification,Greece,Romania,0:1,2.12,2.07,3.4,3.18,4.65,4.11
+2014-09-07 20:45:00,Qualification,Portugal,Albania,0:1,1.36,1.34,5.3,5.09,12.0,10.49
+2014-09-07 18:00:00,Qualification,Denmark,Armenia,2:1,1.39,1.36,5.27,4.89,11.36,9.71
+2014-09-07 18:00:00,Qualification,Georgia,Ireland,1:2,3.6,3.39,3.2,3.14,2.4,2.33
+2014-09-07 18:00:00,Qualification,Hungary,Northern Ireland,1:2,1.7,1.64,4.0,3.77,6.6,6.01

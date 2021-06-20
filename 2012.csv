@@ -1,51 +1,280 @@
-date,home,away,score,max_odd_home,mean_odd_home,max_odd_draw,mean_odd_draw,max_odd_away,mean_odd_away
-2012-07-01 20:45:00,Spain,Italy,4:0,2.13,2.13,3.1,3.09,4.55,3.88
-2012-06-28 20:45:00,Germany,Italy,1:2,1.87,1.87,3.43,3.35,4.8,4.62
-2012-06-27 20:45:00,Portugal,Spain,0:1 pen.,4.33,4.33,3.4,3.26,2.02,1.95
-2012-06-24 20:45:00,England,Italy,0:1 pen.,2.86,2.86,3.0,2.91,2.91,2.8
-2012-06-23 20:45:00,Spain,France,2:0,1.88,1.88,3.4,3.33,4.88,4.59
-2012-06-22 20:45:00,Germany,Greece,4:2,1.32,1.32,5.5,5.24,11.0,9.88
-2012-06-21 20:45:00,Czech Republic,Portugal,0:1,5.84,5.84,3.75,3.59,1.69,1.66
-2012-06-19 20:45:00,England,Ukraine,1:0,1.98,1.98,3.4,3.31,4.25,4.1
-2012-06-19 20:45:00,Sweden,France,2:0,5.14,5.14,3.78,3.69,1.76,1.71
-2012-06-18 20:45:00,Croatia,Spain,0:1,9.44,9.44,4.01,3.71,1.5,1.48
-2012-06-18 20:45:00,Italy,Ireland,2:0,1.39,1.39,4.8,4.67,9.0,8.36
-2012-06-17 20:45:00,Denmark,Germany,1:2,7.05,7.05,4.33,3.95,1.57,1.53
-2012-06-17 20:45:00,Portugal,Netherlands,2:1,2.66,2.66,3.9,3.63,2.59,2.51
-2012-06-16 20:45:00,Czech Republic,Poland,1:0,3.22,3.22,3.4,3.32,2.44,2.27
-2012-06-16 20:45:00,Greece,Russia,1:0,4.94,4.94,3.7,3.58,1.83,1.75
-2012-06-15 21:00:00,Sweden,England,2:3,3.32,3.32,3.1,3.09,2.43,2.34
-2012-06-15 18:00:00,Ukraine,France,0:2,4.0,4.0,3.1,3.09,2.2,2.1
-2012-06-14 20:45:00,Spain,Ireland,4:0,1.22,1.22,6.68,6.24,15.3,13.8
-2012-06-14 18:00:00,Italy,Croatia,1:1,2.41,2.41,3.2,3.11,3.3,3.19
-2012-06-13 20:45:00,Netherlands,Germany,1:2,2.98,2.98,3.33,3.22,2.65,2.47
-2012-06-13 18:00:00,Denmark,Portugal,2:3,4.58,4.58,3.61,3.48,1.91,1.84
-2012-06-12 20:45:00,Poland,Russia,1:1,3.27,3.27,3.3,3.27,2.44,2.28
-2012-06-12 18:00:00,Greece,Czech Republic,1:2,3.4,3.4,3.3,3.18,2.29,2.26
-2012-06-11 20:45:00,Ukraine,Sweden,2:1,2.63,2.63,3.36,3.22,2.9,2.79
-2012-06-11 18:00:00,France,England,1:1,2.48,2.48,3.06,2.98,3.5,3.27
-2012-06-10 20:45:00,Ireland,Croatia,1:3,4.15,4.15,3.25,3.15,2.1,2.03
-2012-06-10 18:00:00,Spain,Italy,1:1,1.75,1.75,3.54,3.41,5.95,5.36
-2012-06-09 20:45:00,Germany,Portugal,1:0,2.09,2.09,3.4,3.3,3.75,3.69
-2012-06-09 18:00:00,Netherlands,Denmark,0:1,1.71,1.71,3.7,3.56,5.5,5.37
-2012-06-08 20:45:00,Russia,Czech Republic,4:1,2.46,2.46,3.2,3.08,3.25,3.13
-2012-06-08 18:00:00,Poland,Greece,1:1,2.03,2.03,3.2,3.14,4.25,4.19
-2011-11-15 22:00:00,Portugal,Bosnia & Herzegovina ,6:2,1.37,1.37,4.84,4.51,9.91,9.14
-2011-11-15 20:45:00,Ireland,Estonia ,1:1,1.33,1.33,5.07,4.74,11.15,10.53
-2011-11-15 20:15:00,Montenegro,Czech Republic ,0:1,2.84,2.84,3.3,3.23,2.6,2.51
-2011-11-15 20:05:00,Croatia,Turkey ,0:0,1.66,1.66,3.83,3.63,6.25,5.62
-2011-11-11 20:45:00,Estonia,Ireland ,0:4,3.65,3.65,3.08,2.98,2.29,2.24
-2011-11-11 20:15:00,Czech Republic,Montenegro ,2:0,1.65,1.65,3.86,3.62,6.4,5.73
-2011-11-11 20:05:00,Turkey,Croatia ,0:3,2.25,2.25,3.23,3.15,3.6,3.38
-2011-11-11 20:00:00,Bosnia & Herzegovina,Portugal ,0:0,3.34,3.34,3.39,3.2,2.29,2.24
-2011-10-11 21:00:00,France,Bosnia & Herzegovina,1:1,1.54,1.54,4.15,4.01,7.0,6.3
-2011-10-11 20:45:00,Italy,Northern Ireland,3:0,1.17,1.17,7.71,6.74,24.8,16.97
-2011-10-11 20:45:00,Lithuania,Czech Republic,1:4,5.89,5.89,3.96,3.79,1.65,1.6
-2011-10-11 20:45:00,Slovenia,Serbia,1:0,5.39,5.39,3.84,3.76,1.7,1.64
-2011-10-11 20:45:00,Spain,Scotland,3:1,1.17,1.17,8.13,7.56,20.48,14.5
-2011-10-11 20:15:00,Denmark,Portugal,2:1,3.42,3.42,2.75,2.69,2.68,2.54
-2011-10-11 20:15:00,Norway,Cyprus,3:1,1.19,1.19,7.22,6.7,19.96,15.08
-2011-10-11 20:15:00,Sweden,Netherlands,3:2,2.64,2.64,3.45,3.36,2.7,2.61
-2011-10-11 20:15:00,Switzerland,Montenegro,2:0,1.57,1.57,4.07,3.85,6.63,6.19
-2011-10-11 20:05:00,Bulgaria,Wales,0:1,2.3,2.3,3.3,3.18,3.42,3.22
-2011-10-11 20:00:00,Hungary,Finland,0:0,1.85,1.85,3.6,3.48,4.5,4.3
+date,kind,home,away,score,max_odd_home,mean_odd_home,max_odd_draw,mean_odd_draw,max_odd_away,mean_odd_away
+2012-07-01 20:45:00,Play Offs,Spain,Italy,4:0,2.2,2.13,3.1,3.09,4.55,3.88
+2012-06-28 20:45:00,Play Offs,Germany,Italy,1:2,1.94,1.87,3.43,3.35,4.8,4.62
+2012-06-27 20:45:00,Play Offs,Portugal,Spain,0:1 pen.,4.5,4.33,3.4,3.26,2.02,1.95
+2012-06-24 20:45:00,Play Offs,England,Italy,0:1 pen.,2.9,2.86,3.0,2.91,2.91,2.8
+2012-06-23 20:45:00,Play Offs,Spain,France,2:0,1.93,1.88,3.4,3.33,4.88,4.59
+2012-06-22 20:45:00,Play Offs,Germany,Greece,4:2,1.35,1.32,5.5,5.24,11.0,9.88
+2012-06-21 20:45:00,Play Offs,Czech Republic,Portugal,0:1,6.15,5.84,3.75,3.59,1.69,1.66
+2012-06-19 20:45:00,,England,Ukraine,1:0,2.06,1.98,3.4,3.31,4.25,4.1
+2012-06-19 20:45:00,,Sweden,France,2:0,5.5,5.14,3.78,3.69,1.76,1.71
+2012-06-18 20:45:00,,Croatia,Spain,0:1,10.0,9.44,4.01,3.71,1.5,1.48
+2012-06-18 20:45:00,,Italy,Ireland,2:0,1.45,1.39,4.8,4.67,9.0,8.36
+2012-06-17 20:45:00,,Denmark,Germany,1:2,7.5,7.05,4.33,3.95,1.57,1.53
+2012-06-17 20:45:00,,Portugal,Netherlands,2:1,2.75,2.66,3.9,3.63,2.59,2.51
+2012-06-16 20:45:00,,Czech Republic,Poland,1:0,3.3,3.22,3.4,3.32,2.44,2.27
+2012-06-16 20:45:00,,Greece,Russia,1:0,5.05,4.94,3.7,3.58,1.83,1.75
+2012-06-15 21:00:00,,Sweden,England,2:3,3.5,3.32,3.1,3.09,2.43,2.34
+2012-06-15 18:00:00,,Ukraine,France,0:2,4.32,4.0,3.1,3.09,2.2,2.1
+2012-06-14 20:45:00,,Spain,Ireland,4:0,1.25,1.22,6.68,6.24,15.3,13.8
+2012-06-14 18:00:00,,Italy,Croatia,1:1,2.6,2.41,3.2,3.11,3.3,3.19
+2012-06-13 20:45:00,,Netherlands,Germany,1:2,3.05,2.98,3.33,3.22,2.65,2.47
+2012-06-13 18:00:00,,Denmark,Portugal,2:3,4.75,4.58,3.61,3.48,1.91,1.84
+2012-06-12 20:45:00,,Poland,Russia,1:1,3.4,3.27,3.3,3.27,2.44,2.28
+2012-06-12 18:00:00,,Greece,Czech Republic,1:2,3.58,3.4,3.3,3.18,2.29,2.26
+2012-06-11 20:45:00,,Ukraine,Sweden,2:1,2.66,2.63,3.36,3.22,2.9,2.79
+2012-06-11 18:00:00,,France,England,1:1,2.6,2.48,3.06,2.98,3.5,3.27
+2012-06-10 20:45:00,,Ireland,Croatia,1:3,4.41,4.15,3.25,3.15,2.1,2.03
+2012-06-10 18:00:00,,Spain,Italy,1:1,1.8,1.75,3.54,3.41,5.95,5.36
+2012-06-09 20:45:00,,Germany,Portugal,1:0,2.2,2.09,3.4,3.3,3.75,3.69
+2012-06-09 18:00:00,,Netherlands,Denmark,0:1,1.8,1.71,3.7,3.56,5.5,5.37
+2012-06-08 20:45:00,,Russia,Czech Republic,4:1,2.68,2.46,3.2,3.08,3.25,3.13
+2012-06-08 18:00:00,,Poland,Greece,1:1,2.14,2.03,3.2,3.14,4.25,4.19
+2011-11-15 22:00:00,Qualification - Promotion,Portugal,Bosnia & Herzegovina ,6:2,1.4,1.37,4.84,4.51,9.91,9.14
+2011-11-15 20:45:00,Qualification - Promotion,Ireland,Estonia ,1:1,1.36,1.33,5.07,4.74,11.15,10.53
+2011-11-15 20:15:00,Qualification - Promotion,Montenegro,Czech Republic ,0:1,3.0,2.84,3.3,3.23,2.6,2.51
+2011-11-15 20:05:00,Qualification - Promotion,Croatia,Turkey ,0:0,1.67,1.66,3.83,3.63,6.25,5.62
+2011-11-11 20:45:00,Qualification - Promotion,Estonia,Ireland ,0:4,3.85,3.65,3.08,2.98,2.29,2.24
+2011-11-11 20:15:00,Qualification - Promotion,Czech Republic,Montenegro ,2:0,1.7,1.65,3.86,3.62,6.4,5.73
+2011-11-11 20:05:00,Qualification - Promotion,Turkey,Croatia ,0:3,2.29,2.25,3.23,3.15,3.6,3.38
+2011-11-11 20:00:00,Qualification - Promotion,Bosnia & Herzegovina,Portugal ,0:0,3.65,3.34,3.39,3.2,2.29,2.24
+2011-10-11 21:00:00,Qualification,France,Bosnia & Herzegovina,1:1,1.6,1.54,4.15,4.01,7.0,6.3
+2011-10-11 20:45:00,Qualification,Italy,Northern Ireland,3:0,1.2,1.17,7.71,6.74,24.8,16.97
+2011-10-11 20:45:00,Qualification,Lithuania,Czech Republic,1:4,6.36,5.89,3.96,3.79,1.65,1.6
+2011-10-11 20:45:00,Qualification,Slovenia,Serbia,1:0,5.71,5.39,3.84,3.76,1.7,1.64
+2011-10-11 20:45:00,Qualification,Spain,Scotland,3:1,1.18,1.17,8.13,7.56,20.48,14.5
+2011-10-11 20:15:00,Qualification,Denmark,Portugal,2:1,3.65,3.42,2.75,2.69,2.68,2.54
+2011-10-11 20:15:00,Qualification,Norway,Cyprus,3:1,1.2,1.19,7.22,6.7,19.96,15.08
+2011-10-11 20:15:00,Qualification,Sweden,Netherlands,3:2,2.73,2.64,3.45,3.36,2.7,2.61
+2011-10-11 20:15:00,Qualification,Switzerland,Montenegro,2:0,1.62,1.57,4.07,3.85,6.63,6.19
+2011-10-11 20:05:00,Qualification,Bulgaria,Wales,0:1,2.35,2.3,3.3,3.18,3.42,3.22
+2011-10-11 20:00:00,Qualification,Hungary,Finland,0:0,1.95,1.85,3.6,3.48,4.5,4.3
+2011-10-11 20:00:00,Qualification,Albania,Romania,1:1,3.46,3.33,3.3,3.23,2.31,2.21
+2011-10-11 20:00:00,Qualification,Moldova,San Marino,4:0,1.06,1.05,11.5,11.0,34.0,31.0
+2011-10-11 19:45:00,Qualification,Ireland,Armenia,2:1,1.7,1.67,3.99,3.79,5.81,5.15
+2011-10-11 19:45:00,Qualification,North Macedonia,Slovakia,1:1,3.11,2.97,3.28,3.22,2.5,2.41
+2011-10-11 19:45:00,Qualification,Russia,Andorra,6:0,1.01,1.01,25.0,18.2,81.0,59.8
+2011-10-11 19:00:00,Qualification,Croatia,Latvia,2:0,1.14,1.13,9.58,8.1,26.85,18.97
+2011-10-11 19:00:00,Qualification,Georgia,Greece,1:2,4.55,4.34,3.0,2.92,2.18,2.06
+2011-10-11 19:00:00,Qualification,Germany,Belgium,3:1,1.36,1.33,6.08,5.27,9.52,8.23
+2011-10-11 19:00:00,Qualification,Malta,Israel,0:2,7.97,7.08,4.11,4.03,1.52,1.49
+2011-10-11 19:00:00,Qualification,Turkey,Azerbaijan,1:0,1.1,1.09,11.64,9.56,42.22,27.7
+2011-10-11 18:00:00,Qualification,Kazakhstan,Austria,0:0,5.6,5.18,4.25,3.89,1.67,1.63
+2011-10-08 19:30:00,Qualification,Liechtenstein,Scotland,0:1,12.5,11.38,5.5,5.26,1.33,1.28
+2011-10-07 22:00:00,Qualification,Portugal,Iceland,5:3,1.08,1.07,12.0,10.1,34.0,30.0
+2011-10-07 21:30:00,Qualification,Andorra,Ireland,0:2,45.0,33.4,12.0,10.95,1.08,1.06
+2011-10-07 21:00:00,Qualification,France,Albania,3:0,1.13,1.11,9.0,8.4,28.0,22.2
+2011-10-07 21:00:00,Qualification,Montenegro,England,2:2,7.0,6.44,3.64,3.44,1.7,1.63
+2011-10-07 20:45:00,Qualification,Belgium,Kazakhstan,4:1,1.11,1.1,9.5,8.9,27.0,23.4
+2011-10-07 20:45:00,Qualification,Czech Republic,Spain,0:2,4.86,4.51,3.5,3.43,1.92,1.82
+2011-10-07 20:45:00,Qualification,Greece,Croatia,2:0,2.85,2.74,3.11,3.06,2.87,2.73
+2011-10-07 20:45:00,Qualification,Northern Ireland,Estonia,1:2,2.12,2.08,3.53,3.38,3.61,3.51
+2011-10-07 20:45:00,Qualification,Serbia,Italy,1:1,2.34,2.27,3.2,3.1,3.52,3.37
+2011-10-07 20:45:00,Qualification,Wales,Switzerland,2:0,4.04,3.94,3.5,3.34,2.09,1.97
+2011-10-07 20:30:00,Qualification,Cyprus,Denmark,1:4,7.5,7.24,4.51,4.29,1.5,1.45
+2011-10-07 20:30:00,Qualification,Netherlands,Moldova,1:0,1.05,1.04,16.0,13.5,50.0,35.8
+2011-10-07 20:30:00,Qualification,Romania,Belarus,2:2,1.55,1.52,4.29,3.93,7.85,6.73
+2011-10-07 20:30:00,Qualification,Turkey,Germany,1:3,3.35,3.28,3.4,3.26,2.38,2.23
+2011-10-07 20:15:00,Qualification,Slovakia,Russia,0:1,3.0,2.91,3.27,3.17,2.65,2.51
+2011-10-07 20:00:00,Qualification,Bosnia & Herzegovina,Luxembourg,5:0,1.07,1.05,14.0,12.0,36.0,29.2
+2011-10-07 19:00:00,Qualification,Latvia,Malta,2:0,1.38,1.32,5.5,4.96,10.0,9.79
+2011-10-07 18:15:00,Qualification,Finland,Sweden,1:2,6.15,5.78,4.13,3.85,1.63,1.6
+2011-10-07 18:00:00,Qualification,Azerbaijan,Austria,1:4,4.2,3.92,3.5,3.42,2.0,1.95
+2011-10-07 17:00:00,Qualification,Armenia,North Macedonia,4:1,1.65,1.61,4.0,3.79,6.27,5.66
+2011-09-06 22:00:00,Qualification,Spain,Liechtenstein,6:0,1.01,1.01,26.0,21.8,101.0,77.2
+2011-09-06 21:00:00,Qualification,Scotland,Lithuania,1:0,1.65,1.59,3.93,3.71,6.85,6.18
+2011-09-06 20:45:00,Qualification,England,Wales,1:0,1.13,1.13,8.94,7.95,23.0,20.62
+2011-09-06 20:45:00,Qualification,Iceland,Cyprus,1:0,2.16,2.05,3.43,3.35,3.8,3.63
+2011-09-06 20:45:00,Qualification,Italy,Slovenia,1:0,1.44,1.4,4.59,4.34,9.28,8.71
+2011-09-06 20:30:00,Qualification,Austria,Turkey,0:0,3.05,2.94,3.45,3.35,2.65,2.37
+2011-09-06 20:30:00,Qualification,Estonia,Northern Ireland,4:1,2.5,2.37,3.34,3.2,3.1,3.05
+2011-09-06 20:30:00,Qualification,Latvia,Greece,1:1,5.0,4.75,3.61,3.45,1.84,1.78
+2011-09-06 20:30:00,Qualification,Malta,Georgia,1:1,5.25,4.7,3.66,3.48,1.83,1.79
+2011-09-06 20:30:00,Qualification,Romania,France,0:0,4.4,4.2,3.5,3.33,2.02,1.91
+2011-09-06 20:30:00,Qualification,San Marino,Sweden,0:5,101.0,70.4,26.0,20.3,1.01,1.01
+2011-09-06 20:30:00,Qualification,Serbia,Faroe Islands,3:1,1.03,1.03,18.0,14.0,60.0,40.2
+2011-09-06 20:30:00,Qualification,Switzerland,Bulgaria,3:1,1.59,1.53,4.07,3.9,7.0,6.65
+2011-09-06 20:15:00,Qualification,Bosnia & Herzegovina,Belarus,1:0,1.74,1.63,3.75,3.67,6.0,5.75
+2011-09-06 20:15:00,Qualification,Denmark,Norway,2:0,1.96,1.92,3.45,3.33,4.38,4.18
+2011-09-06 20:15:00,Qualification,Luxembourg,Albania,2:1,6.79,5.84,3.74,3.56,1.67,1.64
+2011-09-06 20:15:00,Qualification,Slovakia,Armenia,0:4,1.53,1.48,4.2,4.09,7.53,7.16
+2011-09-06 20:00:00,Qualification,North Macedonia,Andorra,1:0,1.12,1.11,9.19,8.28,30.36,27.39
+2011-09-06 20:00:00,Qualification,Croatia,Israel,3:1,1.38,1.36,4.93,4.57,9.94,9.1
+2011-09-06 19:45:00,Qualification,Moldova,Hungary,0:2,4.55,4.27,3.68,3.55,1.87,1.83
+2011-09-06 19:00:00,Qualification,Finland,Netherlands,0:2,8.0,7.5,4.4,4.33,1.5,1.43
+2011-09-06 17:00:00,Qualification,Azerbaijan,Kazakhstan,3:2,2.14,2.01,3.4,3.31,3.88,3.76
+2011-09-06 17:00:00,Qualification,Russia,Ireland,0:0,1.78,1.72,3.65,3.56,5.68,5.15
+2011-09-03 16:00:00,Qualification,Scotland,Czech Republic,2:2,2.73,2.6,3.32,3.24,2.79,2.73
+2011-09-02 21:00:00,Qualification,Albania,France,1:2,9.28,8.38,4.5,4.22,1.47,1.42
+2011-09-02 20:45:00,Qualification,Cyprus,Portugal,0:4,12.4,10.32,5.8,5.41,1.3,1.29
+2011-09-02 20:45:00,Qualification,Faroe Islands,Italy,0:1,51.0,37.2,15.0,12.7,1.07,1.04
+2011-09-02 20:45:00,Qualification,Germany,Austria,6:2,1.2,1.17,8.69,7.53,17.8,14.3
+2011-09-02 20:45:00,Qualification,Ireland,Slovakia,0:0,1.8,1.76,3.59,3.41,5.46,4.95
+2011-09-02 20:45:00,Qualification,Northern Ireland,Serbia,0:1,3.99,3.61,3.3,3.2,2.15,2.11
+2011-09-02 20:45:00,Qualification,Slovenia,Estonia,1:2,1.38,1.33,4.87,4.73,11.0,10.21
+2011-09-02 20:45:00,Qualification,Wales,Montenegro,2:1,2.88,2.79,3.3,3.23,2.86,2.54
+2011-09-02 20:30:00,Qualification,Netherlands,San Marino,11:0,1.01,1.0,51.0,32.4,201.0,109.6
+2011-09-02 20:15:00,Qualification,Bulgaria,England,0:3,5.5,5.28,3.62,3.57,1.81,1.7
+2011-09-02 20:00:00,Qualification,Norway,Iceland,1:0,1.36,1.32,5.54,4.96,11.55,9.92
+2011-09-02 19:45:00,Qualification,Hungary,Sweden,2:1,4.55,4.38,3.84,3.59,1.83,1.81
+2011-09-02 19:30:00,Qualification,Belarus,Bosnia & Herzegovina,0:2,2.58,2.46,3.36,3.24,2.93,2.86
+2011-09-02 19:30:00,Qualification,Luxembourg,Romania,0:2,13.0,12.79,6.5,5.86,1.3,1.23
+2011-09-02 19:00:00,Qualification,Georgia,Latvia,0:1,1.74,1.66,3.75,3.63,5.52,5.38
+2011-09-02 19:00:00,Qualification,Malta,Croatia,1:3,26.0,22.53,8.0,7.68,1.17,1.12
+2011-09-02 19:00:00,Qualification,Turkey,Kazakhstan,2:1,1.08,1.05,14.0,11.2,35.0,34.4
+2011-09-02 18:00:00,Qualification,Andorra,Armenia,0:3,11.0,10.33,5.5,5.04,1.34,1.28
+2011-09-02 18:00:00,Qualification,Azerbaijan,Belgium,1:1,8.0,7.54,4.5,4.14,1.51,1.46
+2011-09-02 18:00:00,Qualification,Russia,North Macedonia,1:0,1.25,1.22,6.44,5.86,16.53,13.67
+2011-09-02 17:30:00,Qualification,Finland,Moldova,4:1,1.6,1.56,4.16,3.84,6.75,6.2
+2011-09-02 17:00:00,Qualification,Lithuania,Liechtenstein,0:0,1.32,1.27,5.5,5.41,15.0,11.72
+2011-09-02 15:05:00,Qualification,Israel,Greece,0:1,2.29,2.25,3.19,3.12,3.63,3.37
+2011-08-10 20:45:00,Qualification,Northern Ireland,Faroe Islands,4:0,1.25,1.22,6.8,5.69,18.05,12.92
+2011-06-07 20:30:00,Qualification,Faroe Islands,Estonia,2:0,5.92,5.53,3.8,3.65,1.71,1.65
+2011-06-07 20:30:00,Qualification,San Marino,Hungary,0:3,67.0,47.0,17.0,14.9,1.03,1.02
+2011-06-07 20:15:00,Qualification,Bosnia & Herzegovina,Albania,2:0,1.5,1.48,4.32,4.04,8.05,7.22
+2011-06-07 20:00:00,Qualification,Sweden,Finland,5:0,1.4,1.36,4.86,4.54,10.05,9.17
+2011-06-07 19:00:00,Qualification,Azerbaijan,Germany,1:3,26.0,22.2,10.0,9.15,1.1,1.09
+2011-06-07 19:00:00,Qualification,Belarus,Luxembourg,2:0,1.14,1.13,8.5,7.4,18.0,17.0
+2011-06-04 22:00:00,Qualification,Portugal,Norway,1:0,1.34,1.31,5.5,5.06,11.42,10.15
+2011-06-04 21:30:00,Qualification,North Macedonia,Ireland,0:2,3.14,3.02,3.22,3.12,2.56,2.43
+2011-06-04 20:45:00,Qualification,Iceland,Denmark,0:2,5.32,5.09,3.77,3.56,1.75,1.71
+2011-06-04 20:30:00,Qualification,Greece,Malta,3:1,1.06,1.05,13.0,11.8,34.0,27.4
+2011-06-04 20:30:00,Qualification,Montenegro,Bulgaria,1:1,2.29,2.15,3.39,3.22,3.7,3.48
+2011-06-04 20:15:00,Qualification,Slovakia,Andorra,1:0,1.03,1.01,17.0,15.5,67.0,49.4
+2011-06-04 18:30:00,Qualification,Latvia,Israel,1:2,3.5,3.43,3.46,3.29,2.22,2.13
+2011-06-04 17:45:00,Qualification,England,Switzerland,2:2,1.46,1.36,4.84,4.56,9.5,9.03
+2011-06-04 17:00:00,Qualification,Russia,Armenia,3:1,1.24,1.21,6.37,6.02,15.2,13.62
+2011-06-03 20:50:00,Qualification,Belarus,France,1:1,6.28,5.89,3.75,3.59,1.68,1.62
+2011-06-03 20:45:00,Qualification,Belgium,Turkey,1:1,2.2,2.15,3.5,3.39,3.55,3.31
+2011-06-03 20:45:00,Qualification,Italy,Estonia,3:0,1.18,1.15,8.06,7.14,21.0,18.28
+2011-06-03 20:35:00,Qualification,Austria,Germany,1:2,9.11,8.44,5.25,5.01,1.36,1.34
+2011-06-03 20:30:00,Qualification,San Marino,Finland,0:1,40.0,33.8,15.0,13.4,1.03,1.03
+2011-06-03 20:30:00,Qualification,Moldova,Sweden,1:4,6.32,5.97,3.8,3.72,1.65,1.6
+2011-06-03 20:00:00,Qualification,Croatia,Georgia,2:1,1.3,1.28,5.62,5.26,12.94,11.16
+2011-06-03 20:00:00,Qualification,Romania,Bosnia & Herzegovina,3:0,2.18,2.06,3.48,3.37,3.75,3.54
+2011-06-03 19:30:00,Qualification,Faroe Islands,Slovenia,0:2,19.66,15.28,7.38,6.63,1.2,1.18
+2011-06-03 19:30:00,Qualification,Liechtenstein,Lithuania,2:0,8.52,7.63,4.5,4.29,1.47,1.42
+2011-06-03 15:00:00,Qualification,Kazakhstan,Azerbaijan,2:1,2.45,2.32,3.39,3.26,3.36,3.05
+2011-03-29 20:45:00,Qualification,Belgium,Azerbaijan,4:1,1.2,1.18,6.82,6.47,20.85,16.06
+2011-03-29 20:45:00,Qualification,Lithuania,Spain,1:3,12.54,11.01,5.25,5.0,1.33,1.3
+2011-03-29 20:45:00,Qualification,Northern Ireland,Slovenia,0:0,3.13,3.01,3.22,3.09,2.52,2.45
+2011-03-29 20:30:00,Qualification,Estonia,Serbia,1:1,4.29,4.18,3.43,3.29,2.0,1.92
+2011-03-29 20:30:00,Qualification,Netherlands,Hungary,5:3,1.12,1.12,8.56,8.26,33.57,22.26
+2011-03-29 19:45:00,Qualification,Romania,Luxembourg,3:1,1.12,1.09,10.0,9.31,30.0,24.67
+2011-03-29 19:30:00,Qualification,Turkey,Austria,2:0,1.44,1.42,4.67,4.39,8.92,7.45
+2011-03-29 19:05:00,Qualification,Israel,Georgia,1:0,1.8,1.76,3.54,3.42,5.74,5.02
+2011-03-29 19:00:00,Qualification,Sweden,Moldova,2:1,1.2,1.17,7.3,6.42,22.5,16.67
+2011-03-29 17:30:00,Qualification,Czech Republic,Liechtenstein,2:0,1.03,1.02,17.0,14.9,67.0,48.8
+2011-03-26 20:45:00,Qualification,Ireland,North Macedonia,2:1,1.54,1.47,4.05,3.98,8.0,7.46
+2011-03-26 20:30:00,Qualification,Malta,Greece,0:1,13.1,11.35,5.75,5.2,1.32,1.28
+2011-03-26 20:00:00,Qualification,Albania,Belarus,1:0,2.75,2.7,3.28,3.1,2.8,2.7
+2011-03-26 20:00:00,Qualification,Andorra,Slovakia,0:1,33.0,26.67,12.0,11.22,1.1,1.07
+2011-03-26 20:00:00,Qualification,Germany,Kazakhstan,4:0,1.03,1.02,18.0,16.2,75.0,47.2
+2011-03-26 20:00:00,Qualification,Norway,Denmark,1:1,2.42,2.35,3.34,3.2,3.3,3.09
+2011-03-26 19:15:00,Qualification,Bosnia & Herzegovina,Romania,2:1,2.35,2.27,3.5,3.28,3.2,3.13
+2011-03-26 19:05:00,Qualification,Israel,Latvia,2:1,1.55,1.52,4.38,4.04,7.43,6.32
+2011-03-26 19:00:00,Qualification,Cyprus,Iceland,0:0,2.06,1.99,3.41,3.35,4.0,3.8
+2011-03-26 18:00:00,Qualification,Georgia,Croatia,1:0,6.0,5.83,3.75,3.62,1.72,1.63
+2011-03-26 17:45:00,Qualification,Bulgaria,Switzerland,0:0,2.67,2.57,3.28,3.18,2.9,2.79
+2011-03-26 16:00:00,Qualification,Armenia,Russia,0:0,5.75,5.43,3.6,3.52,1.79,1.69
+2011-03-26 16:00:00,Qualification,Wales,England,0:2,8.86,8.01,4.5,4.39,1.46,1.41
+2011-03-25 22:00:00,Qualification,Spain,Czech Republic,2:1,1.25,1.24,6.09,5.49,16.05,13.59
+2011-03-25 21:00:00,Qualification,Luxembourg,France,0:2,46.0,34.77,15.0,12.67,1.07,1.05
+2011-03-25 20:45:00,Qualification,Slovenia,Italy,0:1,3.6,3.42,3.1,3.09,2.46,2.25
+2011-03-25 20:30:00,Qualification,Austria,Belgium,0:2,2.44,2.39,3.6,3.37,2.95,2.88
+2011-03-25 20:30:00,Qualification,Hungary,Netherlands,0:4,6.5,6.08,3.9,3.69,1.67,1.58
+2011-03-25 20:30:00,Qualification,Serbia,Northern Ireland ,2:1,1.55,1.51,4.11,3.88,7.95,7.08
+2010-11-17 17:30:00,Qualification,Croatia,Malta,3:0,1.02,1.01,18.0,14.4,60.0,45.2
+2010-11-17 17:30:00,Qualification,Finland,San Marino,8:0,1.02,1.02,18.0,15.63,60.0,46.5
+2010-10-12 21:45:00,Qualification,Iceland,Portugal,1:3,12.07,10.26,5.28,4.84,1.35,1.32
+2010-10-12 21:00:00,Qualification,England,Montenegro,0:0,1.25,1.23,6.44,5.7,17.07,13.51
+2010-10-12 21:00:00,Qualification,France,Luxembourg,2:0,1.04,1.02,15.0,14.4,67.0,49.2
+2010-10-12 21:00:00,Qualification,Scotland,Spain,2:3,11.61,9.77,5.29,4.85,1.35,1.33
+2010-10-12 20:50:00,Qualification,Italy,Serbia,award.,1.75,1.71,3.74,3.49,6.0,5.29
+2010-10-12 20:45:00,Qualification,Belgium,Austria,4:4,1.8,1.76,3.67,3.48,5.14,4.79
+2010-10-12 20:45:00,Qualification,Greece,Israel,2:1,1.93,1.83,3.4,3.34,5.0,4.66
+2010-10-12 20:30:00,Qualification,Estonia,Slovenia,0:1,3.97,3.72,3.39,3.27,2.1,2.05
+2010-10-12 20:30:00,Qualification,Netherlands,Sweden,4:1,1.67,1.62,3.79,3.71,6.46,5.77
+2010-10-12 20:30:00,Qualification,North Macedonia,Russia,0:1,6.36,5.75,3.92,3.77,1.67,1.61
+2010-10-12 20:30:00,Qualification,San Marino,Moldova,0:2,21.0,18.2,7.0,6.74,1.17,1.15
+2010-10-12 20:30:00,Qualification,Slovakia,Ireland,1:1,2.5,2.39,3.24,3.1,3.3,3.12
+2010-10-12 20:30:00,Qualification,Switzerland,Wales,4:1,1.53,1.45,4.25,4.15,8.0,7.69
+2010-10-12 20:15:00,Qualification,Denmark,Cyprus,2:0,1.44,1.39,4.72,4.55,9.1,8.27
+2010-10-12 20:00:00,Qualification,Liechtenstein,Czech Republic,0:2,25.0,23.2,8.0,7.73,1.12,1.11
+2010-10-12 19:30:00,Qualification,Belarus,Albania,2:0,1.6,1.56,3.92,3.74,7.25,6.42
+2010-10-12 19:00:00,Qualification,Kazakhstan,Germany,0:3,30.0,27.8,10.5,9.6,1.11,1.08
+2010-10-12 19:00:00,Qualification,Latvia,Georgia,1:1,2.44,2.31,3.26,3.14,3.35,3.24
+2010-10-12 17:30:00,Qualification,Finland,Hungary,1:2,2.29,2.19,3.51,3.26,3.65,3.37
+2010-10-12 17:00:00,Qualification,Armenia,Andorra,4:0,1.1,1.08,10.0,9.3,26.0,24.2
+2010-10-12 17:00:00,Qualification,Azerbaijan,Turkey,1:0,10.38,9.6,4.84,4.69,1.39,1.34
+2010-10-12 17:00:00,Qualification,Faroe Islands,Northern Ireland,1:1,9.14,8.48,4.59,4.51,1.45,1.39
+2010-10-09 21:05:00,Qualification,Israel,Croatia,1:2,3.62,3.44,3.24,3.12,2.27,2.2
+2010-10-09 21:00:00,Qualification,France,Romania,2:0,1.55,1.52,4.05,3.8,8.11,7.14
+2010-10-08 22:00:00,Qualification,Spain,Lithuania,3:1,1.1,1.07,12.0,9.85,30.0,27.6
+2010-10-08 21:45:00,Qualification,Portugal,Denmark,3:1,1.57,1.51,4.26,3.94,7.57,6.84
+2010-10-08 20:45:00,Qualification,Germany,Turkey,3:0,1.65,1.59,4.0,3.79,6.3,5.92
+2010-10-08 20:45:00,Qualification,Greece,Latvia,1:0,1.5,1.45,4.25,4.06,8.55,7.88
+2010-10-08 20:45:00,Qualification,Ireland,Russia,2:3,2.68,2.58,3.2,3.13,2.95,2.82
+2010-10-08 20:45:00,Qualification,Northern Ireland,Italy,0:0,5.55,5.33,3.5,3.39,1.8,1.72
+2010-10-08 20:45:00,Qualification,Slovenia,Faroe Islands,5:1,1.08,1.06,13.0,11.3,35.0,26.4
+2010-10-08 20:30:00,Qualification,Albania,Bosnia & Herzegovina,1:1,3.32,3.13,3.39,3.2,2.38,2.32
+2010-10-08 20:30:00,Qualification,Austria,Azerbaijan,3:0,1.32,1.28,5.5,5.13,12.5,11.18
+2010-10-08 20:30:00,Qualification,Moldova,Netherlands,0:1,13.5,12.8,6.0,5.76,1.25,1.22
+2010-10-08 20:30:00,Qualification,Montenegro,Switzerland,1:0,2.81,2.66,3.25,3.15,2.8,2.71
+2010-10-08 20:30:00,Qualification,Serbia,Estonia,1:3,1.22,1.19,7.3,6.51,15.0,13.3
+2010-10-08 20:30:00,Qualification,Wales,Bulgaria,0:1,2.79,2.66,3.24,3.12,2.79,2.72
+2010-10-08 20:15:00,Qualification,Czech Republic,Scotland,1:0,1.65,1.61,3.95,3.71,6.99,5.83
+2010-10-08 20:15:00,Qualification,Luxembourg,Belarus,0:0,12.5,11.64,6.0,5.27,1.3,1.27
+2010-10-08 20:00:00,Qualification,Cyprus,Norway,1:2,3.51,3.3,3.37,3.22,2.29,2.23
+2010-10-08 19:00:00,Qualification,Andorra,North Macedonia,0:2,12.31,11.22,6.0,5.61,1.29,1.25
+2010-10-08 19:00:00,Qualification,Georgia,Malta,1:0,1.33,1.3,5.39,4.99,13.5,10.42
+2010-10-08 19:00:00,Qualification,Hungary,San Marino,8:0,1.03,1.02,20.0,16.3,75.0,54.4
+2010-10-08 18:00:00,Qualification,Kazakhstan,Belgium,0:2,6.0,5.57,3.7,3.6,1.76,1.66
+2010-10-08 17:00:00,Qualification,Armenia,Slovakia,3:1,5.3,5.11,3.55,3.42,1.83,1.74
+2010-09-07 21:00:00,Qualification,Bosnia & Herzegovina,France,0:2,3.42,3.07,3.25,3.16,2.41,2.37
+2010-09-07 21:00:00,Qualification,Scotland,Liechtenstein,2:1,1.08,1.07,10.0,9.8,26.0,23.6
+2010-09-07 20:50:00,Qualification,Italy,Faroe Islands,5:0,1.02,1.01,17.0,15.8,81.0,50.4
+2010-09-07 20:45:00,Qualification,Germany,Azerbaijan,6:1,1.02,1.01,25.0,17.4,81.0,55.6
+2010-09-07 20:45:00,Qualification,Ireland,Andorra,3:1,1.02,1.02,25.0,16.2,81.0,57.6
+2010-09-07 20:45:00,Qualification,Switzerland,England,1:3,4.12,3.9,3.4,3.27,2.1,1.99
+2010-09-07 20:30:00,Qualification,Austria,Kazakhstan,2:0,1.27,1.22,6.07,5.7,14.05,12.67
+2010-09-07 20:30:00,Qualification,Croatia,Greece,0:0,1.6,1.56,4.03,3.71,7.7,6.45
+2010-09-07 20:30:00,Qualification,Hungary,Moldova,2:1,1.65,1.54,3.9,3.83,7.0,6.54
+2010-09-07 20:30:00,Qualification,Netherlands,Finland,2:1,1.12,1.1,9.0,8.2,30.0,23.2
+2010-09-07 20:30:00,Qualification,Norway,Portugal,1:0,3.4,3.17,3.3,3.21,2.5,2.29
+2010-09-07 20:30:00,Qualification,Serbia,Slovenia,1:1,1.77,1.66,3.6,3.54,6.0,5.46
+2010-09-07 20:15:00,Qualification,Albania,Luxembourg,1:0,1.25,1.21,6.0,5.6,15.0,13.9
+2010-09-07 20:15:00,Qualification,Czech Republic,Lithuania,0:1,1.3,1.28,5.62,5.09,13.33,10.89
+2010-09-07 20:15:00,Qualification,Denmark,Iceland,1:0,1.33,1.29,5.57,5.13,12.86,10.94
+2010-09-07 20:00:00,Qualification,North Macedonia,Armenia,2:2,1.54,1.52,4.23,3.86,7.22,6.79
+2010-09-07 20:00:00,Qualification,Sweden,San Marino,6:0,1.01,1.01,25.0,17.4,81.0,63.6
+2010-09-07 20:00:00,Qualification,Turkey,Belgium,3:2,1.68,1.64,3.91,3.69,6.0,5.5
+2010-09-07 19:30:00,Qualification,Belarus,Romania,0:0,2.6,2.5,3.34,3.16,2.99,2.81
+2010-09-07 19:30:00,Qualification,Bulgaria,Montenegro,0:1,1.8,1.73,3.69,3.52,5.34,4.88
+2010-09-07 19:30:00,Qualification,Malta,Latvia,0:2,4.5,4.25,3.4,3.35,1.99,1.88
+2010-09-07 19:00:00,Qualification,Georgia,Israel,0:0,3.1,2.98,3.25,3.19,2.56,2.4
+2010-09-07 17:00:00,Qualification,Russia,Slovakia,0:1,1.63,1.57,3.84,3.71,6.84,6.36
+2010-09-03 21:45:00,Qualification,Portugal,Cyprus,4:4,1.2,1.16,7.71,6.54,22.0,16.88
+2010-09-03 21:00:00,Qualification,England,Bulgaria,4:0,1.29,1.27,5.68,5.24,14.34,12.14
+2010-09-03 21:00:00,Qualification,France,Belarus,0:1,1.37,1.34,5.23,4.74,10.3,9.41
+2010-09-03 21:00:00,Qualification,Iceland,Norway,1:2,4.05,3.95,3.4,3.25,2.1,1.99
+2010-09-03 20:45:00,Qualification,Belgium,Germany,0:1,6.16,5.68,4.01,3.78,1.67,1.61
+2010-09-03 20:45:00,Qualification,Greece,Georgia,1:1,1.44,1.39,4.59,4.34,9.0,8.65
+2010-09-03 20:45:00,Qualification,Liechtenstein,Spain,0:4,81.0,53.6,20.0,16.8,1.01,1.01
+2010-09-03 20:45:00,Qualification,San Marino,Netherlands,0:5,81.0,52.0,17.0,16.13,1.01,1.01
+2010-09-03 20:45:00,Qualification,Slovenia,Northern Ireland,0:1,1.62,1.58,3.92,3.72,6.98,6.16
+2010-09-03 20:30:00,Qualification,Estonia,Italy,1:2,9.0,8.57,4.38,4.19,1.47,1.41
+2010-09-03 20:30:00,Qualification,Slovakia,North Macedonia,1:0,1.58,1.54,4.21,3.8,7.0,6.49
+2010-09-03 20:15:00,Qualification,Lithuania,Scotland,0:0,2.73,2.69,3.22,3.17,2.87,2.66
+2010-09-03 20:15:00,Qualification,Luxembourg,Bosnia & Herzegovina,0:3,20.0,17.1,7.0,6.75,1.18,1.15
+2010-09-03 20:00:00,Qualification,Latvia,Croatia,0:3,6.85,5.94,3.99,3.73,1.62,1.59
+2010-09-03 20:00:00,Qualification,Romania,Albania,1:1,1.49,1.41,4.8,4.46,9.5,8.08
+2010-09-03 20:00:00,Qualification,Sweden,Hungary,2:0,1.4,1.37,5.05,4.48,9.8,9.13
+2010-09-03 19:30:00,Qualification,Montenegro,Wales,1:0,2.0,1.93,3.54,3.32,4.3,4.08
+2010-09-03 19:00:00,Qualification,Faroe Islands,Serbia,0:3,26.0,20.6,9.0,8.05,1.15,1.11
+2010-09-03 18:30:00,Qualification,Andorra,Russia,0:2,60.0,47.6,20.0,15.9,1.02,1.01
+2010-09-03 18:30:00,Qualification,Moldova,Finland,2:0,4.0,3.7,3.45,3.28,2.09,2.02
+2010-09-03 18:00:00,Qualification,Kazakhstan,Turkey,0:3,11.0,9.95,5.25,5.08,1.35,1.3
+2010-09-03 17:00:00,Qualification,Armenia,Ireland,0:1,6.05,5.54,3.75,3.49,1.7,1.67
+2010-09-02 20:15:00,Qualification,Israel,Malta,3:1,1.08,1.07,13.0,9.83,34.0,27.67
+2010-08-11 19:00:00,Qualification,Estonia,Faroe Islands,2:1,1.39,1.33,4.79,4.59,10.1,8.8

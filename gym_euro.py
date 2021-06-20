@@ -17,7 +17,7 @@ class SoccerBetEnv(gym.Env):
     def __init__(self, same_year=None, use_max = False):
         self.same_year = same_year
         self.use_max = use_max
-        self.action_space = spaces.Box(low=0, high=10, shape=(2,), dtype=np.int8)
+        self.action_space = spaces.Box(low=0, high=10, shape=(2,), dtype=np.int)
         self.observation_space = spaces.Box(low=0, high=500, shape=(3,), dtype=np.float16)
 
         self.seed()
@@ -25,6 +25,7 @@ class SoccerBetEnv(gym.Env):
 
     def reset(self):
         self.turns = 0
+        self.points = 0
 
         if self.same_year is None:
             year = random.choice([2004, 2008, 2012, 2016])
@@ -34,14 +35,12 @@ class SoccerBetEnv(gym.Env):
         with open(f"{self.year}.csv") as f:
             self.data = list(csv.DictReader(f))
 
-        print(self._observation)
         return self._observation
 
     def step(self, action):
-        info = {'year': self.year, 'turn': self.turns, 'data': self.data[self.turns]}
-        home_score, away_score = action
+        info = {'year': self.year, 'turn': self.turns, 'points': self.points, 'data': self.data[self.turns]}
+        home_score, away_score = (round(s) for s in action)
         score = self.data[self.turns]['score'].split('\xa0')[0]
-        print(f"Predicting {home_score}:{away_score} for a score of {score}")
         score = [int(i) for i in score.split(':')]
         if score[0] == home_score and score[1] == away_score:
             reward = 4
@@ -52,12 +51,16 @@ class SoccerBetEnv(gym.Env):
         else:
             reward = 0
 
+        print(f"Predicting {home_score}:{away_score} for a score of {score} => +{reward}")
+        self.points += reward
+
+        obs = self._observation
         self.turns += 1
-        return self._observation, reward, self.done, info
+        return obs, reward, self.done, info
 
     @property
     def done(self):
-        return self.turns > len(self.data)
+        return self.turns >= len(self.data)
 
     @property
     def _observation(self):
@@ -67,7 +70,7 @@ class SoccerBetEnv(gym.Env):
         else:
             odds = (data['mean_odd_home'], data['mean_odd_draw'], data['mean_odd_away'])
         #return country_nr(data['home']), country_nr(data['away']), [float(odd) for odd in odds]
-        return [float(odd) for odd in odds]
+        return np.array([float(odd) for odd in odds])
 
 def country_nr(name):
     name = {
