@@ -39,8 +39,9 @@ def parse_file(filename, year):
     soup = BeautifulSoup(str, 'html.parser')
 
     with open(year + '.csv', 'w', newline='') as f:
-        fieldnames = ['date', 'home', 'away', 'score', 'max_odd_home', 'mean_odd_home', 'max_odd_none', 'mean_odd_none', 'max_odd_away', 'mean_odd_away']
+        fieldnames = ['date', 'home', 'away', 'score', 'max_odd_home', 'mean_odd_home', 'max_odd_draw', 'mean_odd_draw', 'max_odd_away', 'mean_odd_away']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
 
         for tr in soup.find_all('tr')[1:]:
             row = {}
@@ -67,8 +68,8 @@ def parse_file(filename, year):
                 parse_odds(tds[5]['xodd'])]
             row['max_odd_home'] = odds[0][1]
             row['mean_odd_home'] = odds[0][1]
-            row['max_odd_none'] = odds[1][0]
-            row['mean_odd_none'] = odds[1][1]
+            row['max_odd_draw'] = odds[1][0]
+            row['mean_odd_draw'] = odds[1][1]
             row['max_odd_away'] = odds[2][0]
             row['mean_odd_away'] = odds[2][1]
             #print(f"odds: {odds}")
