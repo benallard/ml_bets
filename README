@@ -15,3 +15,14 @@ And remove the extra stuff.
 Leave only the html string.
 
 Iterate over the lines and extract the data.
+Hours, Day, Participants, Score are easy to extract.
+
+The odd seems to be encoded in an own cipher.
+The decoding must happen in js in browser.
+Either it's a lookup table, or there is some trick.
+At least they stay constant upon refresh of the page.
+
+So there is always an 'f' in the middle, and often a 'z' on both side.
+The z could stand for '.', and maybe only the part after the 'f' is relevant.
+Okay, we have two values there: the max amoung the brokers (first part) and the mean (the second part).
+It's some simple substitution code.
