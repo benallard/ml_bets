@@ -47,3 +47,6 @@ So:
  - 2 x team, 3 x odds
 
 Theoretically, every team in the world could play.
+
+Okay, it's more difficult than I thought to add countries to the observation space ...
+Let's remove it for now.

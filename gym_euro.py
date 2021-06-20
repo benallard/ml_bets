@@ -18,10 +18,7 @@ class SoccerBetEnv(gym.Env):
         self.same_year = same_year
         self.use_max = use_max
         self.action_space = spaces.Box(low=0, high=10, shape=(2,), dtype=np.int8)
-        self.observation_space = spaces.Tuple((
-            spaces.MultiDiscrete([len(iso3166.countries), len(iso3166.countries)]),
-            spaces.Box(low=0, high=500, shape=(3,), dtype=np.float16))
-        )
+        self.observation_space = spaces.Box(low=0, high=500, shape=(3,), dtype=np.float16)
 
         self.seed()
         self.reset()
@@ -43,7 +40,7 @@ class SoccerBetEnv(gym.Env):
     def step(self, action):
         info = {'year': self.year, 'turn': self.turns, 'data': self.data[self.turns]}
         home_score, away_score = action
-        score = self.data[self.turns].split(' ')[0]
+        score = self.data[self.turns]['score'].split('\xa0')[0]
         print(f"Predicting {home_score}:{away_score} for a score of {score}")
         score = [int(i) for i in score.split(':')]
         if score[0] == home_score and score[1] == away_score:
@@ -65,13 +62,21 @@ class SoccerBetEnv(gym.Env):
     @property
     def _observation(self):
         data = self.data[self.turns ]
-        home = iso3166.countries.get(data['home'])
-        away = iso3166.countries.get(data['away'])
         if self.use_max:
             odds = (data['max_odd_home'], data['max_odd_draw'], data['max_odd_away'])
         else:
             odds = (data['mean_odd_home'], data['mean_odd_draw'], data['mean_odd_away'])
-        return [int(home.numeric), int(away.numeric)], [float(odd) for odd in odds]
+        #return country_nr(data['home']), country_nr(data['away']), [float(odd) for odd in odds]
+        return [float(odd) for odd in odds]
+
+def country_nr(name):
+    name = {
+        'Czech Republic': 'Czechia',
+        'Russia': 'Russian Federation',
+        'Wales': ''
+    }.get(name, name)
+    country = iso3166.countries.get(name)
+    return int(country.numeric)
 
 register(
     id='soccer-bet-v0',
