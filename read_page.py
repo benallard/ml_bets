@@ -66,19 +66,25 @@ def parse_files(filenames, year):
                 row['home'] = participants[0]
                 row['away'] = participants[1]
                 score = tds[2].get_text()
+                if score == 'canc.':
+                    print(f"Skipping cancelled match {row['home']}-{row['away']}")
+                    continue
+                if score == 'award.':
+                    print(f"Skipping 'award' match {row['home']}-{row['away']}")
+                    continue
                 row['score'] = score
-                if tds[3]['xoid'] != '-':
-                    odds = parse_odds(tds[3]['xodd'])
-                    row['max_odd_home'] = odds[0]
-                    row['mean_odd_home'] = odds[1]
-                if tds[4]['xoid'] != '-':
-                    odds = parse_odds(tds[4]['xodd'])
-                    row['max_odd_draw'] = odds[0]
-                    row['mean_odd_draw'] = odds[1]
-                if tds[5]['xoid'] != '-':
-                    odds = parse_odds(tds[5]['xodd'])
-                    row['max_odd_away'] = odds[0]
-                    row['mean_odd_away'] = odds[1]
+                if tds[3]['xoid'] == '-' or tds[4]['xoid'] == '-' or tds[5]['xoid'] == '-':
+                    print(f"Skipping match {row['home']}-{row['away']} with missing odd")
+                    continue
+                odds = parse_odds(tds[3]['xodd'])
+                row['max_odd_home'] = odds[0]
+                row['mean_odd_home'] = odds[1]
+                odds = parse_odds(tds[4]['xodd'])
+                row['max_odd_draw'] = odds[0]
+                row['mean_odd_draw'] = odds[1]
+                odds = parse_odds(tds[5]['xodd'])
+                row['max_odd_away'] = odds[0]
+                row['mean_odd_away'] = odds[1]
                 #print(f"odds: {odds}")
                 writer.writerow(row)
 

@@ -14,9 +14,10 @@ class SoccerBetEnv(gym.Env):
         "render.modes": ["terminal"]
     }
 
-    def __init__(self, same_year=None, use_max = False):
+    def __init__(self, same_year=None, use_max = False, max_turns=50):
         self.same_year = same_year
         self.use_max = use_max
+        self.max_turns = max_turns
         self.action_space = spaces.Box(low=0, high=10, shape=(2,), dtype=np.int)
         self.observation_space = spaces.Box(low=0, high=500, shape=(3,), dtype=np.float16)
 
@@ -34,13 +35,14 @@ class SoccerBetEnv(gym.Env):
             self.year = self.same_year
         with open(f"{self.year}.csv") as f:
             self.data = list(csv.DictReader(f))
+        self.current = random.choice(self.data)
 
         return self._observation
 
     def step(self, action):
-        info = {'year': self.year, 'turn': self.turns, 'points': self.points, 'data': self.data[self.turns]}
+        info = {'year': self.year, 'turn': self.turns, 'points': self.points, 'current': self.current}
         home_score, away_score = (round(s) for s in action)
-        score = self.data[self.turns]['score'].split('\xa0')[0]
+        score = self.current['score'].split('\xa0')[0]
         score = [int(i) for i in score.split(':')]
         if score[0] == home_score and score[1] == away_score:
             reward = 4
@@ -56,20 +58,20 @@ class SoccerBetEnv(gym.Env):
 
         obs = self._observation
         self.turns += 1
+        self.current = random.choice(self.data)
         return obs, reward, self.done, info
 
     @property
     def done(self):
-        return self.turns >= len(self.data)
+        return self.turns >= self.max_turns
 
     @property
     def _observation(self):
-        data = self.data[self.turns ]
         if self.use_max:
-            odds = (data['max_odd_home'], data['max_odd_draw'], data['max_odd_away'])
+            odds = (self.current['max_odd_home'], self.current['max_odd_draw'], self.current['max_odd_away'])
         else:
-            odds = (data['mean_odd_home'], data['mean_odd_draw'], data['mean_odd_away'])
-        #return country_nr(data['home']), country_nr(data['away']), [float(odd) for odd in odds]
+            odds = (self.current['mean_odd_home'], self.current['mean_odd_draw'], self.current['mean_odd_away'])
+        #return country_nr(self.current['home']), country_nr(self.current['away']), [float(odd) for odd in odds]
         return np.array([float(odd) for odd in odds])
 
 def country_nr(name):

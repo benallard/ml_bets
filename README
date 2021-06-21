@@ -50,3 +50,14 @@ Theoretically, every team in the world could play.
 
 Okay, it's more difficult than I thought to add countries to the observation space ...
 Let's remove it for now.
+
+3. Once we have an environment, we can start writing an agent
+-------------------------------------------------------------
+
+So the agent trained for 100352 steps, and averaged a bit more than 1 point per match.
+That's very bad.
+Let's start at 0. again and add the data of the qualification.
+And add more randomization: don't play always the same four tournaments.
+
+Ok, it's been learning the whole night.
+At the moment it's as ~8 million timesteps, and nothing new emerges: 1.04 points per prediction.
