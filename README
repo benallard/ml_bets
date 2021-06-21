@@ -61,3 +61,14 @@ And add more randomization: don't play always the same four tournaments.
 
 Ok, it's been learning the whole night.
 At the moment it's as ~8 million timesteps, and nothing new emerges: 1.04 points per prediction.
+
+4. Let's do somethig basic: raw pytorch
+---------------------------------------
+(Or why have a shot ar Reinforcment Learning where the topology of the network is that simple?)
+
+We have three nodes in input, two in output, and let's say two hidden layers of 5 each.
+Everything linear, and no activation function for now.
+We should define a custom loss method based on the rewards of the betting system.
+
+At the moment, the network doesn't seems to learn anything.
+As if the optimizer step would'nt be performed.
