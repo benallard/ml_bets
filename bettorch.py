@@ -27,7 +27,7 @@ class MyModel(nn.Module):
     def forward(self, x):
         x = self.seq(x)
         # We want integer goal amount
-        x = torch.round(x)
+        #x = torch.round(x)
         return x
 
 def bet_loss(pred, real):
@@ -59,7 +59,7 @@ class EuroDataSet(Dataset):
         output = [int(i) for i in score.split(':')]
         return torch.tensor(input), torch.tensor(output, dtype=torch.float)
 
-LEARNING_RATE=1e5
+LEARNING_RATE=1e-2
 
 @click.group()
 def cli():
@@ -112,6 +112,17 @@ def train(epochs, batch_size, load_path):
 
     print(dict(list(model.named_parameters())))
     torch.save(model, "torch_final.pth")
+
+@cli.command()
+@click.argument("model_path")
+@click.argument("o_home", type=click.FLOAT)
+@click.argument("o_draw", type=click.FLOAT)
+@click.argument("o_away", type=click.FLOAT)
+def test(model_path, o_home, o_draw, o_away):
+        model = torch.load(model_path)
+        input = torch.tensor([o_home, o_draw, o_away])
+        pred = model(input)
+        print(f"The model predicted {pred[0]:.0f}:{pred[1]:.0f}")
 
 if __name__ == "__main__":
     cli()

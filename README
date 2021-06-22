@@ -1,5 +1,6 @@
 So, let's try to get some neural network predict the euro tournament.
 
+
 1. To train the network, we need historic data
 ----------------------------------------------
 
@@ -30,6 +31,7 @@ It's some simple substitution code.
 
 Refactor the code to process all the data, and generate csv.
 
+
 2. Once we have the data, we need to define the environment for our ML agent.
 -----------------------------------------------------------------------------
 
@@ -51,6 +53,7 @@ Theoretically, every team in the world could play.
 Okay, it's more difficult than I thought to add countries to the observation space ...
 Let's remove it for now.
 
+
 3. Once we have an environment, we can start writing an agent
 -------------------------------------------------------------
 
@@ -61,6 +64,7 @@ And add more randomization: don't play always the same four tournaments.
 
 Ok, it's been learning the whole night.
 At the moment it's as ~8 million timesteps, and nothing new emerges: 1.04 points per prediction.
+
 
 4. Let's do somethig basic: raw pytorch
 ---------------------------------------
@@ -81,4 +85,17 @@ We should define a custom loss method based on the rewards of the betting system
 At the moment, the network doesn't seems to learn anything.
 As if the optimizer step would'nt be performed.
 Looks like it performs better (weights updates themselves) when i remove the `round()` step.
-Not really.
+
+So I trained a model on 10000 epochs, and he loves to predict 1:1.
+That's the problem with the loss function: the draw is not penalized enough, and hence 'near enough' to the right score.
+
+
+5. Back to 0. add historical knowledge about the FIFA ranking, and integrate the 2020 dataset.
+----------------------------------------------------------------------------------------------
+
+Luckily, the FIFA has that data on its website, including historical values.
+Luckily 2: There is a kaggle (never heard of that site before) with scraped data.
+Kudos goes here: https://github.com/cnc8/fifa-world-ranking
+
+So, download the dataset and write a utility to get values from it.
+
