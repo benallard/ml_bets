@@ -9,7 +9,7 @@ JS_2004 = ['docs/2004.js']
 JS_2008 = ['docs/2008.js', 'docs/2008_2.js','docs/2008_3.js','docs/2008_4.js','docs/2008_5.js','docs/2008_6.js','docs/2008_7.js']
 JS_2012 = ['docs/2012.js', 'docs/2012_2.js', 'docs/2012_3.js', 'docs/2012_4.js', 'docs/2012_5.js', 'docs/2012_6.js', ]
 JS_2016 = ['docs/2016.js', 'docs/2016_2.js','docs/2016_3.js','docs/2016_4.js','docs/2016_5.js','docs/2016_6.js','docs/2016_7.js',]
-
+JS_2020 = [f'docs/2020_{i+1}.js' for i in range(6)]
 
 def parse_odds(str):
     def _parse_odd(str):
@@ -92,3 +92,4 @@ parse_files(JS_2004, '2004')
 parse_files(JS_2008, '2008')
 parse_files(JS_2012, '2012')
 parse_files(JS_2016, '2016')
+parse_files(JS_2020, '2020')

@@ -99,3 +99,6 @@ Kudos goes here: https://github.com/cnc8/fifa-world-ranking
 
 So, download the dataset and write a utility to get values from it.
 
+  -- I got an idea on the lost function trouble:
+     Instead of getting the network generate the score directly, we could have it generate the tital amount of goals & the delta.
+     So that (2, 0) - giving 1:1 is farther away from (1, 1) or (1, -1)

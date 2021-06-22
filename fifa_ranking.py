@@ -17,7 +17,7 @@ def get_ranking(country, date = None, data = None):
         data = read_data()
     if date is None:
         date = datetime.date.today()
-    else:
+    elif isinstance(date, 'str'):
         date = datetime.date.fromisoformat(date)
     for datum in data:
         if datetime.date.fromisoformat(datum['rank_date']) > date:

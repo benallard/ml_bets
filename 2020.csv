@@ -1,0 +1,293 @@
+date,kind,home,away,score,max_odd_home,mean_odd_home,max_odd_draw,mean_odd_draw,max_odd_away,mean_odd_away
+2021-06-21 21:00:00,,Finland,Belgium,0:2,10.75,9.46,5.14,4.72,1.45,1.4
+2021-06-21 21:00:00,,Russia,Denmark,1:4,5.8,5.45,4.55,4.3,1.71,1.63
+2021-06-21 18:00:00,,North Macedonia,Netherlands,0:3,14.23,12.77,7.3,6.88,1.26,1.24
+2021-06-21 18:00:00,,Ukraine,Austria,0:1,3.95,3.77,2.4,2.25,3.33,3.1
+2021-06-20 18:00:00,,Italy,Wales,1:0,1.53,1.5,4.15,4.03,9.38,8.57
+2021-06-20 18:00:00,,Switzerland,Turkey,3:1,1.68,1.65,4.86,4.48,5.1,4.99
+2021-06-19 21:00:00,,Spain,Poland,1:1,1.35,1.32,6.0,5.59,11.29,10.67
+2021-06-19 18:00:00,,Portugal,Germany,2:4,3.65,3.48,3.69,3.43,2.3,2.23
+2021-06-19 15:00:00,,Hungary,France,1:1,13.86,12.47,5.8,5.56,1.35,1.3
+2021-06-18 21:00:00,,England,Scotland,0:0,1.36,1.32,5.83,5.44,12.75,11.18
+2021-06-18 18:00:00,,Croatia,Czech Republic,1:1,2.29,2.23,3.39,3.3,3.83,3.63
+2021-06-18 15:00:00,,Sweden,Slovakia,1:0,1.98,1.92,3.39,3.29,5.0,4.83
+2021-06-17 21:00:00,,Netherlands,Austria,2:0,1.66,1.63,4.13,3.92,7.09,6.21
+2021-06-17 18:00:00,,Denmark,Belgium,1:2,5.07,4.38,3.68,3.31,2.15,2.01
+2021-06-17 15:00:00,,Ukraine,North Macedonia,2:1,1.85,1.81,3.8,3.65,5.17,4.84
+2021-06-16 21:00:00,,Italy,Switzerland,3:0,1.77,1.7,3.81,3.61,6.7,6.14
+2021-06-16 18:00:00,,Turkey,Wales,0:2,2.92,2.85,3.16,3.08,2.92,2.83
+2021-06-16 15:00:00,,Finland,Russia,0:1,7.25,6.8,4.26,3.93,1.63,1.59
+2021-06-15 21:00:00,,France,Germany,1:0,2.95,2.83,3.55,3.38,2.78,2.64
+2021-06-15 18:00:00,,Hungary,Portugal,0:3,9.15,8.37,4.6,4.43,1.51,1.45
+2021-06-14 21:00:00,,Spain,Sweden,0:0,1.39,1.36,5.5,5.12,11.0,10.01
+2021-06-14 18:00:00,,Poland,Slovakia,1:2,1.79,1.74,3.72,3.46,6.81,5.99
+2021-06-14 15:00:00,,Scotland,Czech Republic,0:2,3.04,2.88,3.02,2.96,3.0,2.91
+2021-06-13 21:00:00,,Netherlands,Ukraine,3:2,1.56,1.52,4.8,4.42,7.21,6.72
+2021-06-13 18:00:00,,Austria,North Macedonia,3:1,1.78,1.74,3.8,3.62,5.75,5.48
+2021-06-13 15:00:00,,England,Croatia,1:0,1.58,1.55,4.32,4.13,7.7,7.02
+2021-06-12 21:00:00,,Belgium,Russia ,3:0,2.13,2.06,3.42,3.31,4.55,4.11
+2021-06-12 18:00:00,,Denmark,Finland,0:1,1.67,1.36,5.5,4.77,13.0,11.72
+2021-06-12 15:00:00,,Wales,Switzerland ,1:1,4.93,4.75,3.32,3.21,2.03,1.96
+2021-06-11 21:00:00,,Turkey,Italy ,0:3,9.4,8.36,4.75,4.6,1.47,1.44
+2020-11-12 20:45:00,Qualification - Promotion,Hungary,Iceland ,2:1,2.26,2.19,3.36,3.11,4.15,3.87
+2020-11-12 20:45:00,Qualification - Promotion,Northern Ireland,Slovakia ,1:2 ET,2.53,2.46,3.1,2.96,3.59,3.4
+2020-11-12 20:45:00,Qualification - Promotion,Serbia,Scotland ,1:2 pen.,1.89,1.82,3.6,3.43,5.73,5.15
+2020-11-12 18:00:00,Qualification - Promotion,Georgia,North Macedonia ,0:1,2.79,2.66,2.98,2.82,3.35,3.23
+2020-10-08 20:45:00,Qualification - Promotion,Bosnia & Herzegovina,Northern Ireland,1:2 pen.,1.67,1.64,3.8,3.75,6.37,6.1
+2020-10-08 20:45:00,Qualification - Promotion,Bulgaria,Hungary,1:3,3.4,3.28,3.1,3.03,2.55,2.49
+2020-10-08 20:45:00,Qualification - Promotion,Iceland,Romania,2:1,2.4,2.36,3.22,3.13,3.5,3.41
+2020-10-08 20:45:00,Qualification - Promotion,North Macedonia,Kosovo ,2:1,2.31,2.26,3.3,3.22,3.69,3.54
+2020-10-08 20:45:00,Qualification - Promotion,Norway,Serbia,1:2 ET,2.15,2.11,3.58,3.42,3.8,3.69
+2020-10-08 20:45:00,Qualification - Promotion,Scotland,Israel ,1:0 pen.,2.44,2.37,3.44,3.3,3.41,3.21
+2020-10-08 20:45:00,Qualification - Promotion,Slovakia,Ireland ,1:0 pen.,4.2,3.81,3.42,3.07,2.64,2.27
+2020-10-08 18:00:00,Qualification - Promotion,Georgia,Belarus ,1:0,2.16,2.0,3.32,3.18,4.8,4.5
+2019-11-19 20:45:00,Qualification,Belgium,Cyprus,6:1,1.04,1.02,34.0,23.5,101.0,70.46
+2019-11-19 20:45:00,Qualification,Germany,Northern Ireland,6:1,1.12,1.1,11.5,10.46,34.0,29.55
+2019-11-19 20:45:00,Qualification,Latvia,Austria,1:0,24.0,20.58,8.0,7.58,1.19,1.16
+2019-11-19 20:45:00,Qualification,North Macedonia,Israel,1:0,2.5,2.47,3.68,3.56,2.87,2.81
+2019-11-19 20:45:00,Qualification,Poland,Slovenia,3:2,1.8,1.74,3.8,3.67,5.95,5.28
+2019-11-19 20:45:00,Qualification,San Marino,Russia,0:5,101.0,85.41,51.0,37.91,1.01,1.01
+2019-11-19 20:45:00,Qualification,Scotland,Kazakhstan,3:1,1.6,1.56,4.2,4.09,7.1,6.47
+2019-11-19 20:45:00,Qualification,Wales,Hungary,2:0,1.6,1.53,4.55,4.27,7.2,6.66
+2019-11-19 20:45:00,Qualification,Netherlands,Estonia,5:0,1.04,1.01,34.0,25.49,101.0,76.55
+2019-11-19 20:45:00,Qualification,Slovakia,Azerbaijan,2:0,1.21,1.19,7.4,6.91,20.04,18.2
+2019-11-18 20:45:00,Qualification,Gibraltar,Switzerland,1:6,100.0,62.8,41.0,27.87,1.02,1.01
+2019-11-18 20:45:00,Qualification,Greece,Finland,2:1,1.91,1.85,3.6,3.5,5.0,4.78
+2019-11-18 20:45:00,Qualification,Ireland,Denmark,1:1,3.25,3.1,3.2,3.12,2.65,2.53
+2019-11-18 20:45:00,Qualification,Italy,Armenia,9:1,1.1,1.09,12.0,10.65,37.5,31.88
+2019-11-18 20:45:00,Qualification,Liechtenstein,Bosnia & Herzegovina,0:3,26.16,20.43,9.25,8.41,1.18,1.14
+2019-11-18 20:45:00,Qualification,Malta,Norway,1:2,36.0,30.35,11.25,10.06,1.12,1.1
+2019-11-18 20:45:00,Qualification,Spain,Romania,5:0,1.19,1.17,8.5,7.76,19.0,17.1
+2019-11-18 20:45:00,Qualification,Sweden,Faroe Islands,3:0,1.12,1.11,10.0,9.24,35.0,28.82
+2019-11-17 20:45:00,Qualification,Albania,France,0:2,8.5,8.0,4.75,4.54,1.47,1.44
+2019-11-17 20:45:00,Qualification,Andorra,Turkey,0:2,19.49,15.78,9.0,7.39,1.23,1.19
+2019-11-17 20:45:00,Qualification,Moldova,Iceland,1:2,9.9,8.59,4.72,4.33,1.48,1.45
+2019-11-17 18:00:00,Qualification,Bulgaria,Czech Republic ,1:0,4.95,4.72,4.0,3.94,1.77,1.74
+2019-11-17 18:00:00,Qualification,Kosovo,England,0:4,8.55,7.61,5.3,5.14,1.44,1.41
+2019-11-17 15:00:00,Qualification,Luxembourg,Portugal,0:2,51.0,37.02,13.0,11.97,1.1,1.08
+2019-11-17 15:00:00,Qualification,Serbia,Ukraine ,2:2,2.21,2.12,3.67,3.56,3.7,3.53
+2019-11-16 20:45:00,Qualification,Austria,North Macedonia,2:1,1.25,1.22,7.0,6.64,15.64,14.1
+2019-11-16 20:45:00,Qualification,Croatia,Slovakia,3:1,1.49,1.46,4.62,4.5,8.4,7.66
+2019-11-16 20:45:00,Qualification,Germany,Belarus,4:0,1.07,1.05,17.0,15.16,61.0,43.74
+2019-11-16 20:45:00,Qualification,Israel,Poland,1:2,3.01,2.8,3.6,3.43,2.7,2.58
+2019-11-16 20:45:00,Qualification,Northern Ireland,Netherlands,0:0,8.3,7.42,4.33,4.25,1.53,1.51
+2019-11-16 18:00:00,Qualification,Azerbaijan,Wales,0:2,7.7,7.2,3.95,3.88,1.6,1.55
+2019-11-16 18:00:00,Qualification,Russia,Belgium,1:4,3.6,3.37,3.98,3.79,2.17,2.12
+2019-11-16 18:00:00,Qualification,San Marino,Kazakhstan,1:3,50.25,38.46,13.5,12.22,1.08,1.07
+2019-11-16 18:00:00,Qualification,Slovenia,Latvia,1:0,1.11,1.09,11.0,10.47,45.0,35.11
+2019-11-16 15:00:00,Qualification,Cyprus,Scotland,1:2,3.66,3.37,3.4,3.32,2.33,2.27
+2019-11-15 20:45:00,Qualification,Bosnia & Herzegovina,Italy,0:3,4.42,3.78,3.8,3.7,2.06,1.99
+2019-11-15 20:45:00,Qualification,Denmark,Gibraltar,6:0,1.01,1.01,51.0,36.79,140.0,86.57
+2019-11-15 20:45:00,Qualification,Romania,Sweden,0:2,2.96,2.74,3.42,3.29,2.88,2.76
+2019-11-15 20:45:00,Qualification,Spain,Malta,7:0,1.01,1.01,46.0,32.91,101.0,73.06
+2019-11-15 20:45:00,Qualification,Switzerland,Georgia,1:0,1.25,1.21,7.0,6.48,18.0,15.89
+2019-11-15 18:00:00,Qualification,Armenia,Greece,0:1,3.98,3.76,3.52,3.46,2.3,2.08
+2019-11-15 18:00:00,Qualification,Finland,Liechtenstein,3:0,1.1,1.07,15.0,13.08,41.0,33.64
+2019-11-15 18:00:00,Qualification,Norway,Faroe Islands,4:0,1.13,1.11,11.0,9.8,34.0,29.76
+2019-11-14 20:45:00,Qualification,Albania,Andorra,2:2,1.2,1.17,7.7,7.08,22.0,20.04
+2019-11-14 20:45:00,Qualification,Czech Republic,Kosovo,2:1,1.64,1.6,4.3,4.16,6.0,5.72
+2019-11-14 20:45:00,Qualification,England,Montenegro,7:0,1.07,1.06,19.0,14.65,70.25,40.65
+2019-11-14 20:45:00,Qualification,France,Moldova,2:1,1.02,1.01,38.0,28.16,98.0,73.39
+2019-11-14 20:45:00,Qualification,Portugal,Lithuania,6:0,1.03,1.02,28.25,22.97,107.25,60.69
+2019-11-14 20:45:00,Qualification,Serbia,Luxembourg ,3:2,1.18,1.15,8.6,8.0,22.0,19.48
+2019-11-14 18:00:00,Qualification,Turkey,Iceland,0:0,1.7,1.63,4.0,3.92,6.2,5.8
+2019-10-15 20:45:00,Qualification,Faroe Islands,Malta,1:0,1.63,1.59,3.85,3.7,8.0,7.33
+2019-10-15 20:45:00,Qualification,Gibraltar,Georgia,2:3,22.0,16.87,7.5,7.17,1.23,1.19
+2019-10-15 20:45:00,Qualification,Greece,Bosnia & Herzegovina,2:1,3.98,3.62,3.4,3.31,2.22,2.17
+2019-10-15 20:45:00,Qualification,Israel,Latvia,3:1,1.17,1.15,9.0,8.64,23.0,18.56
+2019-10-15 20:45:00,Qualification,Liechtenstein,Italy,0:5,78.75,56.17,26.0,21.63,1.05,1.03
+2019-10-15 20:45:00,Qualification,Romania,Norway,1:1,3.15,3.0,3.5,3.37,2.55,2.49
+2019-10-15 20:45:00,Qualification,Sweden,Spain,1:1,5.8,5.15,3.8,3.65,1.83,1.77
+2019-10-15 20:45:00,Qualification,Switzerland,Ireland,2:0,1.53,1.51,4.2,4.0,8.7,8.19
+2019-10-15 18:00:00,Qualification,Finland,Armenia,3:0,1.6,1.55,4.36,4.17,7.0,6.58
+2019-10-14 20:45:00,Qualification,Bulgaria,England,0:6,16.0,14.22,6.86,6.49,1.25,1.23
+2019-10-14 20:45:00,Qualification,France,Turkey,1:1,1.46,1.42,4.75,4.48,10.5,9.0
+2019-10-14 20:45:00,Qualification,Iceland,Andorra,2:0,1.1,1.07,15.0,13.51,51.0,36.73
+2019-10-14 20:45:00,Qualification,Kosovo,Montenegro,2:0,1.6,1.57,4.0,3.94,7.25,6.86
+2019-10-14 20:45:00,Qualification,Lithuania,Serbia,1:2,14.0,12.66,6.45,6.01,1.29,1.26
+2019-10-14 20:45:00,Qualification,Moldova,Albania,0:4,5.9,5.55,3.3,3.2,1.9,1.84
+2019-10-14 20:45:00,Qualification,Ukraine,Portugal,2:1,4.16,3.68,3.3,3.23,2.3,2.21
+2019-10-13 20:45:00,Qualification,Estonia,Germany,0:3,56.0,47.52,21.0,18.52,1.06,1.03
+2019-10-13 20:45:00,Qualification,Poland,North Macedonia,2:0,1.51,1.49,4.2,4.13,8.8,7.95
+2019-10-13 20:45:00,Qualification,Slovenia,Austria,0:1,3.05,2.89,3.25,3.14,2.78,2.7
+2019-10-13 20:45:00,Qualification,Wales,Croatia,1:1,3.66,3.44,3.34,3.22,2.35,2.3
+2019-10-13 18:00:00,Qualification,Belarus,Netherlands,1:2,15.0,13.0,6.75,6.47,1.26,1.24
+2019-10-13 18:00:00,Qualification,Cyprus,Russia,0:5,9.9,8.98,4.75,4.6,1.44,1.41
+2019-10-13 18:00:00,Qualification,Hungary,Azerbaijan,1:0,1.35,1.33,5.5,5.18,12.0,10.67
+2019-10-13 18:00:00,Qualification,Scotland,San Marino,6:0,1.02,1.01,41.0,29.1,83.5,75.45
+2019-10-13 15:00:00,Qualification,Kazakhstan,Belgium,0:2,14.0,12.74,6.8,6.45,1.27,1.24
+2019-10-12 20:45:00,Qualification,Italy,Greece,2:0,1.23,1.22,6.65,6.32,17.5,15.68
+2019-10-12 20:45:00,Qualification,Liechtenstein,Armenia,1:1,21.0,17.18,7.1,6.65,1.24,1.2
+2019-10-12 20:45:00,Qualification,Malta,Sweden,0:4,43.5,36.27,12.5,11.44,1.1,1.08
+2019-10-12 20:45:00,Qualification,Norway,Spain,1:1,6.25,5.69,4.0,3.92,1.7,1.66
+2019-10-12 18:00:00,Qualification,Bosnia & Herzegovina,Finland,4:1,2.08,2.0,3.35,3.26,4.55,4.34
+2019-10-12 18:00:00,Qualification,Denmark,Switzerland,1:0,2.44,2.34,3.3,3.21,3.52,3.43
+2019-10-12 18:00:00,Qualification,Faroe Islands,Romania,0:3,11.25,10.2,5.4,5.17,1.38,1.34
+2019-10-12 15:00:00,Qualification,Georgia,Ireland,0:0,3.66,3.41,2.95,2.87,2.68,2.54
+2019-10-11 20:45:00,Qualification,Andorra,Moldova,1:0,5.0,4.7,2.9,2.86,2.16,2.1
+2019-10-11 20:45:00,Qualification,Czech Republic,England,2:1,5.25,4.76,3.98,3.82,1.8,1.78
+2019-10-11 20:45:00,Qualification,Iceland,France,0:1,8.0,7.06,4.25,4.15,1.56,1.54
+2019-10-11 20:45:00,Qualification,Montenegro,Bulgaria,0:0,2.26,2.18,3.5,3.39,3.75,3.59
+2019-10-11 20:45:00,Qualification,Portugal,Luxembourg,3:0,1.07,1.05,18.25,16.39,53.0,41.58
+2019-10-11 20:45:00,Qualification,Turkey,Albania,1:0,1.47,1.45,4.6,4.49,8.75,8.0
+2019-10-11 20:45:00,Qualification,Ukraine,Lithuania,2:0,1.09,1.08,15.0,12.86,41.0,32.19
+2019-10-10 20:45:00,Qualification,Austria,Israel,3:1,1.47,1.44,5.25,4.99,8.0,7.04
+2019-10-10 20:45:00,Qualification,Belgium,San Marino,9:0,1.01,1.01,51.0,37.78,200.0,99.25
+2019-10-10 20:45:00,Qualification,Croatia,Hungary,3:0,1.43,1.39,5.0,4.82,9.05,8.67
+2019-10-10 20:45:00,Qualification,Latvia,Poland,0:3,21.0,17.91,8.0,7.5,1.2,1.17
+2019-10-10 20:45:00,Qualification,Netherlands,Northern Ireland,3:1,1.21,1.18,8.0,7.51,19.0,17.31
+2019-10-10 20:45:00,Qualification,North Macedonia,Slovenia,2:1,3.2,3.13,3.3,3.2,2.53,2.46
+2019-10-10 20:45:00,Qualification,Russia,Scotland,4:0,1.44,1.41,4.85,4.58,9.5,8.86
+2019-10-10 20:45:00,Qualification,Slovakia,Wales,1:1,2.62,2.56,3.25,3.16,3.28,3.06
+2019-10-10 18:00:00,Qualification,Belarus,Estonia,0:0,1.5,1.47,4.65,4.31,8.8,7.97
+2019-10-10 16:00:00,Qualification,Kazakhstan,Cyprus,1:2,2.3,2.23,3.3,3.18,3.65,3.58
+2019-09-10 20:45:00,Qualification,Albania,Iceland,4:2,3.2,3.09,3.18,3.1,2.7,2.57
+2019-09-10 20:45:00,Qualification,England,Kosovo,5:3,1.16,1.14,9.5,8.81,23.0,20.26
+2019-09-10 20:45:00,Qualification,France,Andorra,3:0,1.01,1.01,67.0,36.23,301.0,120.06
+2019-09-10 20:45:00,Qualification,Lithuania,Portugal,1:5,41.0,34.89,12.0,10.61,1.11,1.09
+2019-09-10 20:45:00,Qualification,Luxembourg,Serbia,1:3,9.9,9.13,5.25,4.99,1.4,1.37
+2019-09-10 20:45:00,Qualification,Moldova,Turkey,0:4,17.25,15.57,6.0,5.77,1.27,1.25
+2019-09-10 20:45:00,Qualification,Montenegro,Czech Republic,0:3,4.04,3.89,3.67,3.58,2.08,1.98
+2019-09-09 20:45:00,Qualification,Poland,Austria,0:0,2.46,2.35,3.45,3.33,3.46,3.26
+2019-09-09 20:45:00,Qualification,Estonia,Netherlands,0:4,38.0,33.78,11.0,10.14,1.12,1.1
+2019-09-09 20:45:00,Qualification,Hungary,Slovakia,1:2,2.3,2.22,3.4,3.3,3.74,3.55
+2019-09-09 20:45:00,Qualification,Latvia,North Macedonia,0:2,8.0,7.56,4.35,4.21,1.51,1.49
+2019-09-09 20:45:00,Qualification,Northern Ireland,Germany,0:2,11.5,10.38,5.7,5.44,1.35,1.33
+2019-09-09 20:45:00,Qualification,Russia,Kazakhstan,1:0,1.19,1.17,8.0,7.66,19.75,18.36
+2019-09-09 20:45:00,Qualification,San Marino,Cyprus,0:4,41.0,35.2,12.0,11.11,1.1,1.09
+2019-09-09 20:45:00,Qualification,Scotland,Belgium,0:4,8.75,8.29,4.85,4.67,1.46,1.43
+2019-09-09 20:45:00,Qualification,Slovenia,Israel,3:2,1.75,1.71,3.8,3.71,5.8,5.46
+2019-09-09 18:00:00,Qualification,Azerbaijan,Croatia,1:1,13.0,12.05,5.75,5.54,1.32,1.29
+2019-09-08 20:45:00,Qualification,Finland,Italy,1:2,5.95,5.6,3.5,3.42,1.83,1.78
+2019-09-08 20:45:00,Qualification,Greece,Liechtenstein,1:1,1.07,1.05,19.0,15.55,60.0,46.47
+2019-09-08 20:45:00,Qualification,Spain,Faroe Islands,4:0,1.01,1.01,41.0,33.28,111.0,70.43
+2019-09-08 20:45:00,Qualification,Sweden,Norway,1:1,1.95,1.9,3.6,3.51,5.0,4.57
+2019-09-08 18:00:00,Qualification,Georgia,Denmark,0:0,8.5,7.56,4.96,4.58,1.49,1.45
+2019-09-08 18:00:00,Qualification,Romania,Malta,1:0,1.05,1.03,22.0,18.27,76.0,60.92
+2019-09-08 18:00:00,Qualification,Switzerland,Gibraltar,4:0,1.01,1.01,60.0,35.45,150.0,78.19
+2019-09-08 15:00:00,Qualification,Armenia,Bosnia & Herzegovina,4:2,4.75,4.67,4.15,4.01,1.82,1.74
+2019-09-07 20:45:00,Qualification,France,Albania,4:1,1.19,1.17,8.0,7.63,23.0,21.54
+2019-09-07 20:45:00,Qualification,Serbia,Portugal,2:4,3.64,3.37,3.6,3.51,2.3,2.23
+2019-09-07 20:45:00,Qualification,Turkey,Andorra,1:0,1.03,1.02,31.0,23.57,83.0,60.15
+2019-09-07 18:00:00,Qualification,England,Bulgaria,4:0,1.12,1.1,13.75,11.24,38.0,31.49
+2019-09-07 18:00:00,Qualification,Iceland,Moldova,3:0,1.26,1.24,6.85,6.18,15.5,14.13
+2019-09-07 18:00:00,Qualification,Lithuania,Ukraine,0:3,16.0,14.73,6.4,5.84,1.27,1.25
+2019-09-07 15:00:00,Qualification,Kosovo,Czech Republic,2:1,3.86,3.49,3.4,3.34,2.32,2.22
+2019-09-06 20:45:00,Qualification,Austria,Latvia,6:0,1.07,1.06,17.0,15.02,51.0,38.77
+2019-09-06 20:45:00,Qualification,Germany,Netherlands,2:4,1.88,1.82,4.05,3.93,4.9,4.32
+2019-09-06 20:45:00,Qualification,San Marino,Belgium,0:4,200.0,114.5,51.0,38.07,1.01,1.01
+2019-09-06 20:45:00,Qualification,Scotland,Russia,1:2,3.56,3.18,3.17,3.09,2.65,2.54
+2019-09-06 20:45:00,Qualification,Slovakia,Croatia,0:4,3.42,3.12,3.27,3.2,2.62,2.48
+2019-09-06 20:45:00,Qualification,Slovenia,Poland,2:0,4.14,3.77,3.3,3.18,2.26,2.2
+2019-09-06 20:45:00,Qualification,Wales,Azerbaijan,2:1,1.28,1.25,6.4,5.78,18.25,15.93
+2019-09-06 18:00:00,Qualification,Cyprus,Kazakhstan,1:1,2.28,2.2,3.4,3.21,3.95,3.71
+2019-09-06 18:00:00,Qualification,Estonia,Belarus,1:2,3.46,3.28,3.1,3.02,2.55,2.49
+2019-09-05 20:45:00,Qualification,Bosnia & Herzegovina,Liechtenstein,5:0,1.04,1.02,30.0,21.34,78.0,59.75
+2019-09-05 20:45:00,Qualification,Faroe Islands,Sweden,0:4,16.75,14.31,7.0,6.48,1.25,1.23
+2019-09-05 20:45:00,Qualification,Finland,Greece,1:0,2.26,2.19,3.22,3.08,4.42,3.99
+2019-09-05 20:45:00,Qualification,Gibraltar,Denmark,0:6,76.62,63.74,27.0,21.77,1.03,1.02
+2019-09-05 20:45:00,Qualification,Ireland,Switzerland,1:1,4.38,3.98,3.2,3.1,2.22,2.16
+2019-09-05 20:45:00,Qualification,Israel,North Macedonia,1:1,1.84,1.79,3.72,3.58,5.7,5.06
+2019-09-05 20:45:00,Qualification,Norway,Malta,2:0,1.06,1.04,19.0,16.14,67.0,55.33
+2019-09-05 20:45:00,Qualification,Romania,Spain,1:2,8.99,8.38,5.15,4.87,1.45,1.41
+2019-09-05 18:00:00,Qualification,Armenia,Italy,1:3,13.38,12.08,6.25,5.93,1.29,1.27
+2019-06-11 20:45:00,Qualification,Albania,Moldova,2:0,1.5,1.48,4.15,4.01,9.7,8.51
+2019-06-11 20:45:00,Qualification,Andorra,France,0:4,106.0,77.55,34.0,25.15,1.02,1.01
+2019-06-11 20:45:00,Qualification,Belgium,Scotland,3:0,1.17,1.15,9.25,8.32,25.0,20.49
+2019-06-11 20:45:00,Qualification,Greece,Armenia,2:3,1.53,1.51,4.2,4.03,8.0,7.5
+2019-06-11 20:45:00,Qualification,Hungary,Wales,1:0,3.18,3.02,3.2,3.1,2.65,2.57
+2019-06-11 20:45:00,Qualification,Italy,Bosnia & Herzegovina,2:1,1.36,1.33,5.25,5.11,11.75,10.67
+2019-06-11 20:45:00,Qualification,Liechtenstein,Finland,0:2,34.0,27.46,10.5,9.57,1.13,1.11
+2019-06-11 20:45:00,Qualification,Russia,Cyprus,1:0,1.22,1.2,7.15,6.72,19.0,16.82
+2019-06-11 20:45:00,Qualification,Belarus,Northern Ireland,0:1,3.1,2.97,3.05,2.98,2.81,2.73
+2019-06-11 20:45:00,Qualification,Germany,Estonia,8:0,1.02,1.01,46.0,28.43,185.0,79.57
+2019-06-11 20:45:00,Qualification,Iceland,Turkey,2:1,3.13,2.99,3.32,3.18,2.63,2.57
+2019-06-11 18:00:00,Qualification,Azerbaijan,Slovakia,1:5,6.0,5.5,3.84,3.7,1.74,1.7
+2019-06-11 16:00:00,Qualification,Kazakhstan,San Marino,4:0,1.04,1.02,30.0,22.08,151.0,75.96
+2019-06-10 20:45:00,Qualification,Bulgaria,Kosovo,2:3,2.52,2.43,3.28,3.18,3.6,3.22
+2019-06-10 20:45:00,Qualification,Czech Republic,Montenegro,3:0,1.42,1.39,5.0,4.82,9.9,8.87
+2019-06-10 20:45:00,Qualification,Denmark,Georgia,5:1,1.26,1.23,6.65,6.13,18.0,15.54
+2019-06-10 20:45:00,Qualification,Faroe Islands,Norway,0:2,12.5,10.92,5.5,5.29,1.35,1.31
+2019-06-10 20:45:00,Qualification,Ireland,Gibraltar,2:0,1.04,1.02,26.0,20.78,101.0,63.5
+2019-06-10 20:45:00,Qualification,Latvia,Slovenia,0:5,8.8,7.47,4.0,3.9,1.58,1.54
+2019-06-10 20:45:00,Qualification,Malta,Romania,0:4,18.0,14.18,7.0,6.35,1.26,1.23
+2019-06-10 20:45:00,Qualification,North Macedonia,Austria,1:4,3.86,3.49,3.2,3.15,2.38,2.3
+2019-06-10 20:45:00,Qualification,Poland,Israel,4:0,1.57,1.54,4.33,4.19,7.7,6.6
+2019-06-10 20:45:00,Qualification,Serbia,Lithuania ,4:1,1.15,1.14,9.1,8.58,25.0,22.68
+2019-06-10 20:45:00,Qualification,Spain,Sweden,3:0,1.33,1.3,5.98,5.59,14.5,11.56
+2019-06-10 20:45:00,Qualification,Ukraine,Luxembourg,1:0,1.14,1.12,10.0,9.18,32.0,25.55
+2019-06-08 20:45:00,Qualification,Belarus,Germany,0:2,18.0,16.66,9.0,8.16,1.19,1.17
+2019-06-08 20:45:00,Qualification,Belgium,Kazakhstan,3:0,1.04,1.03,25.0,19.98,81.0,60.42
+2019-06-08 20:45:00,Qualification,Greece,Italy,0:3,6.25,5.89,3.45,3.34,1.8,1.74
+2019-06-08 20:45:00,Qualification,Scotland,Cyprus,2:1,1.37,1.34,5.4,5.0,13.0,10.84
+2019-06-08 20:45:00,Qualification,Turkey,France,2:0,6.65,5.68,4.2,3.93,1.68,1.63
+2019-06-08 18:00:00,Qualification,Armenia,Liechtenstein,3:0,1.17,1.14,10.5,8.54,25.0,20.85
+2019-06-08 18:00:00,Qualification,Azerbaijan,Hungary,1:3,4.25,4.04,3.25,3.16,2.14,2.09
+2019-06-08 18:00:00,Qualification,Estonia,Northern Ireland,1:2,5.65,5.16,3.2,3.1,1.94,1.9
+2019-06-08 18:00:00,Qualification,Finland,Bosnia & Herzegovina,2:0,2.79,2.6,3.19,3.07,3.3,3.07
+2019-06-08 18:00:00,Qualification,Moldova,Andorra,1:0,1.53,1.48,4.1,3.9,10.0,9.16
+2019-06-08 18:00:00,Qualification,Russia,San Marino,9:0,1.01,1.01,41.0,30.89,101.0,68.06
+2019-06-08 15:00:00,Qualification,Croatia,Wales,2:1,1.74,1.71,3.7,3.57,6.1,5.76
+2019-06-08 15:00:00,Qualification,Iceland,Albania,1:0,1.83,1.79,3.4,3.32,6.05,5.57
+2019-06-07 20:45:00,Qualification,Austria,Slovenia,1:0,1.78,1.73,3.7,3.56,6.0,5.5
+2019-06-07 20:45:00,Qualification,Czech Republic,Bulgaria,2:1,1.65,1.59,4.0,3.88,7.0,6.45
+2019-06-07 20:45:00,Qualification,Denmark,Ireland,1:1,1.6,1.56,3.87,3.75,8.5,7.54
+2019-06-07 20:45:00,Qualification,Faroe Islands,Spain,1:4,82.0,56.27,24.0,19.54,1.04,1.03
+2019-06-07 20:45:00,Qualification,Latvia,Israel,0:3,7.5,6.92,4.24,4.07,1.57,1.54
+2019-06-07 20:45:00,Qualification,Lithuania,Luxembourg,1:1,3.0,2.89,3.2,3.09,2.8,2.69
+2019-06-07 20:45:00,Qualification,Montenegro,Kosovo ,1:1,2.71,2.64,3.2,3.11,3.0,2.91
+2019-06-07 20:45:00,Qualification,North Macedonia,Poland,0:1,4.98,4.39,3.4,3.31,2.01,1.95
+2019-06-07 20:45:00,Qualification,Norway,Romania,2:2,1.84,1.79,3.74,3.59,5.3,5.02
+2019-06-07 20:45:00,Qualification,Sweden,Malta,3:0,1.05,1.03,26.0,20.13,67.0,53.9
+2019-06-07 20:45:00,Qualification,Ukraine,Serbia,5:0,2.81,2.74,3.21,3.14,3.1,2.79
+2019-06-07 18:00:00,Qualification,Georgia,Gibraltar,3:0,1.1,1.08,17.0,12.38,41.0,30.67
+2019-03-26 20:45:00,Qualification,Bosnia & Herzegovina,Greece,2:2,1.95,1.91,3.4,3.28,4.8,4.6
+2019-03-26 20:45:00,Qualification,Ireland,Georgia,1:0,1.78,1.74,3.5,3.32,6.55,5.99
+2019-03-26 20:45:00,Qualification,Italy,Liechtenstein,6:0,1.01,1.01,41.0,31.13,165.0,88.22
+2019-03-26 20:45:00,Qualification,Malta,Spain,0:2,101.0,61.08,35.0,27.7,1.02,1.01
+2019-03-26 20:45:00,Qualification,Norway,Sweden,3:3,2.55,2.42,3.24,3.14,3.48,3.26
+2019-03-26 20:45:00,Qualification,Romania,Faroe Islands,4:1,1.18,1.17,7.8,6.97,24.0,20.43
+2019-03-26 20:45:00,Qualification,Switzerland,Denmark,3:3,2.32,2.26,3.25,3.14,3.74,3.56
+2019-03-26 18:00:00,Qualification,Armenia,Finland,0:2,3.25,3.19,3.25,3.12,2.54,2.45
+2019-03-25 20:45:00,Qualification,Andorra,Albania,0:3,9.3,8.46,4.0,3.73,1.55,1.51
+2019-03-25 20:45:00,Qualification,France,Iceland,4:0,1.2,1.17,8.0,7.31,23.0,19.09
+2019-03-25 20:45:00,Qualification,Kosovo,Bulgaria,1:1,2.4,2.31,3.26,3.17,3.5,3.35
+2019-03-25 20:45:00,Qualification,Luxembourg,Ukraine,1:2,9.8,8.47,4.7,4.48,1.45,1.42
+2019-03-25 20:45:00,Qualification,Montenegro,England,1:5,10.0,9.12,5.2,4.76,1.41,1.38
+2019-03-25 20:45:00,Qualification,Portugal,Serbia,1:1,1.57,1.52,4.45,4.28,7.6,6.9
+2019-03-25 18:00:00,Qualification,Turkey,Moldova,4:0,1.21,1.19,7.5,6.8,25.0,19.14
+2019-03-24 20:45:00,Qualification,Cyprus,Belgium,0:2,26.0,20.99,9.7,8.74,1.16,1.13
+2019-03-24 20:45:00,Qualification,Netherlands,Germany,2:3,2.45,2.36,3.75,3.61,3.14,2.97
+2019-03-24 20:45:00,Qualification,Northern Ireland,Belarus,2:1,1.88,1.82,3.34,3.19,5.9,5.48
+2019-03-24 20:45:00,Qualification,Poland,Latvia,2:0,1.1,1.08,13.0,11.27,34.0,31.52
+2019-03-24 20:45:00,Qualification,Slovenia,North Macedonia,1:1,1.94,1.87,3.4,3.31,5.35,4.82
+2019-03-24 18:00:00,Qualification,Hungary,Croatia,2:1,6.55,6.0,3.9,3.72,1.68,1.64
+2019-03-24 18:00:00,Qualification,Israel,Austria,4:2,3.54,3.29,3.3,3.22,2.42,2.34
+2019-03-24 18:00:00,Qualification,San Marino,Scotland,0:2,81.0,45.1,28.0,20.45,1.04,1.03
+2019-03-24 15:00:00,Qualification,Kazakhstan,Russia,0:4,4.75,4.58,3.5,3.43,1.91,1.88
+2019-03-24 15:00:00,Qualification,Wales,Slovakia,1:0,2.07,2.03,3.3,3.22,4.33,4.21
+2019-03-23 20:45:00,Qualification,Bosnia & Herzegovina,Armenia,2:1,1.37,1.36,5.25,4.98,10.25,9.5
+2019-03-23 20:45:00,Qualification,Italy,Finland,2:0,1.29,1.26,5.85,5.47,16.8,14.84
+2019-03-23 20:45:00,Qualification,Liechtenstein,Greece,0:2,22.0,18.59,7.8,7.15,1.21,1.17
+2019-03-23 20:45:00,Qualification,Spain,Norway,2:1,1.26,1.23,6.75,6.14,17.0,14.71
+2019-03-23 18:00:00,Qualification,Gibraltar,Ireland,0:1,51.0,39.26,21.0,17.52,1.07,1.04
+2019-03-23 18:00:00,Qualification,Malta,Faroe Islands,2:1,3.65,3.54,3.15,3.06,2.35,2.31
+2019-03-23 18:00:00,Qualification,Sweden,Romania,2:1,1.87,1.82,3.57,3.42,5.85,5.22
+2019-03-23 15:00:00,Qualification,Georgia,Switzerland,0:2,6.0,5.76,3.9,3.72,1.71,1.68
+2019-03-22 20:45:00,Qualification,Albania,Turkey,0:2,4.56,4.1,3.35,3.25,2.14,2.06
+2019-03-22 20:45:00,Qualification,Andorra,Iceland,0:2,16.0,14.04,6.5,5.95,1.27,1.25
+2019-03-22 20:45:00,Qualification,England,Czech Republic,5:0,1.35,1.32,5.5,5.17,13.5,11.89
+2019-03-22 20:45:00,Qualification,Luxembourg,Lithuania,2:1,2.2,2.13,3.25,3.15,4.05,3.88
+2019-03-22 20:45:00,Qualification,Moldova,France,1:4,67.0,45.55,14.0,12.05,1.08,1.07
+2019-03-22 20:45:00,Qualification,Portugal,Ukraine,0:0,1.41,1.39,4.8,4.64,10.0,9.28
+2019-03-22 18:00:00,Qualification,Bulgaria,Montenegro,1:1,2.3,2.2,3.3,3.2,3.92,3.67
+2019-03-21 20:45:00,Qualification,Austria,Poland,0:1,2.53,2.45,3.28,3.18,3.33,3.19
+2019-03-21 20:45:00,Qualification,Belgium,Russia,3:1,1.45,1.43,4.75,4.65,8.4,7.95
+2019-03-21 20:45:00,Qualification,Croatia,Azerbaijan,2:1,1.13,1.11,11.0,9.73,36.0,29.14
+2019-03-21 20:45:00,Qualification,Israel,Slovenia,1:1,2.23,2.15,3.4,3.3,3.76,3.68
+2019-03-21 20:45:00,Qualification,Netherlands,Belarus,4:0,1.16,1.14,9.0,8.56,23.0,20.0
+2019-03-21 20:45:00,Qualification,North Macedonia,Latvia,3:1,1.42,1.39,4.55,4.43,11.0,10.14
+2019-03-21 20:45:00,Qualification,Northern Ireland,Estonia,2:0,1.46,1.4,4.6,4.34,11.0,10.28
+2019-03-21 20:45:00,Qualification,Slovakia,Hungary,2:0,2.02,1.97,3.42,3.28,4.6,4.36
+2019-03-21 18:00:00,Qualification,Cyprus,San Marino,5:0,1.08,1.07,17.0,13.14,51.0,36.85
+2019-03-21 16:00:00,Qualification,Kazakhstan,Scotland,3:0,4.1,3.96,3.25,3.16,2.18,2.13
