@@ -70,5 +70,15 @@ We have three nodes in input, two in output, and let's say two hidden layers of 
 Everything linear, and no activation function for now.
 We should define a custom loss method based on the rewards of the betting system.
 
+  Loss functions are a science in themselves.
+  I can't really return contant values as a loose the autograd stuff if I make a new tensor.
+  So I need to combine loss functions, a bit like the `Huber loss`_.
+  What we actually need seems to be an asymmetric loss function: if the right team was predicted as a win, it remains good no matter what the predicted score was.
+  I'm not goot at tensor arithmetic.
+  That fails.
+
+
 At the moment, the network doesn't seems to learn anything.
 As if the optimizer step would'nt be performed.
+Looks like it performs better (weights updates themselves) when i remove the `round()` step.
+Not really.
