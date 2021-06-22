@@ -1,4 +1,5 @@
 import csv
+import datetime
 import random
 
 import click
@@ -7,6 +8,8 @@ import torch
 from torch import nn
 from torch.functional import F
 from torch.utils.data import Dataset, DataLoader
+
+from fifa_ranking import FIFARanking
 
 class MyModel(nn.Module):
     def __init__(self):
@@ -45,6 +48,8 @@ def bet_loss(pred, real):
         # MSE: big loss
         return F.mse_loss(pred, real, reduction='sum')
 
+RANKING = FIFARanking()
+
 class EuroDataSet(Dataset):
     def __init__(self, year):
         with open(f"{year}.csv") as f:
@@ -54,10 +59,12 @@ class EuroDataSet(Dataset):
 
     def __getitem__(self, idx):
         datum = self.data[idx]
-        input = [float(o) for o in (datum['mean_odd_home'], datum['mean_odd_draw'], datum['mean_odd_away'])]
+        odds = [float(o) for o in (datum['mean_odd_home'], datum['mean_odd_draw'], datum['mean_odd_away'])]
+        date = datetime.datetime.fromisoformat(datum['date']).date()
+        ranking = [RANKING.get_ranking(datum['home'], date), RANKING.get_ranking(datum['away'], date)]
         score = datum['score'].split('\xa0')[0]
-        output = [int(i) for i in score.split(':')]
-        return torch.tensor(input), torch.tensor(output, dtype=torch.float)
+        score = [int(i) for i in score.split(':')]
+        return torch.tensor(odds), torch.tensor(score, dtype=torch.float)
 
 LEARNING_RATE=1e-2
 

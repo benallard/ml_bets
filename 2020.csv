@@ -25,22 +25,22 @@ date,kind,home,away,score,max_odd_home,mean_odd_home,max_odd_draw,mean_odd_draw,
 2021-06-13 21:00:00,,Netherlands,Ukraine,3:2,1.56,1.52,4.8,4.42,7.21,6.72
 2021-06-13 18:00:00,,Austria,North Macedonia,3:1,1.78,1.74,3.8,3.62,5.75,5.48
 2021-06-13 15:00:00,,England,Croatia,1:0,1.58,1.55,4.32,4.13,7.7,7.02
-2021-06-12 21:00:00,,Belgium,Russia ,3:0,2.13,2.06,3.42,3.31,4.55,4.11
+2021-06-12 21:00:00,,Belgium,Russia,3:0,2.13,2.06,3.42,3.31,4.55,4.11
 2021-06-12 18:00:00,,Denmark,Finland,0:1,1.67,1.36,5.5,4.77,13.0,11.72
-2021-06-12 15:00:00,,Wales,Switzerland ,1:1,4.93,4.75,3.32,3.21,2.03,1.96
-2021-06-11 21:00:00,,Turkey,Italy ,0:3,9.4,8.36,4.75,4.6,1.47,1.44
-2020-11-12 20:45:00,Qualification - Promotion,Hungary,Iceland ,2:1,2.26,2.19,3.36,3.11,4.15,3.87
-2020-11-12 20:45:00,Qualification - Promotion,Northern Ireland,Slovakia ,1:2 ET,2.53,2.46,3.1,2.96,3.59,3.4
-2020-11-12 20:45:00,Qualification - Promotion,Serbia,Scotland ,1:2 pen.,1.89,1.82,3.6,3.43,5.73,5.15
-2020-11-12 18:00:00,Qualification - Promotion,Georgia,North Macedonia ,0:1,2.79,2.66,2.98,2.82,3.35,3.23
+2021-06-12 15:00:00,,Wales,Switzerland,1:1,4.93,4.75,3.32,3.21,2.03,1.96
+2021-06-11 21:00:00,,Turkey,Italy,0:3,9.4,8.36,4.75,4.6,1.47,1.44
+2020-11-12 20:45:00,Qualification - Promotion,Hungary,Iceland,2:1,2.26,2.19,3.36,3.11,4.15,3.87
+2020-11-12 20:45:00,Qualification - Promotion,Northern Ireland,Slovakia,1:2 ET,2.53,2.46,3.1,2.96,3.59,3.4
+2020-11-12 20:45:00,Qualification - Promotion,Serbia,Scotland,1:2 pen.,1.89,1.82,3.6,3.43,5.73,5.15
+2020-11-12 18:00:00,Qualification - Promotion,Georgia,North Macedonia,0:1,2.79,2.66,2.98,2.82,3.35,3.23
 2020-10-08 20:45:00,Qualification - Promotion,Bosnia & Herzegovina,Northern Ireland,1:2 pen.,1.67,1.64,3.8,3.75,6.37,6.1
 2020-10-08 20:45:00,Qualification - Promotion,Bulgaria,Hungary,1:3,3.4,3.28,3.1,3.03,2.55,2.49
 2020-10-08 20:45:00,Qualification - Promotion,Iceland,Romania,2:1,2.4,2.36,3.22,3.13,3.5,3.41
-2020-10-08 20:45:00,Qualification - Promotion,North Macedonia,Kosovo ,2:1,2.31,2.26,3.3,3.22,3.69,3.54
+2020-10-08 20:45:00,Qualification - Promotion,North Macedonia,Kosovo,2:1,2.31,2.26,3.3,3.22,3.69,3.54
 2020-10-08 20:45:00,Qualification - Promotion,Norway,Serbia,1:2 ET,2.15,2.11,3.58,3.42,3.8,3.69
-2020-10-08 20:45:00,Qualification - Promotion,Scotland,Israel ,1:0 pen.,2.44,2.37,3.44,3.3,3.41,3.21
-2020-10-08 20:45:00,Qualification - Promotion,Slovakia,Ireland ,1:0 pen.,4.2,3.81,3.42,3.07,2.64,2.27
-2020-10-08 18:00:00,Qualification - Promotion,Georgia,Belarus ,1:0,2.16,2.0,3.32,3.18,4.8,4.5
+2020-10-08 20:45:00,Qualification - Promotion,Scotland,Israel,1:0 pen.,2.44,2.37,3.44,3.3,3.41,3.21
+2020-10-08 20:45:00,Qualification - Promotion,Slovakia,Ireland,1:0 pen.,4.2,3.81,3.42,3.07,2.64,2.27
+2020-10-08 18:00:00,Qualification - Promotion,Georgia,Belarus,1:0,2.16,2.0,3.32,3.18,4.8,4.5
 2019-11-19 20:45:00,Qualification,Belgium,Cyprus,6:1,1.04,1.02,34.0,23.5,101.0,70.46
 2019-11-19 20:45:00,Qualification,Germany,Northern Ireland,6:1,1.12,1.1,11.5,10.46,34.0,29.55
 2019-11-19 20:45:00,Qualification,Latvia,Austria,1:0,24.0,20.58,8.0,7.58,1.19,1.16
@@ -62,10 +62,10 @@ date,kind,home,away,score,max_odd_home,mean_odd_home,max_odd_draw,mean_odd_draw,
 2019-11-17 20:45:00,Qualification,Albania,France,0:2,8.5,8.0,4.75,4.54,1.47,1.44
 2019-11-17 20:45:00,Qualification,Andorra,Turkey,0:2,19.49,15.78,9.0,7.39,1.23,1.19
 2019-11-17 20:45:00,Qualification,Moldova,Iceland,1:2,9.9,8.59,4.72,4.33,1.48,1.45
-2019-11-17 18:00:00,Qualification,Bulgaria,Czech Republic ,1:0,4.95,4.72,4.0,3.94,1.77,1.74
+2019-11-17 18:00:00,Qualification,Bulgaria,Czech Republic,1:0,4.95,4.72,4.0,3.94,1.77,1.74
 2019-11-17 18:00:00,Qualification,Kosovo,England,0:4,8.55,7.61,5.3,5.14,1.44,1.41
 2019-11-17 15:00:00,Qualification,Luxembourg,Portugal,0:2,51.0,37.02,13.0,11.97,1.1,1.08
-2019-11-17 15:00:00,Qualification,Serbia,Ukraine ,2:2,2.21,2.12,3.67,3.56,3.7,3.53
+2019-11-17 15:00:00,Qualification,Serbia,Ukraine,2:2,2.21,2.12,3.67,3.56,3.7,3.53
 2019-11-16 20:45:00,Qualification,Austria,North Macedonia,2:1,1.25,1.22,7.0,6.64,15.64,14.1
 2019-11-16 20:45:00,Qualification,Croatia,Slovakia,3:1,1.49,1.46,4.62,4.5,8.4,7.66
 2019-11-16 20:45:00,Qualification,Germany,Belarus,4:0,1.07,1.05,17.0,15.16,61.0,43.74
@@ -89,7 +89,7 @@ date,kind,home,away,score,max_odd_home,mean_odd_home,max_odd_draw,mean_odd_draw,
 2019-11-14 20:45:00,Qualification,England,Montenegro,7:0,1.07,1.06,19.0,14.65,70.25,40.65
 2019-11-14 20:45:00,Qualification,France,Moldova,2:1,1.02,1.01,38.0,28.16,98.0,73.39
 2019-11-14 20:45:00,Qualification,Portugal,Lithuania,6:0,1.03,1.02,28.25,22.97,107.25,60.69
-2019-11-14 20:45:00,Qualification,Serbia,Luxembourg ,3:2,1.18,1.15,8.6,8.0,22.0,19.48
+2019-11-14 20:45:00,Qualification,Serbia,Luxembourg,3:2,1.18,1.15,8.6,8.0,22.0,19.48
 2019-11-14 18:00:00,Qualification,Turkey,Iceland,0:0,1.7,1.63,4.0,3.92,6.2,5.8
 2019-10-15 20:45:00,Qualification,Faroe Islands,Malta,1:0,1.63,1.59,3.85,3.7,8.0,7.33
 2019-10-15 20:45:00,Qualification,Gibraltar,Georgia,2:3,22.0,16.87,7.5,7.17,1.23,1.19
@@ -213,7 +213,7 @@ date,kind,home,away,score,max_odd_home,mean_odd_home,max_odd_draw,mean_odd_draw,
 2019-06-10 20:45:00,Qualification,Malta,Romania,0:4,18.0,14.18,7.0,6.35,1.26,1.23
 2019-06-10 20:45:00,Qualification,North Macedonia,Austria,1:4,3.86,3.49,3.2,3.15,2.38,2.3
 2019-06-10 20:45:00,Qualification,Poland,Israel,4:0,1.57,1.54,4.33,4.19,7.7,6.6
-2019-06-10 20:45:00,Qualification,Serbia,Lithuania ,4:1,1.15,1.14,9.1,8.58,25.0,22.68
+2019-06-10 20:45:00,Qualification,Serbia,Lithuania,4:1,1.15,1.14,9.1,8.58,25.0,22.68
 2019-06-10 20:45:00,Qualification,Spain,Sweden,3:0,1.33,1.3,5.98,5.59,14.5,11.56
 2019-06-10 20:45:00,Qualification,Ukraine,Luxembourg,1:0,1.14,1.12,10.0,9.18,32.0,25.55
 2019-06-08 20:45:00,Qualification,Belarus,Germany,0:2,18.0,16.66,9.0,8.16,1.19,1.17
@@ -235,7 +235,7 @@ date,kind,home,away,score,max_odd_home,mean_odd_home,max_odd_draw,mean_odd_draw,
 2019-06-07 20:45:00,Qualification,Faroe Islands,Spain,1:4,82.0,56.27,24.0,19.54,1.04,1.03
 2019-06-07 20:45:00,Qualification,Latvia,Israel,0:3,7.5,6.92,4.24,4.07,1.57,1.54
 2019-06-07 20:45:00,Qualification,Lithuania,Luxembourg,1:1,3.0,2.89,3.2,3.09,2.8,2.69
-2019-06-07 20:45:00,Qualification,Montenegro,Kosovo ,1:1,2.71,2.64,3.2,3.11,3.0,2.91
+2019-06-07 20:45:00,Qualification,Montenegro,Kosovo,1:1,2.71,2.64,3.2,3.11,3.0,2.91
 2019-06-07 20:45:00,Qualification,North Macedonia,Poland,0:1,4.98,4.39,3.4,3.31,2.01,1.95
 2019-06-07 20:45:00,Qualification,Norway,Romania,2:2,1.84,1.79,3.74,3.59,5.3,5.02
 2019-06-07 20:45:00,Qualification,Sweden,Malta,3:0,1.05,1.03,26.0,20.13,67.0,53.9

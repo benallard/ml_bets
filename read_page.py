@@ -63,8 +63,8 @@ def parse_files(filenames, year):
                 row['date'] = hour
                 participants = tds[1].get_text().split(' - ')
                 #print(f"parts: {participants}")
-                row['home'] = participants[0]
-                row['away'] = participants[1]
+                row['home'] = participants[0].strip()
+                row['away'] = participants[1].strip()
                 score = tds[2].get_text()
                 if score == 'canc.':
                     print(f"Skipping cancelled match {row['home']}-{row['away']}")
