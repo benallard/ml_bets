@@ -26,17 +26,16 @@ class FIFARanking(object):
         elif isinstance(date, str):
             date = datetime.date.fromisoformat(date)
         if country not in self.countries:
-            print(f"Caching data for {country}")
             self.countries[country] = list(filter(lambda d: d['country_full'] == country,  self.data))
         for datum in self.countries[country]:
             if datetime.date.fromisoformat(datum['rank_date']) > date:
                 # Skip ranks in the future
                 continue
             # Return the first known rank before the asked date
-            return datum['rank']
+            return int(datum['rank'])
         if len(self.countries[country]):
             # We found nothing, yet we have data for the country. Take the oldest entry
-            return self.countries[country][-1]['rank']
+            return int(self.countries[country][-1]['rank'])
         print(self.countries[country])
         raise KeyError(country, date)
 

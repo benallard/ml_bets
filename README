@@ -102,3 +102,14 @@ So, download the dataset and write a utility to get values from it.
   -- I got an idea on the lost function trouble:
      Instead of getting the network generate the score directly, we could have it generate the tital amount of goals & the delta.
      So that (2, 0) - giving 1:1 is farther away from (1, 1) or (1, -1)
+
+  -- The ranking computation is way too slow.
+     Let's work on it and cache some reults instead of going through the 3MB dataset everytime.
+     Done.
+
+The new model is either predicting 1:1 or 2:1 (well, 1:2 as well) for every match.
+If I would use it for the current tournament that would yield 31 points (today), which is almost the last place in the classment.
+
+I'm a bit disapointed.
+
+Let's write a basic manual model.
