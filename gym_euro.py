@@ -29,7 +29,7 @@ class SoccerBetEnv(gym.Env):
         self.points = 0
 
         if self.same_year is None:
-            year = random.choice([2004, 2008, 2012, 2016])
+            year = random.choice([2004, 2008, 2012, 2016, 2020])
             self.year = year
         else:
             self.year = self.same_year

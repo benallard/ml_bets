@@ -81,7 +81,7 @@ def train(epochs, batch_size, load_path):
     optimizer = torch.optim.SGD(model.parameters(), lr=LEARNING_RATE)
 
     for epoch in range(epochs):
-        year = random.choice([2004, 2008, 2012, 2016])
+        year = random.choice([2004, 2008, 2012, 2016, 2020])
         totloss = 0
         # Use it in chronological order
         for input, output in DataLoader(EuroDataSet(year), batch_size=batch_size, shuffle=True):
