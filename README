@@ -108,8 +108,18 @@ So, download the dataset and write a utility to get values from it.
      Done.
 
 The new model is either predicting 1:1 or 2:1 (well, 1:2 as well) for every match.
-If I would use it for the current tournament that would yield 31 points (today), which is almost the last place in the classment.
+If I would use it for the current tournament that would yield 35 points (today), which is almost the last place in the classment.
 
 I'm a bit disapointed.
 
 Let's write a basic manual model.
+1:0 for the team that's better according to FIFA => 57 points
+1:0 for the team that's better according to the bookies => 53 points
+
+That's definitely a 1 for me and a 0 for the AI.
+
+What if we add three outputs that acts like a categorisation (won, draw, lose), and consider the delta absolutely.
+
+I thought AI won for a moment (in some sense it actually did): If you bet 1:1 for every match, you win 70 something points.
+Which is more than the best place in our classment.
+That was wrong, and due to some other error.

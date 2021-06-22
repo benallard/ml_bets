@@ -9,6 +9,7 @@ from torch import nn
 from torch.functional import F
 from torch.utils.data import Dataset, DataLoader
 
+from betmanual import ManualDrawModel, ManualRankingModel, ManualOddModel
 from fifa_ranking import FIFARanking
 
 
@@ -19,7 +20,8 @@ class MyModel(nn.Module):
 
     Output:
       - total amount of goals
-      - delta
+      - delta (absolute)
+      - winner (home, draw, away)
     """
 
     def __init__(self):
@@ -32,14 +34,22 @@ class MyModel(nn.Module):
             nn.Linear(5, 5),
             # nn.ReLU(5),
             # Output layer: 2 outputs
-            nn.Linear(5, 2),
+            #nn.Linear(5, 2),
+        )
+        self.output = nn.Linear(5, 2)
+        self.categories = nn.Sequential(
+            nn.Linear(5, 3),
+            nn.Softmax(dim=0)
         )
 
     def forward(self, x):
         x = self.seq(x)
         # We want integer goal amount
         #x = torch.round(x)
-        return x
+        return torch.cat([
+            self.output(x),
+            torch.softmax(self.categories(x), 0)
+        ], dim=-1)
 
 
 def bet_loss(pred, real):
@@ -83,19 +93,40 @@ class EuroDataSet(Dataset):
                    RANKING.get_ranking(datum['away'], date)]
         score = datum['score'].split('\xa0')[0]
         score = [int(i) for i in score.split(':')]
-        score = [
+        goals = [
             score[0] + score[1],  # sum
-            score[0] - score[1]  # delta
+            abs(score[0] - score[1]),  # delta
         ]
-        return torch.tensor(ranking + odds), torch.tensor(score, dtype=torch.float)
+        winner = [
+            1 if score[0] > score[1] else 0,
+            1 if score[0] == score[1] else 0,
+            1 if score[0] < score[1] else 0,
+        ]
+        #print(f"Returning {goals + winner} for {score[0]}:{score[1]}")
+        return torch.tensor(ranking + odds), torch.tensor(goals + winner, dtype=torch.float)
 
 
 LEARNING_RATE = 1e-3
 
 def pred_to_score(pred):
-    total, delta = pred
-    away = (total - delta) / 2
-    home = total - away
+    total, delta = pred[:2]
+    if pred[3] == max(pred[2:]):
+        #print("predicted draw")
+        home = total / 2
+        away = home
+    else:
+        one = (total - delta) / 2
+        two = total - one
+        if pred[2] == max(pred[2:]):
+            #print("predicted home-win")
+            home = max(one, two)
+            away = min(one, two)
+        elif pred[4] == max(pred[2:]):
+            #print("predicted away-win")
+            home = min(one, two)
+            away = max(one, two)
+        else:
+            raise AssertionError()
     return home, away
 
 def bet_score(expected, actual):
@@ -177,14 +208,19 @@ def test(model_path, r_home, r_away, o_home, o_draw, o_away):
     print(f"The model predicted {home:.0f}:{away:.0f}")
 
 @cli.command()
-@click.argument("model_path")
 @click.argument("year")
-def evaluate(model_path, year):
+@click.option("--model")
+def evaluate(year, model):
     points = 0
-    model = torch.load(model_path)
+    model = {
+        'odd': ManualOddModel,
+        'ranking': ManualRankingModel,
+        'draw': ManualDrawModel,
+    }.get(model, lambda : torch.load(model))()
     data_set = EuroDataSet(year, False)
     for _in, out in data_set:
         pred = model(_in)
+        #print (pred)
         expected = pred_to_score(pred)
         actual = pred_to_score(out)
         point = bet_score(expected, actual)
