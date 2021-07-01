@@ -17,6 +17,7 @@ def cli():
 def test():
     from stable_baselines3.common.env_checker import check_env
     env = gym.make('soccer-bet-v0')
+    env = gym_euro.DeltaWrapper(env)
     check_env(env)
 
 @cli.command()
@@ -26,6 +27,8 @@ def test():
 def train(env_name, load_path, timesteps):
     
     env = gym.make(env_name)
+
+    env = gym_euro.DeltaWrapper(env)
 
     if load_path:
         # Note that you may override use_masking value loaded from previous model

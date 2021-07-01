@@ -1,5 +1,3 @@
-import csv
-import datetime
 import random
 
 import click
@@ -7,10 +5,12 @@ import click
 import torch
 from torch import nn
 from torch.functional import F
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import DataLoader
 
 from betmanual import ManualDrawModel, ManualRankingModel, ManualOddModel
-from fifa_ranking import FIFARanking
+
+import dataset
+from dataset import EuroDataSet, pred_to_score, bet_score
 
 
 class MyModel(nn.Module):
@@ -68,79 +68,7 @@ def bet_loss(pred, real):
         # MSE: big loss
         return F.mse_loss(pred, real, reduction='sum')
 
-
-RANKING = FIFARanking()
-
-
-class EuroDataSet(Dataset):
-    def __init__(self, year, train=True):
-        with open(f"{year}.csv") as f:
-            self.data = list(csv.DictReader(f))
-        if not train:
-            self.data = list(filter(lambda d: 'Qualification' not in d['kind'], self.data))
-            self.data.reverse()
-
-    def __len__(self):
-        return len(self.data)
-
-    def __getitem__(self, idx):
-        datum = self.data[idx]
-        odds = [float(o) for o in (datum['mean_odd_home'],
-                                   datum['mean_odd_draw'],
-                                   datum['mean_odd_away'])]
-        date = datetime.datetime.fromisoformat(datum['date']).date()
-        ranking = [RANKING.get_ranking(datum['home'], date),
-                   RANKING.get_ranking(datum['away'], date)]
-        score = datum['score'].split('\xa0')[0]
-        score = [int(i) for i in score.split(':')]
-        goals = [
-            score[0] + score[1],  # sum
-            abs(score[0] - score[1]),  # delta
-        ]
-        winner = [
-            1 if score[0] > score[1] else 0,
-            1 if score[0] == score[1] else 0,
-            1 if score[0] < score[1] else 0,
-        ]
-        #print(f"Returning {goals + winner} for {score[0]}:{score[1]}")
-        return torch.tensor(ranking + odds), torch.tensor(goals + winner, dtype=torch.float)
-
-
 LEARNING_RATE = 1e-3
-
-def pred_to_score(pred):
-    total, delta = pred[:2]
-    if pred[3] == max(pred[2:]):
-        #print("predicted draw")
-        home = total / 2
-        away = home
-    else:
-        one = (total - delta) / 2
-        two = total - one
-        if pred[2] == max(pred[2:]):
-            #print("predicted home-win")
-            home = max(one, two)
-            away = min(one, two)
-        elif pred[4] == max(pred[2:]):
-            #print("predicted away-win")
-            home = min(one, two)
-            away = max(one, two)
-        else:
-            raise AssertionError()
-    return home, away
-
-def bet_score(expected, actual):
-    expected = round(expected[0].item()), round(expected[1].item())
-    if expected[0] == actual[0] and expected[1] == actual[1]:
-        reward = 4
-    elif expected[0] - expected[1] == actual[0] - actual[1]:
-        reward = 3
-    elif (expected[0] > expected[1] and actual[0] > actual[1]) or (expected[0] < expected[1] and actual[0] < actual[1]):
-        reward = 2
-    else:
-        reward = 0
-    #print(f"{expected}, {actual}, {reward}")
-    return reward
 
 @click.group()
 def cli():
@@ -163,7 +91,7 @@ def train(epochs, batch_size, load_path):
     optimizer = torch.optim.SGD(model.parameters(), lr=LEARNING_RATE)
 
     for epoch in range(epochs):
-        year = random.choice([2004, 2008, 2012, 2016, 2020])
+        year = random.choice(dataset.YEARS)
         totloss = 0
         # Use it in chronological order
         for input, output in DataLoader(EuroDataSet(year), batch_size=batch_size, shuffle=True):
@@ -198,7 +126,7 @@ def train(epochs, batch_size, load_path):
 @click.argument("o_home", type=click.FLOAT)
 @click.argument("o_draw", type=click.FLOAT)
 @click.argument("o_away", type=click.FLOAT)
-def test(model_path, r_home, r_away, o_home, o_draw, o_away):
+def predict(model_path, r_home, r_away, o_home, o_draw, o_away):
     model = torch.load(model_path)
     input = torch.tensor([r_home, r_away, o_home, o_draw, o_away])
     pred = model(input)
@@ -213,7 +141,7 @@ def test(model_path, r_home, r_away, o_home, o_draw, o_away):
 def evaluate(year, model):
     points = 0
     model = {
-        'odd': ManualOddModel,
+        'odds': ManualOddModel,
         'ranking': ManualRankingModel,
         'draw': ManualDrawModel,
     }.get(model, lambda : torch.load(model))()
