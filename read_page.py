@@ -104,7 +104,7 @@ def js_parse(str):
     for obj in str['d']['rows']:
         row = {}
         row['date'] = datetime.datetime.fromtimestamp(obj['date-start-timestamp'])
-        row['kind'] = ''
+        row['kind'] = obj['tournament-stage-name'][3:]
         row['home'] = obj['home-name']
         row['away'] = obj['away-name']
         row['score'] = obj['postmatchResult']
