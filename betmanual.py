@@ -18,5 +18,35 @@ class ManualDrawModel(object):
     def __call__(self, input):
         return torch.tensor([2, 0, 0, 1, 0])
 
+class PredictorModel(object):
+    DRAW_THRESHOLD = 0.5
+    MAX_GOALS = 5
+    DOMINATION_THRESHOLD = 20
+    NONLINEARITY = 0.4
+
+    """ https://github.com/fpoppinga/kicktipp-bot/blob/master/src/predictor/predictor.ts """
+    def __call__(self, input):
+        o_home = input[2].item()
+        o_away = input[4].item()
+        difference = abs(o_away - o_home)
+
+        if difference < self.DRAW_THRESHOLD:
+            return torch.tensor([2, 0, 0, 1, 0])
+            
+        totalGoals = min((difference / self.DOMINATION_THRESHOLD), 1) * self.MAX_GOALS
+        if o_home > o_away:
+            ratio = o_home / o_away
+        else:
+            ratio = o_away / o_home
+        ratio = (ratio / (o_home + o_away)) ** self.NONLINEARITY
+
+        winner = round(totalGoals * ratio)
+        looser = round(totalGoals * (1 - ratio) )
+
+        if winner <= looser:
+            winner += 1
+
+        return torch.tensor([winner + looser, winner - looser, int(o_away > o_home) , 0, int(o_home > o_away)])
+
 def signof(number):
     return abs(number) / number

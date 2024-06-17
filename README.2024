@@ -1,0 +1,62 @@
+Let's try again!
+
+This time, maybe not by first trying Deep Reinforcement Learning, and then falling back to some linearity, without any AI background.
+
+I just finished Chapter 13 of "Grokking Neuronal Network and Deep Learning".
+So I could actually just write some easy network, some that train their weights under a minute on a CPU.
+I actually don't think we need more here.
+
+What data do we have?
+Do we actually have all the 2020 results at least?
+Last match is 11.07, that was the final, okay, that's good.
+
+So, 2024, Qualifying and so and missing.
+
+And the FIFA Dataset moved to there: https://www.kaggle.com/datasets/cashncarry/fifaworldranking
+Ouch, I just got lost there: https://www.kaggle.com/code/sslp23/predicting-fifa-2022-world-cup-with-ml
+
+---
+
+Okay, but I want some deep-learning.
+I want a Neuronal Network, and not some 'sklearn' magic like that guy.
+He's probably very talented, and can filter beforehand (or know how to decide if filter).
+I want my network to learn what combination of the features is meaningful, and build them on the fly.
+
+What I'm not sure about a the moment, is all those features that relies on past data (like average goals 3, 5, 15) ...
+While that could be built on an RNN. that would either require the historical data to be provided for each prevision, or, that would require a new training for each match (in which case we don;t require a RNN),.
+
+On the other hand, I dont believe that one model can consistently predict the whole EM.
+The performance of the teams is evolving during the tournament.
+
+So, what features do I have at hand:
+
+* date
+* home team
+* away team
+* kind (qualification, friendly, playoff, ...)
+* score
+* {max, mean}_odd_{home, draw, away}
+
+Plus some FIFA ranking:
+* country
+* rank
+* rank_change
+* rank_date
+
+So, it seems, a match is not "easily" a snapshot in time, it has influence from the past matches.
+So, what historical data would we like to have?
+* means goals of the team
+* means goals suffered by the team
+
+---
+
+I got why I missed that historical aspect thingy.
+Ideally, I wanted to have the teams be one of the feature of the input dataset, and that way have a model that knows how each team is playing.
+That actually is not very correct, as, say, the albanian team from 1996, doesn't have much in common with the albanian team from 2024.
+That **could** still be a feature, but linked to the mentality / character of the  team, not its performance.
+
+---
+
+Oddsportal changed their backend completely, It seems I had not all the 2020 data.
+So, get our hands dirty first.
+

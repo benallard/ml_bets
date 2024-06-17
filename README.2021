@@ -132,7 +132,7 @@ I gathered all my data together so that I can fit some models.
 One regression model for the total amount of goal, and the delta.
 And one other classification model for the winner.
 I'm amazed by the different results everytime I run the program again.
-The following models get 72points (at the end of the 8th) (that's place 24 out of 49):
+The following models get 72 points (at the end of the 8th) (that's place 24 out of 49):
 
     learned reg:  [[-0.01054463 -0.06416651  0.22055738  0.19051208  0.49561023]
                    [ 0.10158429 -0.00526354  0.44703517  0.04222541  0.83012052]]
@@ -144,4 +144,29 @@ The models tend to favorize 2:1 over 1:0.
 Let's update our static model to see.
 Bad news, 1:0 is slightly better. (72:74 for odds, and 76:81 for ranking).
 That also means that even with the amazing 72 'dynamic' points, we are still below a static model.
-I would sincerly have believed that we could have done better.
+I would sincerely have believed that we could have done better.
+
+I just added a standard calculation model, taken from various places on github, and tweaked the coefficients to maximize the output.
+=> 2020: 79 to 89 points.
+
+
+What now ?
+----------
+
+We've got a bunch of models:
+
+manuals:
+  draw: 28 points
+  rank: 92 points
+  odds: 91 points
+  calc: 91 points
+
+scikit: up to 96 points.
+
+pytorch: 20000 epoch, 68 points
+         40000        79
+
+PPO get 38 points
+
+91 points is place 24 (out of 45).
+

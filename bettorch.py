@@ -7,7 +7,7 @@ from torch import nn
 from torch.functional import F
 from torch.utils.data import DataLoader
 
-from betmanual import ManualDrawModel, ManualRankingModel, ManualOddModel
+from betmanual import ManualDrawModel, ManualRankingModel, ManualOddModel, PredictorModel
 
 import dataset
 from dataset import EuroDataSet, pred_to_score, bet_score
@@ -144,6 +144,7 @@ def evaluate(year, model):
         'odds': ManualOddModel,
         'ranking': ManualRankingModel,
         'draw': ManualDrawModel,
+        'calc': PredictorModel,
     }.get(model, lambda : torch.load(model))()
     data_set = EuroDataSet(year, False)
     for _in, out in data_set:
