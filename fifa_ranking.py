@@ -3,7 +3,9 @@ import datetime
 
 import click
 
-FILE = 'fifa_ranking-2021-05-27.csv'
+# https://www.kaggle.com/datasets/cashncarry/fifaworldranking
+
+FILE = 'fifa_ranking-2024-04-04.csv'
 
 MAP = {
     'Ireland': 'Republic of Ireland',
