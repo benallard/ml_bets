@@ -5,7 +5,7 @@ import torch
 from torch.utils.data import Dataset
 from fifa_ranking import FIFARanking
 
-YEARS = (2004, 2008, 2012, 2016, 2020)
+YEARS = (2004, 2008, 2012, 2016, 2020, 2024)
 
 RANKING = FIFARanking()
 
@@ -41,11 +41,31 @@ class EuroDataSet(Dataset):
             1 if score[0] == score[1] else 0,
             1 if score[0] < score[1] else 0,
         ]
-        #print(f"Returning {goals + winner} for {score[0]}:{score[1]}")
+        # print(f"Returning {goals + winner} for {score[0]}:{score[1]}")
         if self.output_tensor:
             return torch.tensor(ranking + odds), torch.tensor(goals + winner, dtype=torch.float)
         else:
             return ranking + odds, goals + winner
+
+
+class FullDataSet(Dataset):
+    def __init__(self, train=True):
+        self.data = []
+        self.lens = []
+        self.len = 0
+        for year in YEARS:
+            self.data.append(EuroDataSet(year, train))
+            self.lens.append(len(self.data[-1]))
+
+    def __len__(self):
+        return sum(self.lens)
+
+    def __getitem__(self, idx):
+        for i, data in enumerate(self.data):
+            if idx < self.lens[i]:
+                return data[idx]
+            else:
+                idx -= self.lens[i]
 
 
 def pred_to_score(pred):
@@ -57,23 +77,24 @@ def pred_to_score(pred):
     """
     total, delta = pred[:2]
     if pred[3] == max(pred[2:]):
-        #print("predicted draw")
+        # print("predicted draw")
         home = total / 2
         away = home
     else:
         one = (total - delta) / 2
         two = total - one
         if pred[2] == max(pred[2:]):
-            #print("predicted home-win")
+            # print("predicted home-win")
             home = max(one, two)
             away = min(one, two)
         elif pred[4] == max(pred[2:]):
-            #print("predicted away-win")
+            # print("predicted away-win")
             home = min(one, two)
             away = max(one, two)
         else:
             raise AssertionError()
     return home, away
+
 
 def bet_score(expected, actual):
     """expected is a tensor with round values. actual not"""
@@ -86,5 +107,5 @@ def bet_score(expected, actual):
         reward = 2
     else:
         reward = 0
-    #print(f"{expected}, {actual}, {reward}")
+    # print(f"{expected}, {actual}, {reward}")
     return reward

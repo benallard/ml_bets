@@ -9,8 +9,7 @@ from torch.utils.data import DataLoader
 
 from betmanual import ManualDrawModel, ManualRankingModel, ManualOddModel, PredictorModel
 
-import dataset
-from dataset import EuroDataSet, pred_to_score, bet_score
+from dataset import EuroDataSet, FullDataSet, YEARS, pred_to_score, bet_score
 
 
 class MyModel(nn.Module):
@@ -70,11 +69,11 @@ class CombinedLoss(nn.Module):
         loss_categories = self.ce_loss(categories_pred, categories_target)
 
         # Combine the losses (you can adjust the weighting if necessary)
-        total_loss = loss_scores + loss_categories
+        total_loss = loss_scores + 5 * loss_categories
         return total_loss
 
 
-LEARNING_RATE = 0.5
+LEARNING_RATE = 0.005
 
 
 @click.group()
@@ -97,10 +96,12 @@ def train(epochs, batch_size, load_path):
     optimizer = torch.optim.SGD(model.parameters(), lr=LEARNING_RATE)
 
     for epoch in range(epochs):
-        year = random.choice(dataset.YEARS)
+        year = random.choice(YEARS)
+        dataset = EuroDataSet(year)
+        dataset = FullDataSet()
         totloss = 0
         # Use it in chronological order
-        for input, output in DataLoader(EuroDataSet(year), batch_size=batch_size, shuffle=True):
+        for input, output in DataLoader(dataset, batch_size=batch_size, shuffle=True):
             # predict a round
             pred = model(input)
             # print(f"Predicted {pred[0]}:{pred[1]} for {output[0]}:{output[1]}")
@@ -115,7 +116,7 @@ def train(epochs, batch_size, load_path):
             optimizer.step()
 
         if epoch % 10 == 0:
-            print(f'epoch: {epoch}, err: {totloss: 3f}')
+            print(f'epoch: {epoch}, err: {totloss / len(dataset): 3f}')
             # print(dict(list(model.named_parameters())))
 
         if totloss < 0.0005:
@@ -148,6 +149,7 @@ def predict(model_path, r_home, r_away, o_home, o_draw, o_away):
 def evaluate(year, model):
     points = 0
     model = {
+        'random': MyModel,
         'odds': ManualOddModel,
         'ranking': ManualRankingModel,
         'draw': ManualDrawModel,
