@@ -27,14 +27,12 @@ class MyModel(nn.Module):
     def __init__(self):
         super(MyModel, self).__init__()
         self.seq = nn.Sequential(
-            # First hidden layer: 5 inputs 5 outputs
+            # Input layer: 5 inputs 5 outputs
             nn.Linear(5, 5),
-            # nn.ReLU(5),
-            # Second hidden layer: 5 - 5
+            nn.ReLU(),
+            # Hidden layer: 5 - 5
             nn.Linear(5, 5),
-            # nn.ReLU(5),
-            # Output layer: 2 outputs
-            #nn.Linear(5, 2),
+            nn.Sigmoid(),
         )
         self.output = nn.Linear(5, 2)
         self.categories = nn.Sequential(
@@ -45,30 +43,39 @@ class MyModel(nn.Module):
     def forward(self, x):
         x = self.seq(x)
         # We want integer goal amount
-        #x = torch.round(x)
+        # x = torch.round(x)
         return torch.cat([
             self.output(x),
             torch.softmax(self.categories(x), 0)
         ], dim=-1)
 
 
-def bet_loss(pred, real):
-    """ That's not working as I don't know tensor arithmetic """
-    print(pred, real)
-    if torch.eq(pred, real):
-        # that's a 0
-        return F.l1_loss(pred, real, reduction='mean')
-    elif pred[0] - pred[1] == real[0] - real[1]:
-        # mean, so reduce less when going away
-        return F.l1_loss(pred, real, reduction='mean')
-    elif (pred[0] > pred[1] and real[0] > real[1]) or (pred[0] < pred[1] and real[0] < real[1]):
-        # sum, so reduce more the farther we are
-        return F.l1_loss(pred, real, reduction='sum')
-    else:
-        # MSE: big loss
-        return F.mse_loss(pred, real, reduction='sum')
+class CombinedLoss(nn.Module):
+    def __init__(self):
+        super(CombinedLoss, self).__init__()
+        self.mse_loss = nn.MSELoss()
+        self.ce_loss = nn.CrossEntropyLoss()
 
-LEARNING_RATE = 1e-3
+    def forward(self, pred, target):
+        # Separate the parts of the pred tensor
+        scores_pred = pred[:, :2]  # First two elements (scores)
+        categories_pred = pred[:, 2:]  # Last three elements (categories)
+
+        # Separate the parts of the target tensor
+        scores_target = target[:, :2]  # Assuming the target has the same structure
+        categories_target = target[:, 2:].argmax(dim=1)  # Assuming category target is the 3rd element
+
+        # Calculate the losses
+        loss_scores = self.mse_loss(scores_pred, scores_target)
+        loss_categories = self.ce_loss(categories_pred, categories_target)
+
+        # Combine the losses (you can adjust the weighting if necessary)
+        total_loss = loss_scores + loss_categories
+        return total_loss
+
+
+LEARNING_RATE = 0.5
+
 
 @click.group()
 def cli():
@@ -86,8 +93,7 @@ def train(epochs, batch_size, load_path):
         model = torch.load(load_path)
     print(model)
 
-    loss = bet_loss
-    loss = nn.MSELoss()
+    loss = CombinedLoss()
     optimizer = torch.optim.SGD(model.parameters(), lr=LEARNING_RATE)
 
     for epoch in range(epochs):
@@ -97,10 +103,10 @@ def train(epochs, batch_size, load_path):
         for input, output in DataLoader(EuroDataSet(year), batch_size=batch_size, shuffle=True):
             # predict a round
             pred = model(input)
-            #print(f"Predicted {pred[0]}:{pred[1]} for {output[0]}:{output[1]}")
+            # print(f"Predicted {pred[0]}:{pred[1]} for {output[0]}:{output[1]}")
             # calculate the loss
             l = loss(pred, output)
-            #print(f"loss: {l.item()}")
+            # print(f"loss: {l.item()}")
             totloss += l.item()
 
             # Zero gradients, perform a backward pass, and update the weights.
@@ -110,7 +116,7 @@ def train(epochs, batch_size, load_path):
 
         if epoch % 10 == 0:
             print(f'epoch: {epoch}, err: {totloss: 3f}')
-            print(dict(list(model.named_parameters())))
+            # print(dict(list(model.named_parameters())))
 
         if totloss < 0.0005:
             break
@@ -135,9 +141,10 @@ def predict(model_path, r_home, r_away, o_home, o_draw, o_away):
     home = total - away
     print(f"The model predicted {home:.0f}:{away:.0f}")
 
+
 @cli.command()
 @click.argument("year")
-@click.option("--model")
+@click.option("--model", default='torch_final.pth')
 def evaluate(year, model):
     points = 0
     model = {
@@ -145,11 +152,11 @@ def evaluate(year, model):
         'ranking': ManualRankingModel,
         'draw': ManualDrawModel,
         'calc': PredictorModel,
-    }.get(model, lambda : torch.load(model))()
+    }.get(model, lambda: torch.load(model))()
     data_set = EuroDataSet(year, False)
     for _in, out in data_set:
         pred = model(_in)
-        #print (pred)
+        # print (pred)
         expected = pred_to_score(pred)
         actual = pred_to_score(out)
         point = bet_score(expected, actual)

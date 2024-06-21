@@ -10,6 +10,7 @@ FILE = 'fifa_ranking-2024-04-04.csv'
 MAP = {
     'Ireland': 'Republic of Ireland',
     'Bosnia & Herzegovina': 'Bosnia and Herzegovina',
+    'Czech Republic': 'Czechia',
 }
 
 

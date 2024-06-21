@@ -107,7 +107,7 @@ def js_parse(str):
         row['kind'] = obj['tournament-stage-name'][3:]
         row['home'] = obj['home-name']
         row['away'] = obj['away-name']
-        row['score'] = obj['postmatchResult']
+        row['score'] = obj['postmatchResult'].replace('&nbsp;', '\xa0')
         odds = obj['odds']
         row['max_odd_home'] = odds[0]['maxOdds']
         row['mean_odd_home'] = odds[0]['avgOdds']
