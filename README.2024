@@ -57,6 +57,17 @@ That **could** still be a feature, but linked to the mentality / character of th
 
 ---
 
-Oddsportal changed their backend completely, It seems I had not all the 2020 data.
+Oddsportal changed their backend, It seems I had not all the 2020 data.
 So, get our hands dirty first.
 
+---
+
+I believe the system is inherently wrong.
+After minutes of training, it always predicts 2:1.
+
+I should try with the real scores instead of total, delta.
+Or maybe with ratio instead of delta ?
+
+Well, the ratio stuff didn't changed much.
+
+Maybe my features don't allow a better prediction.

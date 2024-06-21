@@ -36,6 +36,13 @@ class EuroDataSet(Dataset):
             score[0] + score[1],  # sum
             abs(score[0] - score[1]),  # delta
         ]
+        if score[0] + score[1] == 0:
+            goals = [0, 0]
+        else:
+            goals = [
+                score[0] + score[1],  # sum
+                score[0] / (score[0] + score[1]),  # ratio
+            ]
         winner = [
             1 if score[0] > score[1] else 0,
             1 if score[0] == score[1] else 0,
@@ -68,12 +75,14 @@ class FullDataSet(Dataset):
                 idx -= self.lens[i]
 
 
-def pred_to_score(pred):
+def pred_to_score_delta(pred):
     """ pred is a tensor: total goals, delta for winner, home-win, draw, away-win
-    >>> pred_to_score((2.41210234, 1.20658326, 0.,1., 0.))
+    >>> pred_to_score_delta((2.41210234, 1.20658326, 0.,1., 0.))
     (1, 1)
-    >>> pred_to_score((2.42633852, 1.17897445, 1., 0.,0.))
+    >>> pred_to_score_delta((2.42633852, 1.17897445, 1., 0.,0.))
     (1, 0)
+    >>> pred_to_score_delta((2.42633852, 1.17897445, 0., 0.,1.))
+    (1, 2)
     """
     total, delta = pred[:2]
     if pred[3] == max(pred[2:]):
@@ -96,16 +105,44 @@ def pred_to_score(pred):
     return home, away
 
 
+def pred_to_score_ratio(pred):
+    """
+    >>> pred_to_score_ratio([3, .333333, 0, 0, 1])
+    (1, 2)
+    """
+    sum, ratio = pred[:2]
+    one = sum * ratio
+    two = sum - one
+    if pred[2] == max(pred[2:]):
+        # print("predicted home-win")
+        home = max(one, two)
+        away = min(one, two)
+    elif pred[4] == max(pred[2:]):
+        # print("predicted away-win")
+        home = min(one, two)
+        away = max(one, two)
+    else:
+        return sum / 2, sum / 2
+
+    return home, away
+
+pred_to_score = pred_to_score_ratio
+
 def bet_score(expected, actual):
-    """expected is a tensor with round values. actual not"""
+    """ From the kicktipp.de betting platform """
     expected = round(expected[0].item()), round(expected[1].item())
     if expected[0] == actual[0] and expected[1] == actual[1]:
+        # Correct score
         reward = 4
     elif expected[0] - expected[1] == actual[0] - actual[1]:
+        # Correct delta
         reward = 3
-    elif (expected[0] > expected[1] and actual[0] > actual[1]) or (expected[0] < expected[1] and actual[0] < actual[1]):
+    elif ((expected[0] > expected[1] and actual[0] > actual[1])
+          or (expected[0] < expected[1] and actual[0] < actual[1])):
+        # Correct winner
         reward = 2
     else:
+        # Nothing correct
         reward = 0
     # print(f"{expected}, {actual}, {reward}")
     return reward

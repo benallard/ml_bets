@@ -158,7 +158,8 @@ def evaluate(year, model):
     data_set = EuroDataSet(year, False)
     for _in, out in data_set:
         pred = model(_in)
-        # print (pred)
+        print (pred)
+        print(out)
         expected = pred_to_score(pred)
         actual = pred_to_score(out)
         point = bet_score(expected, actual)
