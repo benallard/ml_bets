@@ -34,7 +34,7 @@ class PredictorModel(object):
     NONLINEARITY = 0.4
 
     """ https://github.com/fpoppinga/kicktipp-bot/blob/master/src/predictor/predictor.ts """
-
+    """ https://github.com/antonengelhardt/kicktipp-bot/blob/main/game.py"""
     def __call__(self, input):
         o_home = input[2].item()
         o_away = input[4].item()

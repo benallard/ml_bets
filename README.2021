@@ -66,24 +66,24 @@ Ok, it's been learning the whole night.
 At the moment it's as ~8 million timesteps, and nothing new emerges: 1.04 points per prediction.
 
 
-4. Let's do somethig basic: raw pytorch
----------------------------------------
-(Or why have a shot ar Reinforcment Learning where the topology of the network is that simple?)
+4. Let's do something basic: raw pytorch
+----------------------------------------
+(Or why have a shot at Reinforcement Learning where the topology of the network is that simple?)
 
 We have three nodes in input, two in output, and let's say two hidden layers of 5 each.
-Everything linear, and no activation function for now.
+Everything linear, and no activation function for now [sic.].
 We should define a custom loss method based on the rewards of the betting system.
 
   Loss functions are a science in themselves.
   I can't really return contant values as a loose the autograd stuff if I make a new tensor.
   So I need to combine loss functions, a bit like the `Huber loss`_.
   What we actually need seems to be an asymmetric loss function: if the right team was predicted as a win, it remains good no matter what the predicted score was.
-  I'm not goot at tensor arithmetic.
+  I'm not good at tensor arithmetic.
   That fails.
 
 
 At the moment, the network doesn't seems to learn anything.
-As if the optimizer step would'nt be performed.
+As if the optimizer step wouldn't be performed.
 Looks like it performs better (weights updates themselves) when i remove the `round()` step.
 
 So I trained a model on 10000 epochs, and he loves to predict 1:1.
@@ -104,13 +104,13 @@ So, download the dataset and write a utility to get values from it.
      So that (2, 0) - giving 1:1 is farther away from (1, 1) or (1, -1)
 
   -- The ranking computation is way too slow.
-     Let's work on it and cache some reults instead of going through the 3MB dataset everytime.
+     Let's work on it and cache some results instead of going through the 3MB dataset everytime.
      Done.
 
 The new model is either predicting 1:1 or 2:1 (well, 1:2 as well) for every match.
-If I would use it for the current tournament that would yield 35 points (today), which is almost the last place in the classment.
+If I would use it for the current tournament that would yield 35 points (today), which is almost the last place in the classement.
 
-I'm a bit disapointed.
+I'm a bit disappointed.
 
 Let's write a basic manual model.
 1:0 for the team that's better according to FIFA => 57 points

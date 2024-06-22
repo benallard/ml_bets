@@ -70,4 +70,14 @@ Or maybe with ratio instead of delta ?
 
 Well, the ratio stuff didn't changed much.
 
-Maybe my features don't allow a better prediction.
+Maybe my features don't allow for a better prediction.
+
+---
+
+I train my model on qualification matches.
+THose are NOT neutral, and take place in one of the competing countries.
+That is completely different to what happens in the competition.
+Hence the 2:1 favorite predicted score.
+Sadly, I cannot really remove the 'home' advantage from my features.
+So -> My training data has no correlation to the  evaluation data.
+EndOfGame.
